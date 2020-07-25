@@ -1,0 +1,1932 @@
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2011.5.13)  9 JUN 2011 04:06
+entering extended mode
+ %&-line parsing enabled.
+**/home/pivarski/physics/hepr8.physics.tamu.edu/talks/tdr2/notes/tmp/AN-11-180_
+temp.tex
+
+(/home/pivarski/physics/hepr8.physics.tamu.edu/talks/tdr2/notes/tmp/AN-11-180_t
+emp.tex
+LaTeX2e <2009/09/24>
+Babel <v3.8l> and hyphenation patterns for english, usenglishmax, dumylang, noh
+yphenation, loaded.
+
+(/home/pivarski/physics/hepr8.physics.tamu.edu/talks/tdr2/notes/general/cms-tdr
+.cls
+=======================================================
+ 
+ CMS TDR/NOTE style. Version 826
+ 
+ Lucas Taylor, 2010-01-10
+ 
+=======================================================
+Document Class: cms-tdr 2006/12/21
+(/usr/share/texmf-texlive/tex/latex/base/ifthen.sty
+Package: ifthen 2001/05/26 v1.1c Standard LaTeX ifthen package (DPC)
+)
+Using article 11pt\ option
+Using article twoside\ option
+Using article a4paper\ option
+Using cms note sub-class
+(/usr/share/texmf-texlive/tex/latex/base/article.cls
+Document Class: article 2007/10/19 v1.4h Standard LaTeX document class
+(/usr/share/texmf-texlive/tex/latex/base/size11.clo
+File: size11.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@section=\count80
+\c@subsection=\count81
+\c@subsubsection=\count82
+\c@paragraph=\count83
+\c@subparagraph=\count84
+\c@figure=\count85
+\c@table=\count86
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+) (/usr/share/texmf-texlive/tex/latex/fancybox/fancybox.sty
+Package: fancybox 2000/09/19 1.3
+Style option: `fancybox' v1.3 <2000/09/19> (tvz)
+\@fancybox=\box26
+\shadowsize=\dimen103
+\@Sbox=\box27
+\do@VerbBox=\toks14
+\the@fancyput=\toks15
+\this@fancyput=\toks16
+\EndVerbatimTokens=\toks17
+\Verbatim@Outfile=\write3
+\Verbatim@Infile=\read1
+) (/usr/share/texmf-texlive/tex/latex/tools/multicol.sty
+Package: multicol 2008/12/05 v1.6h multicolumn formatting (FMi)
+\c@tracingmulticols=\count87
+\mult@box=\box28
+\multicol@leftmargin=\dimen104
+\c@unbalance=\count88
+\c@collectmore=\count89
+\doublecol@number=\count90
+\multicoltolerance=\count91
+\multicolpretolerance=\count92
+\full@width=\dimen105
+\page@free=\dimen106
+\premulticols=\dimen107
+\postmulticols=\dimen108
+\multicolsep=\skip43
+\multicolbaselineskip=\skip44
+\partial@page=\box29
+\last@line=\box30
+\mult@rightbox=\box31
+\mult@grightbox=\box32
+\mult@gfirstbox=\box33
+\mult@firstbox=\box34
+\@tempa=\box35
+\@tempa=\box36
+\@tempa=\box37
+\@tempa=\box38
+\@tempa=\box39
+\@tempa=\box40
+\@tempa=\box41
+\@tempa=\box42
+\@tempa=\box43
+\@tempa=\box44
+\@tempa=\box45
+\@tempa=\box46
+\@tempa=\box47
+\@tempa=\box48
+\@tempa=\box49
+\@tempa=\box50
+\@tempa=\box51
+\c@columnbadness=\count93
+\c@finalcolumnbadness=\count94
+\last@try=\dimen109
+\multicolovershoot=\dimen110
+\multicolundershoot=\dimen111
+\mult@nat@firstbox=\box52
+\colbreak@box=\box53
+) (/usr/share/texmf-texlive/tex/latex/tools/longtable.sty
+Package: longtable 2004/02/01 v4.11 Multi-page Table package (DPC)
+\LTleft=\skip45
+\LTright=\skip46
+\LTpre=\skip47
+\LTpost=\skip48
+\LTchunksize=\count95
+\LTcapwidth=\dimen112
+\LT@head=\box54
+\LT@firsthead=\box55
+\LT@foot=\box56
+\LT@lastfoot=\box57
+\LT@cols=\count96
+\LT@rows=\count97
+\c@LT@tables=\count98
+\c@LT@chunks=\count99
+\LT@p@ftn=\toks18
+) (/usr/share/texmf-texlive/tex/latex/tools/array.sty
+Package: array 2008/09/09 v2.4c Tabular extension package (FMi)
+\col@sep=\dimen113
+\extrarowheight=\dimen114
+\NC@list=\toks19
+\extratabsurround=\skip49
+\backup@length=\skip50
+) (/usr/share/texmf-texlive/tex/latex/lineno/lineno.sty
+Package: lineno 2005/11/02 line numbers on paragraphs v4.41
+\linenopenalty=\count100
+\output=\toks20
+\linenoprevgraf=\count101
+\linenumbersep=\dimen115
+\linenumberwidth=\dimen116
+\c@linenumber=\count102
+\c@pagewiselinenumber=\count103
+\c@LN@truepage=\count104
+\c@internallinenumber=\count105
+\c@internallinenumbers=\count106
+\quotelinenumbersep=\dimen117
+\bframerule=\dimen118
+\bframesep=\dimen119
+\bframebox=\box58
+LaTeX Info: Redefining \\ on input line 3056.
+) (/usr/share/texmf-texlive/tex/latex/fancyhdr/fancyhdr.sty
+\fancy@headwidth=\skip51
+\f@ncyO@elh=\skip52
+\f@ncyO@erh=\skip53
+\f@ncyO@olh=\skip54
+\f@ncyO@orh=\skip55
+\f@ncyO@elf=\skip56
+\f@ncyO@erf=\skip57
+\f@ncyO@olf=\skip58
+\f@ncyO@orf=\skip59
+) (/usr/share/texmf-texlive/tex/latex/subfigure/subfigure.sty
+Package: subfigure 2002/03/15 v2.1.5 subfigure package
+\subfigtopskip=\skip60
+\subfigcapskip=\skip61
+\subfigcaptopadj=\dimen120
+\subfigbottomskip=\skip62
+\subfigcapmargin=\dimen121
+\subfiglabelskip=\skip63
+\c@subfigure=\count107
+\c@lofdepth=\count108
+\c@subtable=\count109
+\c@lotdepth=\count110
+****************************************
+* Local config file subfigure.cfg used *
+****************************************
+(/usr/share/texmf-texlive/tex/latex/subfigure/subfigure.cfg)
+\subfig@top=\skip64
+\subfig@bottom=\skip65
+) (/usr/share/texmf-texlive/tex/latex/tools/xspace.sty
+Package: xspace 2006/05/08 v1.12 Space after command names (DPC,MH)
+) (/usr/share/texmf-texlive/tex/latex/multirow/multirow.sty
+\bigstrutjot=\dimen122
+) (/usr/share/texmf-texlive/tex/latex/graphics/color.sty
+Package: color 2005/11/14 v1.0j Standard LaTeX Color (DPC)
+(/etc/texmf/tex/latex/config/color.cfg
+File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
+)
+Package color Info: Driver file: pdftex.def on input line 130.
+(/usr/share/texmf-texlive/tex/latex/pdftex-def/pdftex.def
+File: pdftex.def 2010/03/12 v0.04p Graphics/color for pdfTeX
+\Gread@gobject=\count111
+)) (/usr/share/texmf-texlive/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2000/07/18 v2.13 AMS math features
+\@mathmargin=\skip66
+For additional information on amsmath, use the `?' option.
+(/usr/share/texmf-texlive/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01
+(/usr/share/texmf-texlive/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0
+\@emptytoks=\toks21
+\ex@=\dimen123
+)) (/usr/share/texmf-texlive/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d
+\pmbraise@=\dimen124
+) (/usr/share/texmf-texlive/tex/latex/amsmath/amsopn.sty
+Package: amsopn 1999/12/14 v2.01 operator names
+)
+\inf@bad=\count112
+LaTeX Info: Redefining \frac on input line 211.
+\uproot@=\count113
+\leftroot@=\count114
+LaTeX Info: Redefining \overline on input line 307.
+\classnum@=\count115
+\DOTSCASE@=\count116
+LaTeX Info: Redefining \ldots on input line 379.
+LaTeX Info: Redefining \dots on input line 382.
+LaTeX Info: Redefining \cdots on input line 467.
+\Mathstrutbox@=\box59
+\strutbox@=\box60
+\big@size=\dimen125
+LaTeX Font Info:    Redeclaring font encoding OML on input line 567.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 568.
+\macc@depth=\count117
+\c@MaxMatrixCols=\count118
+\dotsspace@=\muskip10
+\c@parentequation=\count119
+\dspbrk@lvl=\count120
+\tag@help=\toks22
+\row@=\count121
+\column@=\count122
+\maxfields@=\count123
+\andhelp@=\toks23
+\eqnshift@=\dimen126
+\alignsep@=\dimen127
+\tagshift@=\dimen128
+\tagwidth@=\dimen129
+\totwidth@=\dimen130
+\lineht@=\dimen131
+\@envbody=\toks24
+\multlinegap=\skip67
+\multlinetaggap=\skip68
+\mathdisplay@stack=\toks25
+LaTeX Info: Redefining \[ on input line 2666.
+LaTeX Info: Redefining \] on input line 2667.
+) (/usr/share/texmf-texlive/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2009/06/22 v3.00
+(/usr/share/texmf-texlive/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2009/06/22 v3.00 Basic AMSFonts support
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 96.
+))
+(/home/pivarski/physics/hepr8.physics.tamu.edu/talks/tdr2/notes/general/penname
+s-pazo.sty)
+(/home/pivarski/physics/hepr8.physics.tamu.edu/talks/tdr2/notes/general/topcapt
+.sty
+Package: topcapt 2004/12/11 v1.2 Caption at top of float
+) (/usr/share/texmf-texlive/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2009/04/10 v2.0 Provides the ifpdf switch (HO)
+Package ifpdf Info: pdfTeX in pdf mode detected.
+)
+(/home/pivarski/physics/hepr8.physics.tamu.edu/talks/tdr2/notes/general/pdfdraf
+tcopy.sty
+Package: pdfdraftcopy 2003/08/11 1.2 Draft copy in PDF (CVR)
+(/usr/share/texmf-texlive/tex/latex/graphics/graphicx.sty
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+(/usr/share/texmf-texlive/tex/latex/graphics/keyval.sty
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+\KV@toks@=\toks26
+) (/usr/share/texmf-texlive/tex/latex/graphics/graphics.sty
+Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
+(/usr/share/texmf-texlive/tex/latex/graphics/trig.sty
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+) (/etc/texmf/tex/latex/config/graphics.cfg
+File: graphics.cfg 2009/08/28 v1.8 graphics configuration of TeX Live
+)
+Package graphics Info: Driver file: pdftex.def on input line 91.
+)
+\Gin@req@height=\dimen132
+\Gin@req@width=\dimen133
+) (/usr/share/texmf-texlive/tex/latex/changepage/chngpage.sty
+Package: chngpage 2009/10/20 v1.2b change page layout
+\c@cp@cnt=\count124
+\c@cp@tempcnt=\count125
+)
+\LLY=\dimen134
+\LLX=\dimen135
+\URX=\dimen136
+\URY=\dimen137
+\topmargin=\dimen138
+\bottommargin=\dimen139
+) (/usr/share/texmf-texlive/tex/latex/psnfss/palatino.sty
+Package: palatino 2005/04/12 PSNFSS-v9.2a (SPQR) 
+) (/usr/share/texmf-texlive/tex/latex/psnfss/mathpazo.sty
+Package: mathpazo 2005/04/12 PSNFSS-v9.2a Palatino w/ Pazo Math (D.Puga, WaS) 
+\symupright=\mathgroup6
+) (/usr/share/texmf-texlive/tex/latex/psnfss/helvet.sty
+Package: helvet 2005/04/12 PSNFSS-v9.2a (WaS) 
+) (/usr/share/texmf-texlive/tex/latex/sectsty/sectsty.sty
+Package: sectsty 2002/02/25 v2.0.2 Commands to change all sectional heading sty
+les
+)
+\parskipsaved=\skip69
+(/usr/share/texmf-texlive/tex/latex/graphics/lscape.sty
+Package: lscape 2000/10/22 v3.01 Landscape Pages (DPC)
+) (/usr/share/texmf-texlive/tex/latex/rotating/rotating.sty
+Package: rotating 2009/03/28 v2.16a rotated objects in LaTeX
+\c@r@tfl@t=\count126
+\rotFPtop=\skip70
+\rotFPbot=\skip71
+\rot@float@box=\box61
+\rot@mess@toks=\toks27
+) (/usr/share/texmf-texlive/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2009/10/09 v6.79a Hypertext links for LaTeX
+(/usr/share/texmf-texlive/tex/generic/oberdiek/ifvtex.sty
+Package: ifvtex 2008/11/04 v1.4 Switches for detecting VTeX and its modes (HO)
+Package ifvtex Info: VTeX not detected.
+) (/usr/share/texmf-texlive/tex/generic/ifxetex/ifxetex.sty
+Package: ifxetex 2009/01/23 v0.5 Provides ifxetex conditional
+) (/usr/share/texmf-texlive/tex/latex/oberdiek/hycolor.sty
+Package: hycolor 2009/10/02 v1.5 Code for color options of hyperref/bookmark (H
+O)
+(/usr/share/texmf-texlive/tex/latex/oberdiek/xcolor-patch.sty
+Package: xcolor-patch 2009/10/02 xcolor patch
+))
+\@linkdim=\dimen140
+\Hy@linkcounter=\count127
+\Hy@pagecounter=\count128
+(/usr/share/texmf-texlive/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2009/10/09 v6.79a Hyperref: PDFDocEncoding definition (HO)
+) (/usr/share/texmf-texlive/tex/generic/oberdiek/etexcmds.sty
+Package: etexcmds 2007/12/12 v1.2 Prefix for e-TeX command names (HO)
+(/usr/share/texmf-texlive/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2007/09/09 v1.2 Providing info/warning/message (HO)
+)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+) (/usr/share/texmf-texlive/tex/latex/latexconfig/hyperref.cfg
+File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
+) (/usr/share/texmf-texlive/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2009/08/13 v3.4 Keyval support for LaTeX options (HO)
+(/usr/share/texmf-texlive/tex/generic/oberdiek/kvsetkeys.sty
+Package: kvsetkeys 2009/07/30 v1.5 Key value parser with default handler suppor
+t (HO)
+))
+Package hyperref Info: Option `bookmarksnumbered' set `true' on input line 2864
+.
+Package hyperref Info: Option `bookmarksopen' set `true' on input line 2864.
+Package hyperref Info: Option `colorlinks' set `false' on input line 2864.
+Package hyperref Info: Option `plainpages' set `false' on input line 2864.
+Package hyperref Info: Option `pdfpagelabels' set `true' on input line 2864.
+Package hyperref Info: Hyper figures OFF on input line 2975.
+Package hyperref Info: Link nesting OFF on input line 2980.
+Package hyperref Info: Hyper index ON on input line 2983.
+Package hyperref Info: Plain pages OFF on input line 2990.
+Package hyperref Info: Backreferencing OFF on input line 2995.
+Implicit mode ON; LaTeX internals redefined
+Package hyperref Info: Bookmarks ON on input line 3191.
+(/usr/share/texmf-texlive/tex/latex/ltxmisc/url.sty
+\Urlmuskip=\muskip11
+Package: url 2006/04/12  ver 3.3  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 3428.
+(/usr/share/texmf-texlive/tex/generic/oberdiek/bitset.sty
+Package: bitset 2007/09/28 v1.0 Data type bit set (HO)
+(/usr/share/texmf-texlive/tex/generic/oberdiek/intcalc.sty
+Package: intcalc 2007/09/27 v1.1 Expandable integer calculations (HO)
+) (/usr/share/texmf-texlive/tex/generic/oberdiek/bigintcalc.sty
+Package: bigintcalc 2007/11/11 v1.1 Expandable big integer calculations (HO)
+(/usr/share/texmf-texlive/tex/generic/oberdiek/pdftexcmds.sty
+Package: pdftexcmds 2009/09/23 v0.6 LuaTeX support for pdfTeX utility functions
+ (HO)
+(/usr/share/texmf-texlive/tex/generic/oberdiek/ifluatex.sty
+Package: ifluatex 2009/04/17 v1.2 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+) (/usr/share/texmf-texlive/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2009/08/05 v1.0 Some LaTeX kernel commands for general use (HO
+)
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+)))
+\Fld@menulength=\count129
+\Field@Width=\dimen141
+\Fld@charsize=\dimen142
+\Field@toks=\toks28
+Package hyperref Info: Hyper figures OFF on input line 4377.
+Package hyperref Info: Link nesting OFF on input line 4382.
+Package hyperref Info: Hyper index ON on input line 4385.
+Package hyperref Info: backreferencing OFF on input line 4392.
+Package hyperref Info: Link coloring OFF on input line 4397.
+Package hyperref Info: Link coloring with OCG OFF on input line 4402.
+Package hyperref Info: PDF/A mode OFF on input line 4407.
+(/usr/share/texmf-texlive/tex/generic/oberdiek/atbegshi.sty
+Package: atbegshi 2008/07/31 v1.9 At begin shipout hook (HO)
+)
+\Hy@abspage=\count130
+\c@Item=\count131
+\c@Hfootnote=\count132
+)
+*hyperref using default driver hpdftex*
+(/usr/share/texmf-texlive/tex/latex/hyperref/hpdftex.def
+File: hpdftex.def 2009/10/09 v6.79a Hyperref driver for pdfTeX
+\Fld@listcount=\count133
+) (/usr/share/texmf-texlive/tex/latex/natbib/natbib.sty
+Package: natbib 2009/07/16 8.31 (PWD, AO)
+\bibhang=\skip72
+\bibsep=\skip73
+LaTeX Info: Redefining \cite on input line 694.
+\c@NAT@ctr=\count134
+)
+(/home/pivarski/physics/hepr8.physics.tamu.edu/talks/tdr2/notes/general/hyperna
+t.sty
+Package: hypernat 2001/07/09 v1.0b hyperref and natbib compatibility (jb)
+)
+Defining CMS Note commands
+\cmsinstskip=\skip74
+\cmsauthskip=\skip75
+\c@author=\count135
+\c@address=\count136
+\CMSabstractbox=\box62
+)
+(/home/pivarski/physics/hepr8.physics.tamu.edu/talks/tdr2/notes/tmp/AN-11-180_t
+emp.aux)
+\openout1 = `AN-11-180_temp.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Try loading font information for OT1+ppl on input line 16.
+LaTeX Font Info:    <567INP ot1ppl.fd> on input line 16.
+(/usr/share/texmf-texlive/tex/latex/psnfss/ot1ppl.fd
+File: ot1ppl.fd 2001/06/04 font definitions for OT1/ppl.
+)
+<567INP supp-pdf.mkii>
+(/usr/share/texmf-texlive/tex/context/base/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count137
+\scratchdimen=\dimen143
+\scratchbox=\box63
+\nofMPsegments=\count138
+\nofMParguments=\count139
+\everyMPshowfont=\toks29
+\MPscratchCnt=\count140
+\MPscratchDim=\dimen144
+\MPnumerator=\count141
+\everyMPtoPDFconversion=\toks30
+)
+Package hyperref Info: Link coloring OFF on input line 16.
+<567INP nameref.sty>
+(/usr/share/texmf-texlive/tex/latex/hyperref/nameref.sty
+Package: nameref 2007/05/29 v2.31 Cross-referencing by name of section
+<567INP refcount.sty>
+(/usr/share/texmf-texlive/tex/latex/oberdiek/refcount.sty
+Package: refcount 2008/08/11 v3.1 Data extraction from references (HO)
+)
+\c@section@level=\count142
+)
+LaTeX Info: Redefining \ref on input line 16.
+LaTeX Info: Redefining \pageref on input line 16.
+<567INP AN-11-180_temp.out>
+
+(/home/pivarski/physics/hepr8.physics.tamu.edu/talks/tdr2/notes/tmp/AN-11-180_t
+emp.out)
+<567INP AN-11-180_temp.out>
+
+(/home/pivarski/physics/hepr8.physics.tamu.edu/talks/tdr2/notes/tmp/AN-11-180_t
+emp.out)
+\@outlinefile=\write4
+\openout4 = `AN-11-180_temp.out'.
+
+\AtBeginShipoutBox=\box64
+LaTeX Font Info:    Font shape `OT1/ppl/bx/n' in size <14.4> not available
+(Font)              Font shape `OT1/ppl/b/n' tried instead on input line 93.
+<789FIG cms_draft_note 0>
+
+
+pdfTeX warning: pdflatex (file /home/pivarski/physics/hepr8.physics.tamu.edu/ta
+lks/tdr2/notes/general/cms_draft_note.pdf): PDF inclusion: found PDF version <1
+.5>, but at most version <1.4> allowed
+<cms_draft_note.pdf, id=79, 455.24379pt x 102.42967pt>
+File: cms_draft_note.pdf Graphic file (type pdf)
+<use cms_draft_note.pdf>
+LaTeX Font Info:    Try loading font information for OML+zplm on input line 93.
+
+LaTeX Font Info:    <567INP omlzplm.fd> on input line 93.
+(/usr/share/texmf-texlive/tex/latex/psnfss/omlzplm.fd
+File: omlzplm.fd 2002/09/08 Fontinst v1.914 font definitions for OML/zplm.
+)
+LaTeX Font Info:    Try loading font information for OMS+zplm on input line 93.
+
+LaTeX Font Info:    <567INP omszplm.fd> on input line 93.
+(/usr/share/texmf-texlive/tex/latex/psnfss/omszplm.fd
+File: omszplm.fd 2002/09/08 Fontinst v1.914 font definitions for OMS/zplm.
+)
+LaTeX Font Info:    Try loading font information for OMX+zplm on input line 93.
+
+LaTeX Font Info:    <567INP omxzplm.fd> on input line 93.
+(/usr/share/texmf-texlive/tex/latex/psnfss/omxzplm.fd
+File: omxzplm.fd 2002/09/08 Fontinst v1.914 font definitions for OMX/zplm.
+)
+LaTeX Font Info:    Font shape `U/msa/m/n' will be
+(Font)              scaled to size 12.50409pt on input line 93.
+LaTeX Font Info:    Font shape `U/msa/m/n' will be
+(Font)              scaled to size 9.37807pt on input line 93.
+LaTeX Font Info:    Font shape `U/msa/m/n' will be
+(Font)              scaled to size 7.29405pt on input line 93.
+LaTeX Font Info:    Font shape `U/msb/m/n' will be
+(Font)              scaled to size 12.50409pt on input line 93.
+LaTeX Font Info:    Font shape `U/msb/m/n' will be
+(Font)              scaled to size 9.37807pt on input line 93.
+LaTeX Font Info:    Font shape `U/msb/m/n' will be
+(Font)              scaled to size 7.29405pt on input line 93.
+LaTeX Font Info:    Try loading font information for OT1+zplm on input line 93.
+
+LaTeX Font Info:    <567INP ot1zplm.fd> on input line 93.
+(/usr/share/texmf-texlive/tex/latex/psnfss/ot1zplm.fd
+File: ot1zplm.fd 2002/09/08 Fontinst v1.914 font definitions for OT1/zplm.
+)
+\c@c@author=\count143
+\c@c@tmp=\count144
+LaTeX Font Info:    Font shape `U/msa/m/n' will be
+(Font)              scaled to size 11.40997pt on input line 93.
+LaTeX Font Info:    Font shape `U/msa/m/n' will be
+(Font)              scaled to size 8.33606pt on input line 93.
+LaTeX Font Info:    Font shape `U/msa/m/n' will be
+(Font)              scaled to size 6.25204pt on input line 93.
+LaTeX Font Info:    Font shape `U/msb/m/n' will be
+(Font)              scaled to size 11.40997pt on input line 93.
+LaTeX Font Info:    Font shape `U/msb/m/n' will be
+(Font)              scaled to size 8.33606pt on input line 93.
+LaTeX Font Info:    Font shape `U/msb/m/n' will be
+(Font)              scaled to size 6.25204pt on input line 93.
+
+Overfull \hbox (16.25954pt too wide) in paragraph at lines 93--93
+[] [][][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 93--93
+
+ []
+
+<789FIG BigDraft 0>
+<BigDraft.pdf, id=80, 597.50829pt x 845.0471pt>
+File: BigDraft.pdf Graphic file (type pdf)
+<use BigDraft.pdf> [1
+
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} </home/pivarski/physics/hep
+r8.physics.tamu.edu/talks/tdr2/notes/general/BigDraft.pdf> </home/pivarski/phys
+ics/hepr8.physics.tamu.edu/talks/tdr2/notes/general/cms_draft_note.pdf>]
+<789FIG BigDraft 0>
+File: BigDraft.pdf Graphic file (type pdf)
+<use BigDraft.pdf> [2
+
+]
+<567INP introduction.tex>
+
+(/home/pivarski/physics/hepr8.physics.tamu.edu/talks/tdr2/notes/AN-11-180/trunk
+/introduction.tex
+LaTeX Font Info:    Try loading font information for OT1+phv on input line 1.
+LaTeX Font Info:    <567INP ot1phv.fd> on input line 1.
+(/usr/share/texmf-texlive/tex/latex/psnfss/ot1phv.fd
+File: ot1phv.fd 2001/06/04 scalable font definitions for OT1/phv.
+)
+LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <14.4> not available
+(Font)              Font shape `OT1/phv/b/n' tried instead on input line 1.
+)
+<567INP HighLevelTrigger.tex>
+
+(/home/pivarski/physics/hepr8.physics.tamu.edu/talks/tdr2/notes/AN-11-180/trunk
+/HighLevelTrigger.tex
+LaTeX Font Info:    Font shape `OT1/ppl/bx/n' in size <10.95> not available
+(Font)              Font shape `OT1/ppl/b/n' tried instead on input line 5.
+LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <12> not available
+(Font)              Font shape `OT1/phv/b/n' tried instead on input line 18.
+LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <10.95> not available
+(Font)              Font shape `OT1/phv/b/n' tried instead on input line 41.
+<789FIG BigDraft 0>
+File: BigDraft.pdf Graphic file (type pdf)
+<use BigDraft.pdf> [1]
+! Undefined control sequence.
+<recently read> \texfbf 
+                        
+l.59 \texfbf
+            {Path name} & \textbf{Level-1 seed} & \textbf{HLT prescale} & \t...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<recently read> \pt 
+                    
+l.72 ...ffline selection required two jets of $\pt
+                                                   > 30\GeV$ and $|\eta|
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.72 ...lection required two jets of $\pt > 30\GeV
+                                                  $ and $|\eta|
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.74 \pt
+        \ range where b-tagging is typically applied. In order to increase
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<recently read> \pt 
+                    
+l.76 to contain exactly one muon of $\pt
+                                         > 6\GeV$ and $|\eta| < 2.4$ with
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.76 to contain exactly one muon of $\pt > 6\GeV
+                                                $ and $|\eta| < 2.4$ with
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<recently read> \DR 
+                    
+l.83 The muon had to be in a cone defined by $\DR
+                                                  < 0.4$ around the associat...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.83 ...0.4$ around the associated jet (``\muonjet
+                                                  '').
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Warning: Reference `btagmuturnon' on page 2 undefined on input line 90.
+
+<789FIG figures/BTagMuTriggerTurnOn.png 0>
+<figures/BTagMuTriggerTurnOn.png, id=153, 899.36pt x 574.145pt>
+File: figures/BTagMuTriggerTurnOn.png Graphic file (type png)
+<use figures/BTagMuTriggerTurnOn.png>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <10> not available
+(Font)              Font shape `OT1/phv/b/n' tried instead on input line 116.
+<789FIG BigDraft 1>
+File: BigDraft.pdf Graphic file (type pdf)
+<use BigDraft.pdf> [2]
+
+LaTeX Warning: Reference `QuadJetturnon' on page 3 undefined on input line 142.
+
+
+
+LaTeX Warning: Reference `RA2bturnon' on page 3 undefined on input line 143.
+
+
+LaTeX Warning: Reference `QuadJetturnon' on page 3 undefined on input line 150.
+
+
+<789FIG figures/QuadBTagTCHE_turnOn.png 1>
+<figures/QuadBTagTCHE_turnOn.png, id=161, 691.58376pt x 667.49374pt>
+File: figures/QuadBTagTCHE_turnOn.png Graphic file (type png)
+<use figures/QuadBTagTCHE_turnOn.png>
+<789FIG figures/QuadBTagTCHP_turnOn.png 1>
+<figures/QuadBTagTCHP_turnOn.png, id=162, 691.58376pt x 667.49374pt>
+File: figures/QuadBTagTCHP_turnOn.png Graphic file (type png)
+<use figures/QuadBTagTCHP_turnOn.png>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<789FIG figures/RA2bSUSY_TCHE_turnOn.pdf 2>
+<figures/RA2bSUSY_TCHE_turnOn.pdf, id=163, 569.12625pt x 439.6425pt>
+File: figures/RA2bSUSY_TCHE_turnOn.pdf Graphic file (type pdf)
+<use figures/RA2bSUSY_TCHE_turnOn.pdf>
+<789FIG figures/RA2bSUSY_TCHP_turnOn.pdf 2>
+<figures/RA2bSUSY_TCHP_turnOn.pdf, id=164, 569.12625pt x 439.6425pt>
+File: figures/RA2bSUSY_TCHP_turnOn.pdf Graphic file (type pdf)
+<use figures/RA2bSUSY_TCHP_turnOn.pdf>
+<789FIG figures/RA2bSUSY_SSVHE_turnOn.pdf 2>
+<figures/RA2bSUSY_SSVHE_turnOn.pdf, id=165, 569.12625pt x 439.6425pt>
+File: figures/RA2bSUSY_SSVHE_turnOn.pdf Graphic file (type pdf)
+<use figures/RA2bSUSY_SSVHE_turnOn.pdf>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<789FIG BigDraft 3>
+File: BigDraft.pdf Graphic file (type pdf)
+<use BigDraft.pdf> [3 </home/pivarski/physics/hepr8.physics.tamu.edu/talks/tdr2
+/notes/AN-11-180/trunk/figures/BTagMuTriggerTurnOn.png (PNG copy)>]
+<789FIG BigDraft 3>
+File: BigDraft.pdf Graphic file (type pdf)
+<use BigDraft.pdf> [4 </home/pivarski/physics/hepr8.physics.tamu.edu/talks/tdr2
+/notes/AN-11-180/trunk/figures/QuadBTagTCHE_turnOn.png (PNG copy)> </home/pivar
+ski/physics/hepr8.physics.tamu.edu/talks/tdr2/notes/AN-11-180/trunk/figures/Qua
+dBTagTCHP_turnOn.png (PNG copy)>]
+! Undefined control sequence.
+l.194    \subfloat
+                  []{
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+<789FIG figures/3DPVeff.pdf 3>
+<figures/3DPVeff.pdf, id=178, 569.12625pt x 385.44pt>
+File: figures/3DPVeff.pdf Graphic file (type pdf)
+<use figures/3DPVeff.pdf>
+! Undefined control sequence.
+l.199    \subfloat
+                  []{
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+<789FIG figures/3DPVfake.pdf 3>
+<figures/3DPVfake.pdf, id=179, 569.12625pt x 387.4475pt>
+File: figures/3DPVfake.pdf Graphic file (type pdf)
+<use figures/3DPVfake.pdf>
+LaTeX Font Info:    Font shape `U/msa/m/n' will be
+(Font)              scaled to size 10.42007pt on input line 202.
+LaTeX Font Info:    Font shape `U/msa/m/n' will be
+(Font)              scaled to size 7.91925pt on input line 202.
+LaTeX Font Info:    Font shape `U/msb/m/n' will be
+(Font)              scaled to size 10.42007pt on input line 202.
+LaTeX Font Info:    Font shape `U/msb/m/n' will be
+(Font)              scaled to size 7.91925pt on input line 202.
+! Undefined control sequence.
+l.209    \subfloat
+                  []{
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+<789FIG figures/3DPVresX.pdf 4>
+<figures/3DPVresX.pdf, id=180, 569.12625pt x 387.4475pt>
+File: figures/3DPVresX.pdf Graphic file (type pdf)
+<use figures/3DPVresX.pdf>
+! Undefined control sequence.
+l.214    \subfloat
+                  []{
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+<789FIG figures/3DPVresL.pdf 4>
+<figures/3DPVresL.pdf, id=181, 569.12625pt x 387.4475pt>
+File: figures/3DPVresL.pdf Graphic file (type pdf)
+<use figures/3DPVresL.pdf>)
+<567INP samplesandselection.tex>
+
+(/home/pivarski/physics/hepr8.physics.tamu.edu/talks/tdr2/notes/AN-11-180/trunk
+/samplesandselection.tex
+<789FIG BigDraft 5>
+File: BigDraft.pdf Graphic file (type pdf)
+<use BigDraft.pdf> [5 </home/pivarski/physics/hepr8.physics.tamu.edu/talks/tdr2
+/notes/AN-11-180/trunk/figures/RA2bSUSY_TCHE_turnOn.pdf> </home/pivarski/physic
+s/hepr8.physics.tamu.edu/talks/tdr2/notes/AN-11-180/trunk/figures/RA2bSUSY_TCHP
+_turnOn.pdf> </home/pivarski/physics/hepr8.physics.tamu.edu/talks/tdr2/notes/AN
+-11-180/trunk/figures/RA2bSUSY_SSVHE_turnOn.pdf>]
+<789FIG BigDraft 5>
+File: BigDraft.pdf Graphic file (type pdf)
+<use BigDraft.pdf> [6 </home/pivarski/physics/hepr8.physics.tamu.edu/talks/tdr2
+/notes/AN-11-180/trunk/figures/3DPVeff.pdf> </home/pivarski/physics/hepr8.physi
+cs.tamu.edu/talks/tdr2/notes/AN-11-180/trunk/figures/3DPVfake.pdf> </home/pivar
+ski/physics/hepr8.physics.tamu.edu/talks/tdr2/notes/AN-11-180/trunk/figures/3DP
+VresX.pdf> </home/pivarski/physics/hepr8.physics.tamu.edu/talks/tdr2/notes/AN-1
+1-180/trunk/figures/3DPVresL.pdf>]
+<789FIG BigDraft 5>
+File: BigDraft.pdf Graphic file (type pdf)
+<use BigDraft.pdf> [7]
+LaTeX Font Info:    Try loading font information for OT1+pcr on input line 11.
+LaTeX Font Info:    <567INP ot1pcr.fd> on input line 11.
+(/usr/share/texmf-texlive/tex/latex/psnfss/ot1pcr.fd
+File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
+)
+<789FIG BigDraft 5>
+File: BigDraft.pdf Graphic file (type pdf)
+<use BigDraft.pdf> [8
+
+]
+Overfull \hbox (13.11499pt too wide) in paragraph at lines 66--67
+[]\OT1/ppl/m/n/10.95 In ad-di-tion, an-other set of val-i-da-tion plots are pro
+-duced with lower trig-ger thresh-old ([]\OT1/pcr/m/n/10.95 HLT_Jet30
+ []
+
+
+Overfull \hbox (32.38785pt too wide) in paragraph at lines 70--80
+[][]
+ []
+
+! Too many }'s.
+\@endfloatbox ...pagefalse \outer@nobreak \egroup 
+                                                  \color@endbox 
+l.80 \end{table}
+                
+You've closed more groups than you opened.
+Such booboos are generally harmless, so keep going.
+
+! Extra \endgroup.
+\color@endgroup ->\endgraf \endgroup 
+                                     
+l.80 \end{table}
+                
+Things are pretty mixed up, but I think the worst is over.
+
+! Too many }'s.
+\color@endbox ->\color@endgroup \egroup 
+                                        
+l.80 \end{table}
+                
+You've closed more groups than you opened.
+Such booboos are generally harmless, so keep going.
+
+
+! LaTeX Error: \begin{document} ended by \end{table}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.80 \end{table}
+                
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Extra \endgroup.
+<recently read> \endgroup 
+                          
+l.80 \end{table}
+                
+Things are pretty mixed up, but I think the worst is over.
+
+)
+<567INP trackselection.tex>
+
+(/home/pivarski/physics/hepr8.physics.tamu.edu/talks/tdr2/notes/AN-11-180/trunk
+/trackselection.tex
+<789FIG BigDraft 5>
+File: BigDraft.pdf Graphic file (type pdf)
+<use BigDraft.pdf> [9]
+<789FIG figures/trackNPixelHits_Linear.png 5>
+<figures/trackNPixelHits_Linear.png, id=295, 780.9175pt x 525.965pt>
+File: figures/trackNPixelHits_Linear.png Graphic file (type png)
+<use figures/trackNPixelHits_Linear.png>
+<789FIG figures/trackNHits_Linear.png 5>
+<figures/trackNHits_Linear.png, id=296, 780.9175pt x 525.965pt>
+File: figures/trackNHits_Linear.png Graphic file (type png)
+<use figures/trackNHits_Linear.png>
+<789FIG figures/trackIP2d_Log.png 5>
+<figures/trackIP2d_Log.png, id=297, 780.9175pt x 525.965pt>
+File: figures/trackIP2d_Log.png Graphic file (type png)
+<use figures/trackIP2d_Log.png>
+<789FIG figures/trackTransverseMomentum_Linear.png 6>
+<figures/trackTransverseMomentum_Linear.png, id=298, 780.9175pt x 525.965pt>
+File: figures/trackTransverseMomentum_Linear.png Graphic file (type png)
+<use figures/trackTransverseMomentum_Linear.png>
+<789FIG figures/trackNormChi2_Log.png 6>
+<figures/trackNormChi2_Log.png, id=299, 780.9175pt x 525.965pt>
+File: figures/trackNormChi2_Log.png Graphic file (type png)
+<use figures/trackNormChi2_Log.png>
+<789FIG figures/trackLongitudinalIP_Linear.png 6>
+<figures/trackLongitudinalIP_Linear.png, id=300, 780.9175pt x 525.965pt>
+File: figures/trackLongitudinalIP_Linear.png Graphic file (type png)
+<use figures/trackLongitudinalIP_Linear.png>
+<789FIG figures/trackDistJetAxis_Linear.png 7>
+<figures/trackDistJetAxis_Linear.png, id=301, 780.9175pt x 525.965pt>
+File: figures/trackDistJetAxis_Linear.png Graphic file (type png)
+<use figures/trackDistJetAxis_Linear.png>
+<789FIG figures/trackDecayLength_Linear.png 7>
+<figures/trackDecayLength_Linear.png, id=302, 780.9175pt x 525.965pt>
+File: figures/trackDecayLength_Linear.png Graphic file (type png)
+<use figures/trackDecayLength_Linear.png>
+<789FIG figures/trackNPixelHits_cut_Linear.png 8>
+<figures/trackNPixelHits_cut_Linear.png, id=303, 780.9175pt x 525.965pt>
+File: figures/trackNPixelHits_cut_Linear.png Graphic file (type png)
+<use figures/trackNPixelHits_cut_Linear.png>
+<789FIG figures/trackNHits_cut_Linear.png 8>
+<figures/trackNHits_cut_Linear.png, id=304, 780.9175pt x 525.965pt>
+File: figures/trackNHits_cut_Linear.png Graphic file (type png)
+<use figures/trackNHits_cut_Linear.png>
+<789FIG figures/trackIP2d_cut_Log.png 8>
+<figures/trackIP2d_cut_Log.png, id=305, 780.9175pt x 525.965pt>
+File: figures/trackIP2d_cut_Log.png Graphic file (type png)
+<use figures/trackIP2d_cut_Log.png>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<789FIG figures/trackTransverseMomentum_cut_Linear.png 9>
+
+<figures/trackTransverseMomentum_cut_Linear.png, id=306, 780.9175pt x 525.965pt
+>
+File: figures/trackTransverseMomentum_cut_Linear.png Graphic file (type png)
+<use figures/trackTransverseMomentum_cut_Linear.png>
+<789FIG figures/trackNormChi2_cut_Log.png 9>
+<figures/trackNormChi2_cut_Log.png, id=307, 780.9175pt x 525.965pt>
+File: figures/trackNormChi2_cut_Log.png Graphic file (type png)
+<use figures/trackNormChi2_cut_Log.png>
+<789FIG figures/trackLongitudinalIP_cut_Linear.png 9>
+<figures/trackLongitudinalIP_cut_Linear.png, id=308, 780.9175pt x 525.965pt>
+File: figures/trackLongitudinalIP_cut_Linear.png Graphic file (type png)
+<use figures/trackLongitudinalIP_cut_Linear.png>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<789FIG figures/trackDistJetAxis_cut_Linear.png 10>
+<figures/trackDistJetAxis_cut_Linear.png, id=309, 780.9175pt x 525.965pt>
+File: figures/trackDistJetAxis_cut_Linear.png Graphic file (type png)
+<use figures/trackDistJetAxis_cut_Linear.png>
+<789FIG figures/trackDecayLength_cut_Linear.png 10>
+<figures/trackDecayLength_cut_Linear.png, id=310, 780.9175pt x 525.965pt>
+File: figures/trackDecayLength_cut_Linear.png Graphic file (type png)
+<use figures/trackDecayLength_cut_Linear.png>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<789FIG BigDraft 11>
+File: BigDraft.pdf Graphic file (type pdf)
+<use BigDraft.pdf> [10 </home/pivarski/physics/hepr8.physics.tamu.edu/talks/tdr
+2/notes/AN-11-180/trunk/figures/trackNPixelHits_Linear.png (PNG copy)> </home/p
+ivarski/physics/hepr8.physics.tamu.edu/talks/tdr2/notes/AN-11-180/trunk/figures
+/trackNHits_Linear.png (PNG copy)> </home/pivarski/physics/hepr8.physics.tamu.e
+du/talks/tdr2/notes/AN-11-180/trunk/figures/trackIP2d_Log.png (PNG copy)> </hom
+e/pivarski/physics/hepr8.physics.tamu.edu/talks/tdr2/notes/AN-11-180/trunk/figu
+res/trackTransverseMomentum_Linear.png (PNG copy)> </home/pivarski/physics/hepr
+8.physics.tamu.edu/talks/tdr2/notes/AN-11-180/trunk/figures/trackNormChi2_Log.p
+ng (PNG copy)> </home/pivarski/physics/hepr8.physics.tamu.edu/talks/tdr2/notes/
+AN-11-180/trunk/figures/trackLongitudinalIP_Linear.png (PNG copy)> </home/pivar
+ski/physics/hepr8.physics.tamu.edu/talks/tdr2/notes/AN-11-180/trunk/figures/tra
+ckDistJetAxis_Linear.png (PNG copy)> </home/pivarski/physics/hepr8.physics.tamu
+.edu/talks/tdr2/notes/AN-11-180/trunk/figures/trackDecayLength_Linear.png (PNG 
+copy)>]
+<789FIG figures/n_tracks_jet_Linear.png 11>
+<figures/n_tracks_jet_Linear.png, id=319, 780.9175pt x 525.965pt>
+File: figures/n_tracks_jet_Linear.png Graphic file (type png)
+<use figures/n_tracks_jet_Linear.png>
+<789FIG figures/n_cutseltracks_jet_Linear.png 11>
+<figures/n_cutseltracks_jet_Linear.png, id=320, 780.9175pt x 525.965pt>
+File: figures/n_cutseltracks_jet_Linear.png Graphic file (type png)
+<use figures/n_cutseltracks_jet_Linear.png>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<789FIG figures/track_vs_jetpt_Linear.png 12>
+<figures/track_vs_jetpt_Linear.png, id=321, 780.9175pt x 525.965pt>
+File: figures/track_vs_jetpt_Linear.png Graphic file (type png)
+<use figures/track_vs_jetpt_Linear.png>
+<789FIG figures/cutseltrack_vs_jetpt_Linear.png 12>
+<figures/cutseltrack_vs_jetpt_Linear.png, id=322, 780.9175pt x 525.965pt>
+File: figures/cutseltrack_vs_jetpt_Linear.png Graphic file (type png)
+<use figures/cutseltrack_vs_jetpt_Linear.png>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+)
+<567INP impactparameter.tex>
+
+(/home/pivarski/physics/hepr8.physics.tamu.edu/talks/tdr2/notes/AN-11-180/trunk
+/impactparameter.tex
+<789FIG BigDraft 13>
+File: BigDraft.pdf Graphic file (type pdf)
+<use BigDraft.pdf> [11 </home/pivarski/physics/hepr8.physics.tamu.edu/talks/tdr
+2/notes/AN-11-180/trunk/figures/trackNPixelHits_cut_Linear.png (PNG copy)> </ho
+me/pivarski/physics/hepr8.physics.tamu.edu/talks/tdr2/notes/AN-11-180/trunk/fig
+ures/trackNHits_cut_Linear.png (PNG copy)> </home/pivarski/physics/hepr8.physic
+s.tamu.edu/talks/tdr2/notes/AN-11-180/trunk/figures/trackIP2d_cut_Log.png (PNG 
+copy)> </home/pivarski/physics/hepr8.physics.tamu.edu/talks/tdr2/notes/AN-11-18
+0/trunk/figures/trackTransverseMomentum_cut_Linear.png (PNG copy)> </home/pivar
+ski/physics/hepr8.physics.tamu.edu/talks/tdr2/notes/AN-11-180/trunk/figures/tra
+ckNormChi2_cut_Log.png (PNG copy)> </home/pivarski/physics/hepr8.physics.tamu.e
+du/talks/tdr2/notes/AN-11-180/trunk/figures/trackLongitudinalIP_cut_Linear.png 
+(PNG copy)> </home/pivarski/physics/hepr8.physics.tamu.edu/talks/tdr2/notes/AN-
+11-180/trunk/figures/trackDistJetAxis_cut_Linear.png (PNG copy)> </home/pivarsk
+i/physics/hepr8.physics.tamu.edu/talks/tdr2/notes/AN-11-180/trunk/figures/track
+DecayLength_cut_Linear.png (PNG copy)>]
+<789FIG BigDraft 13>
+File: BigDraft.pdf Graphic file (type pdf)
+<use BigDraft.pdf> [12 </home/pivarski/physics/hepr8.physics.tamu.edu/talks/tdr
+2/notes/AN-11-180/trunk/figures/n_tracks_jet_Linear.png (PNG copy)> </home/piva
+rski/physics/hepr8.physics.tamu.edu/talks/tdr2/notes/AN-11-180/trunk/figures/n_
+cutseltracks_jet_Linear.png (PNG copy)> </home/pivarski/physics/hepr8.physics.t
+amu.edu/talks/tdr2/notes/AN-11-180/trunk/figures/track_vs_jetpt_Linear.png (PNG
+ copy)> </home/pivarski/physics/hepr8.physics.tamu.edu/talks/tdr2/notes/AN-11-1
+80/trunk/figures/cutseltrack_vs_jetpt_Linear.png (PNG copy)>]
+<789FIG figures/IP3d1sorted_Log.png 13>
+<figures/IP3d1sorted_Log.png, id=338, 780.9175pt x 525.965pt>
+File: figures/IP3d1sorted_Log.png Graphic file (type png)
+<use figures/IP3d1sorted_Log.png>
+<789FIG figures/IP3d1Errorsorted_Log.png 13>
+<figures/IP3d1Errorsorted_Log.png, id=339, 780.9175pt x 525.965pt>
+File: figures/IP3d1Errorsorted_Log.png Graphic file (type png)
+<use figures/IP3d1Errorsorted_Log.png>
+<789FIG figures/IP3d1sigsorted_Log.png 13>
+<figures/IP3d1sigsorted_Log.png, id=340, 780.9175pt x 525.965pt>
+File: figures/IP3d1sigsorted_Log.png Graphic file (type png)
+<use figures/IP3d1sigsorted_Log.png>
+<789FIG figures/IP3d2sorted_Log.png 14>
+<figures/IP3d2sorted_Log.png, id=341, 780.9175pt x 525.965pt>
+File: figures/IP3d2sorted_Log.png Graphic file (type png)
+<use figures/IP3d2sorted_Log.png>
+<789FIG figures/IP3d2Errorsorted_Log.png 14>
+<figures/IP3d2Errorsorted_Log.png, id=342, 780.9175pt x 525.965pt>
+File: figures/IP3d2Errorsorted_Log.png Graphic file (type png)
+<use figures/IP3d2Errorsorted_Log.png>
+<789FIG figures/IP3d2sigsorted_Log.png 14>
+<figures/IP3d2sigsorted_Log.png, id=343, 780.9175pt x 525.965pt>
+File: figures/IP3d2sigsorted_Log.png Graphic file (type png)
+<use figures/IP3d2sigsorted_Log.png>
+<789FIG figures/IP3d3sorted_Log.png 15>
+<figures/IP3d3sorted_Log.png, id=344, 780.9175pt x 525.965pt>
+File: figures/IP3d3sorted_Log.png Graphic file (type png)
+<use figures/IP3d3sorted_Log.png>
+<789FIG figures/IP3d3Errorsorted_Log.png 15>
+<figures/IP3d3Errorsorted_Log.png, id=345, 780.9175pt x 525.965pt>
+File: figures/IP3d3Errorsorted_Log.png Graphic file (type png)
+<use figures/IP3d3Errorsorted_Log.png>
+<789FIG figures/IP3d3sigsorted_Log.png 15>
+<figures/IP3d3sigsorted_Log.png, id=346, 780.9175pt x 525.965pt>
+File: figures/IP3d3sigsorted_Log.png Graphic file (type png)
+<use figures/IP3d3sigsorted_Log.png>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<789FIG figures/trackIP3d_cutsel_Log.png 16>
+<figures/trackIP3d_cutsel_Log.png, id=347, 780.9175pt x 525.965pt>
+File: figures/trackIP3d_cutsel_Log.png Graphic file (type png)
+<use figures/trackIP3d_cutsel_Log.png>
+<789FIG figures/trackIP3dError_cutsel_Log.png 16>
+<figures/trackIP3dError_cutsel_Log.png, id=348, 780.9175pt x 525.965pt>
+File: figures/trackIP3dError_cutsel_Log.png Graphic file (type png)
+<use figures/trackIP3dError_cutsel_Log.png>
+<789FIG figures/trackIP3dsig_cutsel_Log.png 16>
+<figures/trackIP3dsig_cutsel_Log.png, id=349, 780.9175pt x 525.965pt>
+File: figures/trackIP3dsig_cutsel_Log.png Graphic file (type png)
+<use figures/trackIP3dsig_cutsel_Log.png>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<789FIG figures/trackIP3d_bin1_cutsel_Log.png 17>
+<figures/trackIP3d_bin1_cutsel_Log.png, id=353, 780.9175pt x 525.965pt>
+File: figures/trackIP3d_bin1_cutsel_Log.png Graphic file (type png)
+<use figures/trackIP3d_bin1_cutsel_Log.png>
+<789FIG figures/trackIP3d_bin2_cutsel_Log.png 17>
+<figures/trackIP3d_bin2_cutsel_Log.png, id=354, 780.9175pt x 525.965pt>
+File: figures/trackIP3d_bin2_cutsel_Log.png Graphic file (type png)
+<use figures/trackIP3d_bin2_cutsel_Log.png>
+<789FIG figures/trackIP3d_bin3_cutsel_Log.png 17>
+<figures/trackIP3d_bin3_cutsel_Log.png, id=355, 780.9175pt x 525.965pt>
+File: figures/trackIP3d_bin3_cutsel_Log.png Graphic file (type png)
+<use figures/trackIP3d_bin3_cutsel_Log.png>
+<789FIG figures/trackIP3d_bin4_cutsel_Log.png 17>
+<figures/trackIP3d_bin4_cutsel_Log.png, id=356, 780.9175pt x 525.965pt>
+File: figures/trackIP3d_bin4_cutsel_Log.png Graphic file (type png)
+<use figures/trackIP3d_bin4_cutsel_Log.png>
+<789FIG figures/trackIP3d_bin5_cutsel_Log.png 17>
+<figures/trackIP3d_bin5_cutsel_Log.png, id=357, 780.9175pt x 525.965pt>
+File: figures/trackIP3d_bin5_cutsel_Log.png Graphic file (type png)
+<use figures/trackIP3d_bin5_cutsel_Log.png>
+<789FIG figures/trackIP3d_bin6_cutsel_Log.png 17>
+<figures/trackIP3d_bin6_cutsel_Log.png, id=358, 780.9175pt x 525.965pt>
+File: figures/trackIP3d_bin6_cutsel_Log.png Graphic file (type png)
+<use figures/trackIP3d_bin6_cutsel_Log.png>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+)
+<567INP secondaryvertex.tex>
+
+(/home/pivarski/physics/hepr8.physics.tamu.edu/talks/tdr2/notes/AN-11-180/trunk
+/secondaryvertex.tex
+<789FIG BigDraft 18>
+File: BigDraft.pdf Graphic file (type pdf)
+<use BigDraft.pdf> [13
+
+ </home/pivarski/physics/hepr8.physics.tamu.edu/talks/tdr2/notes/AN-11-180/trun
+k/figures/IP3d1sorted_Log.png (PNG copy)> </home/pivarski/physics/hepr8.physics
+.tamu.edu/talks/tdr2/notes/AN-11-180/trunk/figures/IP3d1Errorsorted_Log.png (PN
+G copy)> </home/pivarski/physics/hepr8.physics.tamu.edu/talks/tdr2/notes/AN-11-
+180/trunk/figures/IP3d1sigsorted_Log.png (PNG copy)> </home/pivarski/physics/he
+pr8.physics.tamu.edu/talks/tdr2/notes/AN-11-180/trunk/figures/IP3d2sorted_Log.p
+ng (PNG copy)> </home/pivarski/physics/hepr8.physics.tamu.edu/talks/tdr2/notes/
+AN-11-180/trunk/figures/IP3d2Errorsorted_Log.png (PNG copy)> </home/pivarski/ph
+ysics/hepr8.physics.tamu.edu/talks/tdr2/notes/AN-11-180/trunk/figures/IP3d2sigs
+orted_Log.png (PNG copy)>]
+<789FIG BigDraft 18>
+File: BigDraft.pdf Graphic file (type pdf)
+<use BigDraft.pdf> [14 </home/pivarski/physics/hepr8.physics.tamu.edu/talks/tdr
+2/notes/AN-11-180/trunk/figures/IP3d3sorted_Log.png (PNG copy)> </home/pivarski
+/physics/hepr8.physics.tamu.edu/talks/tdr2/notes/AN-11-180/trunk/figures/IP3d3E
+rrorsorted_Log.png (PNG copy)> </home/pivarski/physics/hepr8.physics.tamu.edu/t
+alks/tdr2/notes/AN-11-180/trunk/figures/IP3d3sigsorted_Log.png (PNG copy)> </ho
+me/pivarski/physics/hepr8.physics.tamu.edu/talks/tdr2/notes/AN-11-180/trunk/fig
+ures/trackIP3d_cutsel_Log.png (PNG copy)> </home/pivarski/physics/hepr8.physics
+.tamu.edu/talks/tdr2/notes/AN-11-180/trunk/figures/trackIP3dError_cutsel_Log.pn
+g (PNG copy)> </home/pivarski/physics/hepr8.physics.tamu.edu/talks/tdr2/notes/A
+N-11-180/trunk/figures/trackIP3dsig_cutsel_Log.png (PNG copy)> </home/pivarski/
+physics/hepr8.physics.tamu.edu/talks/tdr2/notes/AN-11-180/trunk/figures/trackIP
+3d_bin1_cutsel_Log.png (PNG copy)> </home/pivarski/physics/hepr8.physics.tamu.e
+du/talks/tdr2/notes/AN-11-180/trunk/figures/trackIP3d_bin2_cutsel_Log.png (PNG 
+copy)> </home/pivarski/physics/hepr8.physics.tamu.edu/talks/tdr2/notes/AN-11-18
+0/trunk/figures/trackIP3d_bin3_cutsel_Log.png (PNG copy)> </home/pivarski/physi
+cs/hepr8.physics.tamu.edu/talks/tdr2/notes/AN-11-180/trunk/figures/trackIP3d_bi
+n4_cutsel_Log.png (PNG copy)> </home/pivarski/physics/hepr8.physics.tamu.edu/ta
+lks/tdr2/notes/AN-11-180/trunk/figures/trackIP3d_bin5_cutsel_Log.png (PNG copy)
+> </home/pivarski/physics/hepr8.physics.tamu.edu/talks/tdr2/notes/AN-11-180/tru
+nk/figures/trackIP3d_bin6_cutsel_Log.png (PNG copy)>]
+Missing character: There is no ‚ in font pplr7t!
+Missing character: There is no Ä in font pplr7t!
+Missing character: There is no ú in font pplr7t!
+Missing character: There is no ‚ in font pplr7t!
+Missing character: There is no Ä in font pplr7t!
+Missing character: There is no ù in font pplr7t!
+Missing character: There is no ‚ in font pplr7t!
+Missing character: There is no Ä in font pplr7t!
+Missing character: There is no ú in font pplr7t!
+Missing character: There is no ‚ in font pplr7t!
+Missing character: There is no Ä in font pplr7t!
+Missing character: There is no ù in font pplr7t!
+Missing character: There is no ‚ in font pplr7t!
+Missing character: There is no Ä in font pplr7t!
+Missing character: There is no ú in font pplr7t!
+Missing character: There is no ‚ in font pplr7t!
+Missing character: There is no Ä in font pplr7t!
+Missing character: There is no ù in font pplr7t!
+Missing character: There is no ‚ in font pplr7t!
+Missing character: There is no Ä in font pplr7t!
+Missing character: There is no ú in font pplr7t!
+Missing character: There is no ‚ in font pplr7t!
+Missing character: There is no Ä in font pplr7t!
+Missing character: There is no ù in font pplr7t!
+<789FIG figures/sv_nvertices0_Log.png 18>
+<figures/sv_nvertices0_Log.png, id=376, 780.9175pt x 525.965pt>
+File: figures/sv_nvertices0_Log.png Graphic file (type png)
+<use figures/sv_nvertices0_Log.png>
+<789FIG figures/sv_trackmul_Linear.png 18>
+<figures/sv_trackmul_Linear.png, id=377, 780.9175pt x 525.965pt>
+File: figures/sv_trackmul_Linear.png Graphic file (type png)
+<use figures/sv_trackmul_Linear.png>
+<789FIG figures/sv_track_vs_jetpt_Linear.png 18>
+<figures/sv_track_vs_jetpt_Linear.png, id=378, 780.9175pt x 525.965pt>
+File: figures/sv_track_vs_jetpt_Linear.png Graphic file (type png)
+<use figures/sv_track_vs_jetpt_Linear.png>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<789FIG figures/sv_mass_Linear.png 19>
+<figures/sv_mass_Linear.png, id=379, 780.9175pt x 525.965pt>
+File: figures/sv_mass_Linear.png Graphic file (type png)
+<use figures/sv_mass_Linear.png>
+<789FIG figures/sv_mass_3tr_Linear.png 19>
+<figures/sv_mass_3tr_Linear.png, id=380, 780.9175pt x 525.965pt>
+File: figures/sv_mass_3tr_Linear.png Graphic file (type png)
+<use figures/sv_mass_3tr_Linear.png>
+<789FIG figures/sv_vtx_pt_Linear.png 19>
+<figures/sv_vtx_pt_Linear.png, id=381, 780.9175pt x 525.965pt>
+File: figures/sv_vtx_pt_Linear.png Graphic file (type png)
+<use figures/sv_vtx_pt_Linear.png>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<789FIG BigDraft 20>
+File: BigDraft.pdf Graphic file (type pdf)
+<use BigDraft.pdf> [15
+
+]
+<789FIG figures/sv_flightsig3d_Log.png 20>
+<figures/sv_flightsig3d_Log.png, id=391, 780.9175pt x 525.965pt>
+File: figures/sv_flightsig3d_Log.png Graphic file (type png)
+<use figures/sv_flightsig3d_Log.png>
+<789FIG figures/sv_eratio_Linear.png 20>
+<figures/sv_eratio_Linear.png, id=392, 780.9175pt x 525.965pt>
+File: figures/sv_eratio_Linear.png Graphic file (type png)
+<use figures/sv_eratio_Linear.png>
+<789FIG figures/sv_normchi2_Linear.png 20>
+<figures/sv_normchi2_Linear.png, id=393, 780.9175pt x 525.965pt>
+File: figures/sv_normchi2_Linear.png Graphic file (type png)
+<use figures/sv_normchi2_Linear.png>
+<789FIG figures/sv_deltar_jet_Linear.png 21>
+<figures/sv_deltar_jet_Linear.png, id=395, 780.9175pt x 525.965pt>
+File: figures/sv_deltar_jet_Linear.png Graphic file (type png)
+<use figures/sv_deltar_jet_Linear.png>
+<789FIG figures/sv_deltar_sum_jet_Linear.png 21>
+<figures/sv_deltar_sum_jet_Linear.png, id=396, 780.9175pt x 525.965pt>
+File: figures/sv_deltar_sum_jet_Linear.png Graphic file (type png)
+<use figures/sv_deltar_sum_jet_Linear.png>
+<789FIG figures/sv_deltar_sum_dir_Linear.png 21>
+<figures/sv_deltar_sum_dir_Linear.png, id=397, 780.9175pt x 525.965pt>
+File: figures/sv_deltar_sum_dir_Linear.png Graphic file (type png)
+<use figures/sv_deltar_sum_dir_Linear.png>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+)
+<567INP discriminatorstagrates.tex>
+
+(/home/pivarski/physics/hepr8.physics.tamu.edu/talks/tdr2/notes/AN-11-180/trunk
+/discriminatorstagrates.tex
+<789FIG BigDraft 22>
+File: BigDraft.pdf Graphic file (type pdf)
+<use BigDraft.pdf> [16 </home/pivarski/physics/hepr8.physics.tamu.edu/talks/tdr
+2/notes/AN-11-180/trunk/figures/sv_nvertices0_Log.png (PNG copy)> </home/pivars
+ki/physics/hepr8.physics.tamu.edu/talks/tdr2/notes/AN-11-180/trunk/figures/sv_t
+rackmul_Linear.png (PNG copy)> </home/pivarski/physics/hepr8.physics.tamu.edu/t
+alks/tdr2/notes/AN-11-180/trunk/figures/sv_track_vs_jetpt_Linear.png (PNG copy)
+> </home/pivarski/physics/hepr8.physics.tamu.edu/talks/tdr2/notes/AN-11-180/tru
+nk/figures/sv_mass_Linear.png (PNG copy)> </home/pivarski/physics/hepr8.physics
+.tamu.edu/talks/tdr2/notes/AN-11-180/trunk/figures/sv_mass_3tr_Linear.png (PNG 
+copy)> </home/pivarski/physics/hepr8.physics.tamu.edu/talks/tdr2/notes/AN-11-18
+0/trunk/figures/sv_vtx_pt_Linear.png (PNG copy)> </home/pivarski/physics/hepr8.
+physics.tamu.edu/talks/tdr2/notes/AN-11-180/trunk/figures/sv_flightsig3d_Log.pn
+g (PNG copy)> </home/pivarski/physics/hepr8.physics.tamu.edu/talks/tdr2/notes/A
+N-11-180/trunk/figures/sv_eratio_Linear.png (PNG copy)> </home/pivarski/physics
+/hepr8.physics.tamu.edu/talks/tdr2/notes/AN-11-180/trunk/figures/sv_normchi2_Li
+near.png (PNG copy)>]
+<789FIG BigDraft 22>
+File: BigDraft.pdf Graphic file (type pdf)
+<use BigDraft.pdf> [17 </home/pivarski/physics/hepr8.physics.tamu.edu/talks/tdr
+2/notes/AN-11-180/trunk/figures/sv_deltar_jet_Linear.png (PNG copy)> </home/piv
+arski/physics/hepr8.physics.tamu.edu/talks/tdr2/notes/AN-11-180/trunk/figures/s
+v_deltar_sum_jet_Linear.png (PNG copy)> </home/pivarski/physics/hepr8.physics.t
+amu.edu/talks/tdr2/notes/AN-11-180/trunk/figures/sv_deltar_sum_dir_Linear.png (
+PNG copy)>]
+<789FIG figures/discri_tche_Log.png 22>
+<figures/discri_tche_Log.png, id=412, 780.9175pt x 525.965pt>
+File: figures/discri_tche_Log.png Graphic file (type png)
+<use figures/discri_tche_Log.png>
+<789FIG figures/discri_tchp_Log.png 22>
+<figures/discri_tchp_Log.png, id=413, 780.9175pt x 525.965pt>
+File: figures/discri_tchp_Log.png Graphic file (type png)
+<use figures/discri_tchp_Log.png>
+<789FIG figures/discri_jetprob_Log.png 23>
+<figures/discri_jetprob_Log.png, id=414, 780.9175pt x 525.965pt>
+File: figures/discri_jetprob_Log.png Graphic file (type png)
+<use figures/discri_jetprob_Log.png>
+<789FIG figures/discri_jetbprob_Log.png 23>
+<figures/discri_jetbprob_Log.png, id=415, 780.9175pt x 525.965pt>
+File: figures/discri_jetbprob_Log.png Graphic file (type png)
+<use figures/discri_jetbprob_Log.png>
+<789FIG figures/discri_ssche_Linear.png 24>
+<figures/discri_ssche_Linear.png, id=416, 780.9175pt x 525.965pt>
+File: figures/discri_ssche_Linear.png Graphic file (type png)
+<use figures/discri_ssche_Linear.png>
+<789FIG figures/discri_sschp_Linear.png 24>
+<figures/discri_sschp_Linear.png, id=417, 780.9175pt x 525.965pt>
+File: figures/discri_sschp_Linear.png Graphic file (type png)
+<use figures/discri_sschp_Linear.png>
+<789FIG figures/tagRate_discri_tche_Log.png 25>
+<figures/tagRate_discri_tche_Log.png, id=422, 780.9175pt x 525.965pt>
+File: figures/tagRate_discri_tche_Log.png Graphic file (type png)
+<use figures/tagRate_discri_tche_Log.png>
+<789FIG figures/tagRate_discri_tchp_Log.png 25>
+<figures/tagRate_discri_tchp_Log.png, id=423, 780.9175pt x 525.965pt>
+File: figures/tagRate_discri_tchp_Log.png Graphic file (type png)
+<use figures/tagRate_discri_tchp_Log.png>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<789FIG figures/tagRate_discri_jetprob_Log.png 26>
+<figures/tagRate_discri_jetprob_Log.png, id=424, 780.9175pt x 525.965pt>
+File: figures/tagRate_discri_jetprob_Log.png Graphic file (type png)
+<use figures/tagRate_discri_jetprob_Log.png>
+<789FIG figures/tagRate_discri_jetbprob_Log.png 26>
+<figures/tagRate_discri_jetbprob_Log.png, id=425, 780.9175pt x 525.965pt>
+File: figures/tagRate_discri_jetbprob_Log.png Graphic file (type png)
+<use figures/tagRate_discri_jetbprob_Log.png>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<789FIG figures/tagRate_discri_ssche_Linear.png 27>
+<figures/tagRate_discri_ssche_Linear.png, id=426, 780.9175pt x 525.965pt>
+File: figures/tagRate_discri_ssche_Linear.png Graphic file (type png)
+<use figures/tagRate_discri_ssche_Linear.png>
+<789FIG figures/tagRate_discri_sschp_Linear.png 27>
+<figures/tagRate_discri_sschp_Linear.png, id=427, 780.9175pt x 525.965pt>
+File: figures/tagRate_discri_sschp_Linear.png Graphic file (type png)
+<use figures/tagRate_discri_sschp_Linear.png>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+)
+<567INP jetswithmuons.tex>
+
+(/home/pivarski/physics/hepr8.physics.tamu.edu/talks/tdr2/notes/AN-11-180/trunk
+/jetswithmuons.tex
+<789FIG BigDraft 28>
+File: BigDraft.pdf Graphic file (type pdf)
+<use BigDraft.pdf> [18
+
+ </home/pivarski/physics/hepr8.physics.tamu.edu/talks/tdr2/notes/AN-11-180/trun
+k/figures/discri_tche_Log.png (PNG copy)> </home/pivarski/physics/hepr8.physics
+.tamu.edu/talks/tdr2/notes/AN-11-180/trunk/figures/discri_tchp_Log.png (PNG cop
+y)> </home/pivarski/physics/hepr8.physics.tamu.edu/talks/tdr2/notes/AN-11-180/t
+runk/figures/discri_jetprob_Log.png (PNG copy)> </home/pivarski/physics/hepr8.p
+hysics.tamu.edu/talks/tdr2/notes/AN-11-180/trunk/figures/discri_jetbprob_Log.pn
+g (PNG copy)> </home/pivarski/physics/hepr8.physics.tamu.edu/talks/tdr2/notes/A
+N-11-180/trunk/figures/discri_ssche_Linear.png (PNG copy)> </home/pivarski/phys
+ics/hepr8.physics.tamu.edu/talks/tdr2/notes/AN-11-180/trunk/figures/discri_ssch
+p_Linear.png (PNG copy)>]
+<789FIG BigDraft 28>
+File: BigDraft.pdf Graphic file (type pdf)
+<use BigDraft.pdf> [19 </home/pivarski/physics/hepr8.physics.tamu.edu/talks/tdr
+2/notes/AN-11-180/trunk/figures/tagRate_discri_tche_Log.png (PNG copy)> </home/
+pivarski/physics/hepr8.physics.tamu.edu/talks/tdr2/notes/AN-11-180/trunk/figure
+s/tagRate_discri_tchp_Log.png (PNG copy)> </home/pivarski/physics/hepr8.physics
+.tamu.edu/talks/tdr2/notes/AN-11-180/trunk/figures/tagRate_discri_jetprob_Log.p
+ng (PNG copy)> </home/pivarski/physics/hepr8.physics.tamu.edu/talks/tdr2/notes/
+AN-11-180/trunk/figures/tagRate_discri_jetbprob_Log.png (PNG copy)> </home/piva
+rski/physics/hepr8.physics.tamu.edu/talks/tdr2/notes/AN-11-180/trunk/figures/ta
+gRate_discri_ssche_Linear.png (PNG copy)> </home/pivarski/physics/hepr8.physics
+.tamu.edu/talks/tdr2/notes/AN-11-180/trunk/figures/tagRate_discri_sschp_Linear.
+png (PNG copy)>]
+<789FIG figures/mujetmuon_Pt_Log.png 28>
+<figures/mujetmuon_Pt_Log.png, id=446, 780.9175pt x 525.965pt>
+File: figures/mujetmuon_Pt_Log.png Graphic file (type png)
+<use figures/mujetmuon_Pt_Log.png>
+<789FIG figures/mujetmuons_multiplicity_Log.png 28>
+<figures/mujetmuons_multiplicity_Log.png, id=447, 780.9175pt x 525.965pt>
+File: figures/mujetmuons_multiplicity_Log.png Graphic file (type png)
+<use figures/mujetmuons_multiplicity_Log.png>
+<789FIG figures/mujetmuon_Sip3d_Log.png 28>
+<figures/mujetmuon_Sip3d_Log.png, id=448, 780.9175pt x 525.965pt>
+File: figures/mujetmuon_Sip3d_Log.png Graphic file (type png)
+<use figures/mujetmuon_Sip3d_Log.png>
+<789FIG figures/mujetmuon_ptrel_Linear.png 29>
+<figures/mujetmuon_ptrel_Linear.png, id=451, 780.9175pt x 525.965pt>
+File: figures/mujetmuon_ptrel_Linear.png Graphic file (type png)
+<use figures/mujetmuon_ptrel_Linear.png>
+<789FIG figures/mujetmuon_DeltaR_Linear.png 29>
+<figures/mujetmuon_DeltaR_Linear.png, id=452, 780.9175pt x 525.965pt>
+File: figures/mujetmuon_DeltaR_Linear.png Graphic file (type png)
+<use figures/mujetmuon_DeltaR_Linear.png>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<789FIG figures/mujetsv_deltar_jet_Linear.png 30>
+<figures/mujetsv_deltar_jet_Linear.png, id=455, 780.9175pt x 525.965pt>
+File: figures/mujetsv_deltar_jet_Linear.png Graphic file (type png)
+<use figures/mujetsv_deltar_jet_Linear.png>
+<789FIG figures/mujetsv_deltar_sum_jet_Linear.png 30>
+<figures/mujetsv_deltar_sum_jet_Linear.png, id=456, 780.9175pt x 525.965pt>
+File: figures/mujetsv_deltar_sum_jet_Linear.png Graphic file (type png)
+<use figures/mujetsv_deltar_sum_jet_Linear.png>
+<789FIG figures/mujetsv_deltar_sum_dir_Linear.png 30>
+<figures/mujetsv_deltar_sum_dir_Linear.png, id=457, 780.9175pt x 525.965pt>
+File: figures/mujetsv_deltar_sum_dir_Linear.png Graphic file (type png)
+<use figures/mujetsv_deltar_sum_dir_Linear.png>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+)
+<567INP alignment.tex>
+
+(/home/pivarski/physics/hepr8.physics.tamu.edu/talks/tdr2/notes/AN-11-180/trunk
+/alignment.tex
+<789FIG BigDraft 31>
+File: BigDraft.pdf Graphic file (type pdf)
+<use BigDraft.pdf> [20
+
+ </home/pivarski/physics/hepr8.physics.tamu.edu/talks/tdr2/notes/AN-11-180/trun
+k/figures/mujetmuon_Pt_Log.png (PNG copy)> </home/pivarski/physics/hepr8.physic
+s.tamu.edu/talks/tdr2/notes/AN-11-180/trunk/figures/mujetmuons_multiplicity_Log
+.png (PNG copy)> </home/pivarski/physics/hepr8.physics.tamu.edu/talks/tdr2/note
+s/AN-11-180/trunk/figures/mujetmuon_Sip3d_Log.png (PNG copy)>]
+<789FIG BigDraft 31>
+File: BigDraft.pdf Graphic file (type pdf)
+<use BigDraft.pdf> [21 </home/pivarski/physics/hepr8.physics.tamu.edu/talks/tdr
+2/notes/AN-11-180/trunk/figures/mujetmuon_ptrel_Linear.png (PNG copy)> </home/p
+ivarski/physics/hepr8.physics.tamu.edu/talks/tdr2/notes/AN-11-180/trunk/figures
+/mujetmuon_DeltaR_Linear.png (PNG copy)> </home/pivarski/physics/hepr8.physics.
+tamu.edu/talks/tdr2/notes/AN-11-180/trunk/figures/mujetsv_deltar_jet_Linear.png
+ (PNG copy)> </home/pivarski/physics/hepr8.physics.tamu.edu/talks/tdr2/notes/AN
+-11-180/trunk/figures/mujetsv_deltar_sum_jet_Linear.png (PNG copy)> </home/piva
+rski/physics/hepr8.physics.tamu.edu/talks/tdr2/notes/AN-11-180/trunk/figures/mu
+jetsv_deltar_sum_dir_Linear.png (PNG copy)>]
+<789FIG BigDraft 31>
+File: BigDraft.pdf Graphic file (type pdf)
+<use BigDraft.pdf> [22
+
+]
+LaTeX Font Info:    Font shape `U/msa/m/n' will be
+(Font)              scaled to size 5.21004pt on input line 18.
+LaTeX Font Info:    Font shape `U/msb/m/n' will be
+(Font)              scaled to size 5.21004pt on input line 18.
+<789FIG BigDraft 31>
+File: BigDraft.pdf Graphic file (type pdf)
+<use BigDraft.pdf> [23]
+<789FIG figures/TkAl_PV 31>
+<figures/TkAl_PV.png, id=492, 569.12625pt x 546.04pt>
+File: figures/TkAl_PV.png Graphic file (type png)
+<use figures/TkAl_PV.png>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<789FIG figures/TkAl_MC2010_TCHE 32>
+<figures/TkAl_MC2010_TCHE.png, id=493, 598.235pt x 574.145pt>
+File: figures/TkAl_MC2010_TCHE.png Graphic file (type png)
+<use figures/TkAl_MC2010_TCHE.png>
+<789FIG figures/TkAl_MC2010_TCHP 32>
+<figures/TkAl_MC2010_TCHP.png, id=494, 598.235pt x 574.145pt>
+File: figures/TkAl_MC2010_TCHP.png Graphic file (type png)
+<use figures/TkAl_MC2010_TCHP.png>
+<789FIG figures/TkAl_MC2010_CSV 32>
+<figures/TkAl_MC2010_CSV.png, id=495, 598.235pt x 574.145pt>
+File: figures/TkAl_MC2010_CSV.png Graphic file (type png)
+<use figures/TkAl_MC2010_CSV.png>
+<789FIG figures/TkAl_MC2010_JP 32>
+<figures/TkAl_MC2010_JP.png, id=496, 598.235pt x 574.145pt>
+File: figures/TkAl_MC2010_JP.png Graphic file (type png)
+<use figures/TkAl_MC2010_JP.png>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<789FIG figures/TkAl_BPIXHBDZ_TCHE 33>
+<figures/TkAl_BPIXHBDZ_TCHE.png, id=497, 598.235pt x 574.145pt>
+File: figures/TkAl_BPIXHBDZ_TCHE.png Graphic file (type png)
+<use figures/TkAl_BPIXHBDZ_TCHE.png>
+<789FIG figures/TkAl_BPIXHBDZ_TCHP 33>
+<figures/TkAl_BPIXHBDZ_TCHP.png, id=498, 598.235pt x 574.145pt>
+File: figures/TkAl_BPIXHBDZ_TCHP.png Graphic file (type png)
+<use figures/TkAl_BPIXHBDZ_TCHP.png>
+<789FIG figures/TkAl_BPIXHBDZ_CSV 33>
+<figures/TkAl_BPIXHBDZ_CSV.png, id=499, 598.235pt x 574.145pt>
+File: figures/TkAl_BPIXHBDZ_CSV.png Graphic file (type png)
+<use figures/TkAl_BPIXHBDZ_CSV.png>
+<789FIG figures/TkAl_BPIXHBDZ_JP 33>
+<figures/TkAl_BPIXHBDZ_JP.png, id=500, 598.235pt x 574.145pt>
+File: figures/TkAl_BPIXHBDZ_JP.png Graphic file (type png)
+<use figures/TkAl_BPIXHBDZ_JP.png>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+)
+<567INP pileup.tex>
+
+(/home/pivarski/physics/hepr8.physics.tamu.edu/talks/tdr2/notes/AN-11-180/trunk
+/pileup.tex
+<789FIG BigDraft 34>
+File: BigDraft.pdf Graphic file (type pdf)
+<use BigDraft.pdf> [24]
+<789FIG BigDraft 34>
+File: BigDraft.pdf Graphic file (type pdf)
+<use BigDraft.pdf> [25 </home/pivarski/physics/hepr8.physics.tamu.edu/talks/tdr
+2/notes/AN-11-180/trunk/figures/TkAl_PV.png (PNG copy)>]
+<789FIG BigDraft 34>
+File: BigDraft.pdf Graphic file (type pdf)
+<use BigDraft.pdf> [26 </home/pivarski/physics/hepr8.physics.tamu.edu/talks/tdr
+2/notes/AN-11-180/trunk/figures/TkAl_MC2010_TCHE.png (PNG copy)> </home/pivarsk
+i/physics/hepr8.physics.tamu.edu/talks/tdr2/notes/AN-11-180/trunk/figures/TkAl_
+MC2010_TCHP.png (PNG copy)> </home/pivarski/physics/hepr8.physics.tamu.edu/talk
+s/tdr2/notes/AN-11-180/trunk/figures/TkAl_MC2010_CSV.png (PNG copy)> </home/piv
+arski/physics/hepr8.physics.tamu.edu/talks/tdr2/notes/AN-11-180/trunk/figures/T
+kAl_MC2010_JP.png (PNG copy)>]
+<789FIG BigDraft 34>
+File: BigDraft.pdf Graphic file (type pdf)
+<use BigDraft.pdf> [27 </home/pivarski/physics/hepr8.physics.tamu.edu/talks/tdr
+2/notes/AN-11-180/trunk/figures/TkAl_BPIXHBDZ_TCHE.png (PNG copy)> </home/pivar
+ski/physics/hepr8.physics.tamu.edu/talks/tdr2/notes/AN-11-180/trunk/figures/TkA
+l_BPIXHBDZ_TCHP.png (PNG copy)> </home/pivarski/physics/hepr8.physics.tamu.edu/
+talks/tdr2/notes/AN-11-180/trunk/figures/TkAl_BPIXHBDZ_CSV.png (PNG copy)> </ho
+me/pivarski/physics/hepr8.physics.tamu.edu/talks/tdr2/notes/AN-11-180/trunk/fig
+ures/TkAl_BPIXHBDZ_JP.png (PNG copy)>]
+<789FIG figures/npv_no_scaled_Linear.png 34>
+<figures/npv_no_scaled_Linear.png, id=525, 780.9175pt x 525.965pt>
+File: figures/npv_no_scaled_Linear.png Graphic file (type png)
+<use figures/npv_no_scaled_Linear.png>
+<789FIG figures/npv_ntracks_jet_Linear.png 35>
+<figures/npv_ntracks_jet_Linear.png, id=529, 780.9175pt x 525.965pt>
+File: figures/npv_ntracks_jet_Linear.png Graphic file (type png)
+<use figures/npv_ntracks_jet_Linear.png>
+<789FIG figures/npv_ncutseltracks_jet_Linear.png 35>
+<figures/npv_ncutseltracks_jet_Linear.png, id=530, 780.9175pt x 525.965pt>
+File: figures/npv_ncutseltracks_jet_Linear.png Graphic file (type png)
+<use figures/npv_ncutseltracks_jet_Linear.png>
+<789FIG figures/npv_IP3d2sig0_Log.png 36>
+<figures/npv_IP3d2sig0_Log.png, id=533, 780.9175pt x 525.965pt>
+File: figures/npv_IP3d2sig0_Log.png Graphic file (type png)
+<use figures/npv_IP3d2sig0_Log.png>
+<789FIG figures/npv_flightsig3d_Log.png 36>
+<figures/npv_flightsig3d_Log.png, id=534, 780.9175pt x 525.965pt>
+File: figures/npv_flightsig3d_Log.png Graphic file (type png)
+<use figures/npv_flightsig3d_Log.png>
+<789FIG figures/npv_svmass_Linear.png 36>
+<figures/npv_svmass_Linear.png, id=535, 780.9175pt x 525.965pt>
+File: figures/npv_svmass_Linear.png Graphic file (type png)
+<use figures/npv_svmass_Linear.png>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<789FIG figures/npv_nsv0_Log.png 37>
+<figures/npv_nsv0_Log.png, id=536, 780.9175pt x 525.965pt>
+File: figures/npv_nsv0_Log.png Graphic file (type png)
+<use figures/npv_nsv0_Log.png>
+<789FIG figures/npv_nsv0_3tr_Log.png 37>
+<figures/npv_nsv0_3tr_Log.png, id=537, 780.9175pt x 525.965pt>
+File: figures/npv_nsv0_3tr_Log.png Graphic file (type png)
+<use figures/npv_nsv0_3tr_Log.png>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<789FIG BigDraft 38>
+File: BigDraft.pdf Graphic file (type pdf)
+<use BigDraft.pdf> [28
+
+ </home/pivarski/physics/hepr8.physics.tamu.edu/talks/tdr2/notes/AN-11-180/trun
+k/figures/npv_no_scaled_Linear.png (PNG copy)> </home/pivarski/physics/hepr8.ph
+ysics.tamu.edu/talks/tdr2/notes/AN-11-180/trunk/figures/npv_ntracks_jet_Linear.
+png (PNG copy)> </home/pivarski/physics/hepr8.physics.tamu.edu/talks/tdr2/notes
+/AN-11-180/trunk/figures/npv_ncutseltracks_jet_Linear.png (PNG copy)>]
+<789FIG figures/pileupPerfTCHE.png 38>
+<figures/pileupPerfTCHE.png, id=548, 697.60625pt x 631.35875pt>
+File: figures/pileupPerfTCHE.png Graphic file (type png)
+<use figures/pileupPerfTCHE.png>
+<789FIG figures/pileupPerfTCHP.png 38>
+<figures/pileupPerfTCHP.png, id=549, 673.51625pt x 654.445pt>
+File: figures/pileupPerfTCHP.png Graphic file (type png)
+<use figures/pileupPerfTCHP.png>
+<789FIG figures/pileupPerfSSV.png 38>
+<figures/pileupPerfSSV.png, id=550, 658.46pt x 662.475pt>
+File: figures/pileupPerfSSV.png Graphic file (type png)
+<use figures/pileupPerfSSV.png>)
+<567INP newdevelopments.tex>
+
+(/home/pivarski/physics/hepr8.physics.tamu.edu/talks/tdr2/notes/AN-11-180/trunk
+/newdevelopments.tex
+<789FIG BigDraft 39>
+File: BigDraft.pdf Graphic file (type pdf)
+<use BigDraft.pdf> [29 </home/pivarski/physics/hepr8.physics.tamu.edu/talks/tdr
+2/notes/AN-11-180/trunk/figures/npv_IP3d2sig0_Log.png (PNG copy)> </home/pivars
+ki/physics/hepr8.physics.tamu.edu/talks/tdr2/notes/AN-11-180/trunk/figures/npv_
+flightsig3d_Log.png (PNG copy)> </home/pivarski/physics/hepr8.physics.tamu.edu/
+talks/tdr2/notes/AN-11-180/trunk/figures/npv_svmass_Linear.png (PNG copy)> </ho
+me/pivarski/physics/hepr8.physics.tamu.edu/talks/tdr2/notes/AN-11-180/trunk/fig
+ures/npv_nsv0_Log.png (PNG copy)> </home/pivarski/physics/hepr8.physics.tamu.ed
+u/talks/tdr2/notes/AN-11-180/trunk/figures/npv_nsv0_3tr_Log.png (PNG copy)> </h
+ome/pivarski/physics/hepr8.physics.tamu.edu/talks/tdr2/notes/AN-11-180/trunk/fi
+gures/pileupPerfTCHE.png (PNG copy)> </home/pivarski/physics/hepr8.physics.tamu
+.edu/talks/tdr2/notes/AN-11-180/trunk/figures/pileupPerfTCHP.png (PNG copy)> </
+home/pivarski/physics/hepr8.physics.tamu.edu/talks/tdr2/notes/AN-11-180/trunk/f
+igures/pileupPerfSSV.png (PNG copy)>]
+Overfull \hbox (0.8175pt too wide) in paragraph at lines 13--17
+[]\OT1/ppl/m/n/10.95 A sim-ple clas-si-fier was cho-sen as a first step, to mak
+e sure that the work-flow is well-understood.
+ []
+
+)
+<567INP AN-11-180_temp.bbl>
+
+(/home/pivarski/physics/hepr8.physics.tamu.edu/talks/tdr2/notes/tmp/AN-11-180_t
+emp.bbl
+<789FIG BigDraft 39>
+File: BigDraft.pdf Graphic file (type pdf)
+<use BigDraft.pdf> [30])
+<789FIG BigDraft 39>
+File: BigDraft.pdf Graphic file (type pdf)
+<use BigDraft.pdf> [31]
+<567INP appendixA.tex>
+
+(/home/pivarski/physics/hepr8.physics.tamu.edu/talks/tdr2/notes/AN-11-180/trunk
+/appendixA.tex
+<789FIG figures/HLTJet30IP3d1sorted_Log.png 39>
+<figures/HLTJet30IP3d1sorted_Log.png, id=581, 780.9175pt x 525.965pt>
+File: figures/HLTJet30IP3d1sorted_Log.png Graphic file (type png)
+<use figures/HLTJet30IP3d1sorted_Log.png>
+<789FIG figures/placeholder.png 39>
+<figures/placeholder.png, id=582, 780.9175pt x 525.965pt>
+File: figures/placeholder.png Graphic file (type png)
+<use figures/placeholder.png>
+<789FIG figures/HLTJet30IP3d1sigsorted_Log.png 39>
+<figures/HLTJet30IP3d1sigsorted_Log.png, id=583, 780.9175pt x 525.965pt>
+File: figures/HLTJet30IP3d1sigsorted_Log.png Graphic file (type png)
+<use figures/HLTJet30IP3d1sigsorted_Log.png>
+<789FIG figures/HLTJet30IP3d2sorted_Log.png 40>
+<figures/HLTJet30IP3d2sorted_Log.png, id=584, 780.9175pt x 525.965pt>
+File: figures/HLTJet30IP3d2sorted_Log.png Graphic file (type png)
+<use figures/HLTJet30IP3d2sorted_Log.png>
+<789FIG figures/placeholder.png 40>
+File: figures/placeholder.png Graphic file (type png)
+<use figures/placeholder.png>
+<789FIG figures/HLTJet30IP3d2sigsorted_Log.png 40>
+<figures/HLTJet30IP3d2sigsorted_Log.png, id=585, 780.9175pt x 525.965pt>
+File: figures/HLTJet30IP3d2sigsorted_Log.png Graphic file (type png)
+<use figures/HLTJet30IP3d2sigsorted_Log.png>
+<789FIG figures/HLTJet30IP3d3sorted_Log.png 41>
+<figures/HLTJet30IP3d3sorted_Log.png, id=586, 780.9175pt x 525.965pt>
+File: figures/HLTJet30IP3d3sorted_Log.png Graphic file (type png)
+<use figures/HLTJet30IP3d3sorted_Log.png>
+<789FIG figures/placeholder.png 41>
+File: figures/placeholder.png Graphic file (type png)
+<use figures/placeholder.png>
+<789FIG figures/HLTJet30IP3d3sigsorted_Log.png 41>
+<figures/HLTJet30IP3d3sigsorted_Log.png, id=587, 780.9175pt x 525.965pt>
+File: figures/HLTJet30IP3d3sigsorted_Log.png Graphic file (type png)
+<use figures/HLTJet30IP3d3sigsorted_Log.png>
+<789FIG figures/HLTJet30trackIP3d_cutsel_Log.png 42>
+<figures/HLTJet30trackIP3d_cutsel_Log.png, id=588, 780.9175pt x 525.965pt>
+File: figures/HLTJet30trackIP3d_cutsel_Log.png Graphic file (type png)
+<use figures/HLTJet30trackIP3d_cutsel_Log.png>
+<789FIG figures/HLTJet30trackIP3dError_cutsel_Log.png 42>
+
+<figures/HLTJet30trackIP3dError_cutsel_Log.png, id=589, 780.9175pt x 525.965pt>
+File: figures/HLTJet30trackIP3dError_cutsel_Log.png Graphic file (type png)
+<use figures/HLTJet30trackIP3dError_cutsel_Log.png>
+<789FIG figures/HLTJet30trackIP3dsig_cutsel_Log.png 42>
+<figures/HLTJet30trackIP3dsig_cutsel_Log.png, id=590, 780.9175pt x 525.965pt>
+File: figures/HLTJet30trackIP3dsig_cutsel_Log.png Graphic file (type png)
+<use figures/HLTJet30trackIP3dsig_cutsel_Log.png>
+<789FIG figures/HLTJet30sv_nvertices0_Log.png 43>
+<figures/HLTJet30sv_nvertices0_Log.png, id=593, 780.9175pt x 525.965pt>
+File: figures/HLTJet30sv_nvertices0_Log.png Graphic file (type png)
+<use figures/HLTJet30sv_nvertices0_Log.png>
+<789FIG figures/HLTJet30sv_trackmul_Linear.png 43>
+<figures/HLTJet30sv_trackmul_Linear.png, id=594, 780.9175pt x 525.965pt>
+File: figures/HLTJet30sv_trackmul_Linear.png Graphic file (type png)
+<use figures/HLTJet30sv_trackmul_Linear.png>
+<789FIG figures/placeholder.png 43>
+File: figures/placeholder.png Graphic file (type png)
+<use figures/placeholder.png>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<789FIG figures/HLTJet30sv_mass_Linear.png 44>
+<figures/HLTJet30sv_mass_Linear.png, id=595, 780.9175pt x 525.965pt>
+File: figures/HLTJet30sv_mass_Linear.png Graphic file (type png)
+<use figures/HLTJet30sv_mass_Linear.png>
+<789FIG figures/HLTJet30sv_mass_3tr_Linear.png 44>
+<figures/HLTJet30sv_mass_3tr_Linear.png, id=596, 780.9175pt x 525.965pt>
+File: figures/HLTJet30sv_mass_3tr_Linear.png Graphic file (type png)
+<use figures/HLTJet30sv_mass_3tr_Linear.png>
+<789FIG figures/HLTJet30sv_vtx_pt_Linear.png 44>
+<figures/HLTJet30sv_vtx_pt_Linear.png, id=597, 780.9175pt x 525.965pt>
+File: figures/HLTJet30sv_vtx_pt_Linear.png Graphic file (type png)
+<use figures/HLTJet30sv_vtx_pt_Linear.png>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<789FIG figures/HLTJet30sv_flightsig3d_Log.png 45>
+<figures/HLTJet30sv_flightsig3d_Log.png, id=598, 780.9175pt x 525.965pt>
+File: figures/HLTJet30sv_flightsig3d_Log.png Graphic file (type png)
+<use figures/HLTJet30sv_flightsig3d_Log.png>
+<789FIG figures/HLTJet30sv_eratio_Linear.png 45>
+<figures/HLTJet30sv_eratio_Linear.png, id=599, 780.9175pt x 525.965pt>
+File: figures/HLTJet30sv_eratio_Linear.png Graphic file (type png)
+<use figures/HLTJet30sv_eratio_Linear.png>
+<789FIG figures/HLTJet30sv_normchi2_Linear.png 45>
+<figures/HLTJet30sv_normchi2_Linear.png, id=600, 780.9175pt x 525.965pt>
+File: figures/HLTJet30sv_normchi2_Linear.png Graphic file (type png)
+<use figures/HLTJet30sv_normchi2_Linear.png>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<789FIG figures/HLTJet30sv_deltar_jet_Linear.png 46>
+<figures/HLTJet30sv_deltar_jet_Linear.png, id=601, 780.9175pt x 525.965pt>
+File: figures/HLTJet30sv_deltar_jet_Linear.png Graphic file (type png)
+<use figures/HLTJet30sv_deltar_jet_Linear.png>
+<789FIG figures/HLTJet30sv_deltar_sum_jet_Linear.png 46>
+
+<figures/HLTJet30sv_deltar_sum_jet_Linear.png, id=602, 780.9175pt x 525.965pt>
+File: figures/HLTJet30sv_deltar_sum_jet_Linear.png Graphic file (type png)
+<use figures/HLTJet30sv_deltar_sum_jet_Linear.png>
+<789FIG figures/HLTJet30sv_deltar_sum_dir_Linear.png 46>
+
+<figures/HLTJet30sv_deltar_sum_dir_Linear.png, id=603, 780.9175pt x 525.965pt>
+File: figures/HLTJet30sv_deltar_sum_dir_Linear.png Graphic file (type png)
+<use figures/HLTJet30sv_deltar_sum_dir_Linear.png>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<789FIG figures/HLTJet30discri_tche_Log.png 47>
+<figures/HLTJet30discri_tche_Log.png, id=604, 780.9175pt x 525.965pt>
+File: figures/HLTJet30discri_tche_Log.png Graphic file (type png)
+<use figures/HLTJet30discri_tche_Log.png>
+<789FIG figures/HLTJet30discri_tchp_Log.png 47>
+<figures/HLTJet30discri_tchp_Log.png, id=605, 780.9175pt x 525.965pt>
+File: figures/HLTJet30discri_tchp_Log.png Graphic file (type png)
+<use figures/HLTJet30discri_tchp_Log.png>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<789FIG figures/HLTJet30discri_jetprob_Log.png 48>
+<figures/HLTJet30discri_jetprob_Log.png, id=606, 780.9175pt x 525.965pt>
+File: figures/HLTJet30discri_jetprob_Log.png Graphic file (type png)
+<use figures/HLTJet30discri_jetprob_Log.png>
+<789FIG figures/HLTJet30discri_jetbprob_Log.png 48>
+<figures/HLTJet30discri_jetbprob_Log.png, id=607, 780.9175pt x 525.965pt>
+File: figures/HLTJet30discri_jetbprob_Log.png Graphic file (type png)
+<use figures/HLTJet30discri_jetbprob_Log.png>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<789FIG figures/HLTJet30discri_ssche_Linear.png 49>
+<figures/HLTJet30discri_ssche_Linear.png, id=608, 780.9175pt x 525.965pt>
+File: figures/HLTJet30discri_ssche_Linear.png Graphic file (type png)
+<use figures/HLTJet30discri_ssche_Linear.png>
+<789FIG figures/HLTJet30discri_sschp_Linear.png 49>
+<figures/HLTJet30discri_sschp_Linear.png, id=609, 780.9175pt x 525.965pt>
+File: figures/HLTJet30discri_sschp_Linear.png Graphic file (type png)
+<use figures/HLTJet30discri_sschp_Linear.png>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<789FIG figures/placeholder.png 50>
+File: figures/placeholder.png Graphic file (type png)
+<use figures/placeholder.png>
+<789FIG figures/placeholder.png 50>
+File: figures/placeholder.png Graphic file (type png)
+<use figures/placeholder.png>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<789FIG figures/placeholder.png 51>
+File: figures/placeholder.png Graphic file (type png)
+<use figures/placeholder.png>
+<789FIG figures/placeholder.png 51>
+File: figures/placeholder.png Graphic file (type png)
+<use figures/placeholder.png>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<789FIG figures/placeholder.png 52>
+File: figures/placeholder.png Graphic file (type png)
+<use figures/placeholder.png>
+<789FIG figures/placeholder.png 52>
+File: figures/placeholder.png Graphic file (type png)
+<use figures/placeholder.png>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<789FIG figures/HLTbtagmu_dijet20mu5mujetmuonPt_Linear.png 53>
+
+<figures/HLTbtagmu_dijet20mu5mujetmuonPt_Linear.png, id=610, 780.9175pt x 525.9
+65pt>
+File: figures/HLTbtagmu_dijet20mu5mujetmuonPt_Linear.png Graphic file (type png
+)
+<use figures/HLTbtagmu_dijet20mu5mujetmuonPt_Linear.png>
+<789FIG figures/placeholder.png 53>
+File: figures/placeholder.png Graphic file (type png)
+<use figures/placeholder.png>
+<789FIG figures/placeholder.png 53>
+File: figures/placeholder.png Graphic file (type png)
+<use figures/placeholder.png>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<789FIG figures/HLTbtagmu_dijet20mu5mujetmuon_ptrel_Linear.png 54>
+
+<figures/HLTbtagmu_dijet20mu5mujetmuon_ptrel_Linear.png, id=611, 780.9175pt x 5
+25.965pt>
+File: figures/HLTbtagmu_dijet20mu5mujetmuon_ptrel_Linear.png Graphic file (type
+ png)
+<use figures/HLTbtagmu_dijet20mu5mujetmuon_ptrel_Linear.png>
+<789FIG figures/HLTbtagmu_dijet20mu5mujetmuonDeltaR_Linear.png 54>
+
+<figures/HLTbtagmu_dijet20mu5mujetmuonDeltaR_Linear.png, id=612, 780.9175pt x 5
+25.965pt>
+File: figures/HLTbtagmu_dijet20mu5mujetmuonDeltaR_Linear.png Graphic file (type
+ png)
+<use figures/HLTbtagmu_dijet20mu5mujetmuonDeltaR_Linear.png>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<789FIG figures/HLTbtagmu_dijet20mu5mujetsv_deltar_jet_Linear.png 55>
+
+<figures/HLTbtagmu_dijet20mu5mujetsv_deltar_jet_Linear.png, id=613, 780.9175pt 
+x 525.965pt>
+File: figures/HLTbtagmu_dijet20mu5mujetsv_deltar_jet_Linear.png Graphic file (t
+ype png)
+<use figures/HLTbtagmu_dijet20mu5mujetsv_deltar_jet_Linear.png>
+<789FIG figures/HLTbtagmu_dijet20mu5mujetsv_deltar_sum_jet_Linear.png 55>
+
+<figures/HLTbtagmu_dijet20mu5mujetsv_deltar_sum_jet_Linear.png, id=614, 780.917
+5pt x 525.965pt>
+File: figures/HLTbtagmu_dijet20mu5mujetsv_deltar_sum_jet_Linear.png Graphic fil
+e (type png)
+<use figures/HLTbtagmu_dijet20mu5mujetsv_deltar_sum_jet_Linear.png>
+<789FIG figures/HLTbtagmu_dijet20mu5mujetsv_deltar_sum_dir_Linear.png 55>
+
+<figures/HLTbtagmu_dijet20mu5mujetsv_deltar_sum_dir_Linear.png, id=615, 780.917
+5pt x 525.965pt>
+File: figures/HLTbtagmu_dijet20mu5mujetsv_deltar_sum_dir_Linear.png Graphic fil
+e (type png)
+<use figures/HLTbtagmu_dijet20mu5mujetsv_deltar_sum_dir_Linear.png>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+)
+<789FIG BigDraft 56>
+File: BigDraft.pdf Graphic file (type pdf)
+<use BigDraft.pdf> [32
+
+ </home/pivarski/physics/hepr8.physics.tamu.edu/talks/tdr2/notes/AN-11-180/trun
+k/figures/HLTJet30IP3d1sorted_Log.png (PNG copy)> </home/pivarski/physics/hepr8
+.physics.tamu.edu/talks/tdr2/notes/AN-11-180/trunk/figures/placeholder.png (PNG
+ copy)> </home/pivarski/physics/hepr8.physics.tamu.edu/talks/tdr2/notes/AN-11-1
+80/trunk/figures/HLTJet30IP3d1sigsorted_Log.png (PNG copy)> </home/pivarski/phy
+sics/hepr8.physics.tamu.edu/talks/tdr2/notes/AN-11-180/trunk/figures/HLTJet30IP
+3d2sorted_Log.png (PNG copy)> </home/pivarski/physics/hepr8.physics.tamu.edu/ta
+lks/tdr2/notes/AN-11-180/trunk/figures/HLTJet30IP3d2sigsorted_Log.png (PNG copy
+)> </home/pivarski/physics/hepr8.physics.tamu.edu/talks/tdr2/notes/AN-11-180/tr
+unk/figures/HLTJet30IP3d3sorted_Log.png (PNG copy)> </home/pivarski/physics/hep
+r8.physics.tamu.edu/talks/tdr2/notes/AN-11-180/trunk/figures/HLTJet30IP3d3sigso
+rted_Log.png (PNG copy)> </home/pivarski/physics/hepr8.physics.tamu.edu/talks/t
+dr2/notes/AN-11-180/trunk/figures/HLTJet30trackIP3d_cutsel_Log.png (PNG copy)> 
+</home/pivarski/physics/hepr8.physics.tamu.edu/talks/tdr2/notes/AN-11-180/trunk
+/figures/HLTJet30trackIP3dError_cutsel_Log.png (PNG copy)> </home/pivarski/phys
+ics/hepr8.physics.tamu.edu/talks/tdr2/notes/AN-11-180/trunk/figures/HLTJet30tra
+ckIP3dsig_cutsel_Log.png (PNG copy)>]
+<789FIG BigDraft 56>
+File: BigDraft.pdf Graphic file (type pdf)
+<use BigDraft.pdf> [33 </home/pivarski/physics/hepr8.physics.tamu.edu/talks/tdr
+2/notes/AN-11-180/trunk/figures/HLTJet30sv_nvertices0_Log.png (PNG copy)> </hom
+e/pivarski/physics/hepr8.physics.tamu.edu/talks/tdr2/notes/AN-11-180/trunk/figu
+res/HLTJet30sv_trackmul_Linear.png (PNG copy)> </home/pivarski/physics/hepr8.ph
+ysics.tamu.edu/talks/tdr2/notes/AN-11-180/trunk/figures/HLTJet30sv_mass_Linear.
+png (PNG copy)> </home/pivarski/physics/hepr8.physics.tamu.edu/talks/tdr2/notes
+/AN-11-180/trunk/figures/HLTJet30sv_mass_3tr_Linear.png (PNG copy)> </home/piva
+rski/physics/hepr8.physics.tamu.edu/talks/tdr2/notes/AN-11-180/trunk/figures/HL
+TJet30sv_vtx_pt_Linear.png (PNG copy)> </home/pivarski/physics/hepr8.physics.ta
+mu.edu/talks/tdr2/notes/AN-11-180/trunk/figures/HLTJet30sv_flightsig3d_Log.png 
+(PNG copy)> </home/pivarski/physics/hepr8.physics.tamu.edu/talks/tdr2/notes/AN-
+11-180/trunk/figures/HLTJet30sv_eratio_Linear.png (PNG copy)> </home/pivarski/p
+hysics/hepr8.physics.tamu.edu/talks/tdr2/notes/AN-11-180/trunk/figures/HLTJet30
+sv_normchi2_Linear.png (PNG copy)> </home/pivarski/physics/hepr8.physics.tamu.e
+du/talks/tdr2/notes/AN-11-180/trunk/figures/HLTJet30sv_deltar_jet_Linear.png (P
+NG copy)> </home/pivarski/physics/hepr8.physics.tamu.edu/talks/tdr2/notes/AN-11
+-180/trunk/figures/HLTJet30sv_deltar_sum_jet_Linear.png (PNG copy)> </home/piva
+rski/physics/hepr8.physics.tamu.edu/talks/tdr2/notes/AN-11-180/trunk/figures/HL
+TJet30sv_deltar_sum_dir_Linear.png (PNG copy)>]
+<789FIG BigDraft 56>
+File: BigDraft.pdf Graphic file (type pdf)
+<use BigDraft.pdf> [34 </home/pivarski/physics/hepr8.physics.tamu.edu/talks/tdr
+2/notes/AN-11-180/trunk/figures/HLTJet30discri_tche_Log.png (PNG copy)> </home/
+pivarski/physics/hepr8.physics.tamu.edu/talks/tdr2/notes/AN-11-180/trunk/figure
+s/HLTJet30discri_tchp_Log.png (PNG copy)> </home/pivarski/physics/hepr8.physics
+.tamu.edu/talks/tdr2/notes/AN-11-180/trunk/figures/HLTJet30discri_jetprob_Log.p
+ng (PNG copy)> </home/pivarski/physics/hepr8.physics.tamu.edu/talks/tdr2/notes/
+AN-11-180/trunk/figures/HLTJet30discri_jetbprob_Log.png (PNG copy)> </home/piva
+rski/physics/hepr8.physics.tamu.edu/talks/tdr2/notes/AN-11-180/trunk/figures/HL
+TJet30discri_ssche_Linear.png (PNG copy)> </home/pivarski/physics/hepr8.physics
+.tamu.edu/talks/tdr2/notes/AN-11-180/trunk/figures/HLTJet30discri_sschp_Linear.
+png (PNG copy)>]
+<789FIG BigDraft 56>
+File: BigDraft.pdf Graphic file (type pdf)
+<use BigDraft.pdf> [35 </home/pivarski/physics/hepr8.physics.tamu.edu/talks/tdr
+2/notes/AN-11-180/trunk/figures/HLTbtagmu_dijet20mu5mujetmuonPt_Linear.png (PNG
+ copy)>]
+<789FIG BigDraft 56>
+File: BigDraft.pdf Graphic file (type pdf)
+<use BigDraft.pdf> [36 </home/pivarski/physics/hepr8.physics.tamu.edu/talks/tdr
+2/notes/AN-11-180/trunk/figures/HLTbtagmu_dijet20mu5mujetmuon_ptrel_Linear.png 
+(PNG copy)> </home/pivarski/physics/hepr8.physics.tamu.edu/talks/tdr2/notes/AN-
+11-180/trunk/figures/HLTbtagmu_dijet20mu5mujetmuonDeltaR_Linear.png (PNG copy)>
+ </home/pivarski/physics/hepr8.physics.tamu.edu/talks/tdr2/notes/AN-11-180/trun
+k/figures/HLTbtagmu_dijet20mu5mujetsv_deltar_jet_Linear.png (PNG copy)> </home/
+pivarski/physics/hepr8.physics.tamu.edu/talks/tdr2/notes/AN-11-180/trunk/figure
+s/HLTbtagmu_dijet20mu5mujetsv_deltar_sum_jet_Linear.png (PNG copy)> </home/piva
+rski/physics/hepr8.physics.tamu.edu/talks/tdr2/notes/AN-11-180/trunk/figures/HL
+Tbtagmu_dijet20mu5mujetsv_deltar_sum_dir_Linear.png (PNG copy)>]
+(/home/pivarski/physics/hepr8.physics.tamu.edu/talks/tdr2/notes/tmp/AN-11-180_t
+emp.aux)
+
+LaTeX Warning: There were undefined references.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 8343 strings out of 495061
+ 130708 string characters out of 1182621
+ 200392 words of memory out of 3000000
+ 10998 multiletter control sequences out of 15000+50000
+ 56783 words of font info for 140 fonts, out of 3000000 for 9000
+ 32 hyphenation exceptions out of 8191
+ 45i,12n,45p,1174b,486s stack positions out of 5000i,500n,10000p,200000b,50000s
+{/usr/share/texmf-texlive/fonts/enc/dvips/base/8r.enc}</usr/share/texmf-texli
+ve/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texmf-texlive/fonts/ty
+pe1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-texlive/fonts/type1/public/
+amsfonts/cm/cmr10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/
+cmsy10.pfb></usr/share/texmf-texlive/fonts/type1/public/mathpazo/fplmr.pfb></us
+r/share/texmf-texlive/fonts/type1/public/mathpazo/fplmri.pfb></usr/share/texmf-
+texlive/fonts/type1/urw/courier/ucrr8a.pfb></usr/share/texmf-texlive/fonts/type
+1/urw/helvetic/uhvb8a.pfb></usr/share/texmf-texlive/fonts/type1/urw/helvetic/uh
+vr8a.pfb></usr/share/texmf-texlive/fonts/type1/urw/palatino/uplb8a.pfb></usr/sh
+are/texmf-texlive/fonts/type1/urw/palatino/uplr8a.pfb></usr/share/texmf-texlive
+/fonts/type1/urw/palatino/uplri8a.pfb>
+Output written on AN-11-180_temp.pdf (38 pages, 2805698 bytes).
+PDF statistics:
+ 725 PDF objects out of 1000 (max. 8388607)
+ 135 named destinations out of 1000 (max. 500000)
+ 828 words of extra memory for PDF output out of 10000 (max. 10000000)
+

@@ -1,0 +1,170 @@
+In this note, we have demonstrated a variety of software procedures for
+aligning different parts of the muon system: layers in DT chambers,
+CSC chambers in rings, and global positions of DT chambers relative to
+the central tracker, using charged tracks.  We have fully exploited the available data,
+horizontal LHC beam-halo muons and vertical cosmic rays.
+
+These procedures will be used without major modifications to re-align
+the muon system with muons from LHC collisions, once such data are
+available.  The azimuthally-symmetric and broad pseudorapidity
+distribution of collisions muons will allow us to extend the global
+alignment to all muon chambers.  Although the endcap chambers are
+sensitive to only three parameters, $\delta_{r\phi}$,
+$\delta_{\phi_y}$ and $\delta_{\phi_z}$ (the same as local CSC
+alignment), these parameters can be determined with 400~$\mu$m,
+0.4~mrad, and 0.6~mrad resolution with similar results for all degrees
+of freedom in the muon barrel, according to 50~pb$^{-1}$ simulations.
+To constrain the remaining CSC parameters, we can exploit the
+complementarity of the endcap hardware alignment
+system~\cite{ref:hardware_alignment} (which measure $\delta_z$ and
+$\delta_{\phi_x}$ directly), and independently test its validity in
+$\delta_{r\phi}$.
+
+Moreover, the addition of collisions muons and larger beam-halo
+datasets will allow new cross-checks to be performed, as the local CSC
+alignment (section~\ref{sec:localcsc}) and CSC layer alignment can be
+performed with both collisions and beam-halo, so we can doubly
+cross-check by performing the same method with different track sources
+and different methods with the same track source.  Similarly,
+collisions and cosmic rays can both be used in the barrel, and they
+differ in how the reference tracks sample the tracker, and hence
+potental input track bias.
+
+By verifying the muon alignment in as many ways as possible, we can
+add confidence to the muon momentum resolution at all energy scales,
+improving sensitivity to signatures of new physics.
+
+\section{Acknowledgements}
+
+We thank the technical and administrative staff at CERN and other 
+CMS Institutes, and acknowledge support from:
+FMSR (Austria); 
+FNRS and FWO (Belgium); 
+CNPq, CAPES, FAPERJ and FAPESP (Brazil); 
+MES (Bulgaria); 
+CERN; 
+CAS, MST and NSFC (China); 
+MST (Croatia); 
+RPF (Cyprus); 
+Academy of Sciences and NICPB (Estonia); 
+Academy of Finland, ME and HIP (Finland); 
+CEA and CNRS/IN2P3 (France); 
+%BMBF and DESY (Germany); 
+BMBF, DFG and HGF (Germany); 
+GSRT and Leventis Foundation (Greece); 
+OTKA and NKTH (Hungary); 
+DAE and DST (India); 
+IPM (Iran); 
+SFI (Ireland); 
+INFN (Italy); 
+KICOS (Korea); 
+CINVESTAV, CONACYT, SEP and UASLP-FAI (Mexico); 
+PAEC (Pakistan); 
+SCSR (Poland); 
+FCT (Portugal); 
+JINR (Armenia, Belarus, Georgia, Ukraine, Uzbekistan);
+MST and MAE (Russia);
+MSD (Serbia);
+MCINN and CPAN (Spain); 
+Swiss Funding Agencies (Switzerland);
+NSC (Taipei); 
+TUBITAK and TAEK (Turkey); 
+STFC (United Kingdom); 
+DOE and NSF (USA).
+
+%%%% Long papers
+%% We thank the technical and administrative staff at CERN and other CMS
+%% Institutes.  This work was supported by 
+%% the Austrian Federal Ministry of Science and Research;
+%% the Belgium Fonds de la Recherche Scientifique, and Fonds voor Wetenschappelijk Onderzoek; 
+%% the Brazilian Funding Agencies (CNPq, CAPES, FAPERJ and FAPESP);
+%% the Bulgarian Ministry of Education and Science; 
+%% CERN; 
+%% the Chinese Academy of Sciences, Ministry of Science and Technology, and National Natural Science Foundation of China; 
+%% the Croatian Ministry of Science and Technology; 
+%% the Research Promotion Foundation, Cyprus; 
+%% the Estonian Academy of Sciences and NICPB; 
+%% the Academy of Finland, Finish Ministry of Education, and Helsinki Institute of Physics; 
+%% the Institut National de Physique Nucl\'eaire et de Physique des
+%%     Particules~/~CNRS, and Commissariat \`a l'\'Energie Atomique, France; 
+%% the Bundesministerium f\"ur Bildung und Forschung,
+%% Deutsche Forschungsgemeinschaft, and
+%% Helmholtz-Gemeinschaft Deutscher Forschungszentren, Germany;
+%% the General Secretariat for Research and Technology, and Leventis Foundation, Greece; 
+%% the National Scientific Research Foundation, and National Office for Research and Technology, Hungary; 
+%% the Department of Atomic Energy, and Department of Science and Technology, India; 
+%% the Institute for Studies in Theoretical Physics and Mathematics, Iran; 
+%% the Science Foundation Ireland; 
+%% the Istituto Nazionale di Fisica Nucleare, Italy; 
+%% the Korean Foundation for International Cooperation of Science and Technology; 
+%% the Mexican Funding Agencies (CINVESTAV, CONACYT, SEP and UASLP-FAI); 
+%% the Pakistan Atomic Energy Commission; 
+%% the State Commission for Scientific Research, Poland; 
+%% the Funda\c{c}\~ao para a Ci\^encia e a Tecnologia, Portugal; 
+%% JINR (Armenia, Belarus, Georgia, Ukraine, Uzbekistan);
+%% the Ministry of Science and Technologies of the Russian Federation, and Russian Ministry of Atomic Energy;
+%% the Ministry of Science and Development of Serbia;
+%% the Ministerio de Ciencia e Innovacion, and Programa Consolider-Ingenio 2010, Spain; 
+%% the Swiss Funding Agencies;
+%% the National Science Council, Taipei; 
+%% the Scientific and Technical Research Council of Turkey, and Turkish Atomic Energy Authority; 
+%% the Science and Technology Facilities Council, UK; 
+%% the US Department of Energy, and National Science Foundation.
+
+%%%% First papers
+%% We thank the technical and administrative staff at CERN and other CMS
+%% Institutes for their devoted efforts during the design, construction
+%% and operation of CMS.  The cost of the detectors, computing
+%% infrastructure, data acquisition and all other systems without which
+%% CMS would not be able to operate was supported by the financing
+%% agencies involved in the experiment.
+%% %
+%% We are particularly indebted to:
+%% the Austrian Federal Ministry of Science and Research;
+%% the Belgium Fonds de la Recherche Scientifique, and Fonds voor Wetenschappelijk Onderzoek; 
+%% the Brazilian Funding Agencies (CNPq, CAPES, FAPERJ and FAPESP);
+%% the Bulgarian Ministry of Education and Science; 
+%% CERN; 
+%% the Chinese Academy of Sciences, Ministry of Science and Technology, and National Natural Science Foundation of China; 
+%% the Croatian Ministry of Science and Technology; 
+%% the Research Promotion Foundation, Cyprus; 
+%% the Estonian Academy of Sciences and NICPB; 
+%% the Academy of Finland, Finish Ministry of Education, and Helsinki Institute of Physics; 
+%% the Institut National de Physique Nucl\'eaire et de Physique des
+%%     Particules~/~CNRS, and Commissariat \`a l'\'Energie Atomique, France; 
+%% the Bundesministerium f\"ur Bildung und Forschung,
+%% Deutsche Forschungsgemeinschaft, and
+%% Helmholtz-Gemeinschaft Deutscher Forschungszentren, Germany;
+%% the General Secretariat for Research and Technology, and Leventis Foundation, Greece; 
+%% the National Scientific Research Foundation, and National Office for Research and Technology, Hungary; 
+%% the Department of Atomic Energy, and Department of Science and Technology, India; 
+%% the Institute for Studies in Theoretical Physics and Mathematics, Iran; 
+%% the Science Foundation Ireland; 
+%% the Istituto Nazionale di Fisica Nucleare, Italy; 
+%% the Korean Foundation for International Cooperation of Science and Technology; 
+%% the Mexican Funding Agencies: CINVESTAV, CONACYT, SEP and UASLP-FAI; 
+%% the Pakistan Atomic Energy Commission; 
+%% the State Commission for Scientific Research, Poland; 
+%% the Funda\c{c}\~ao para a Ci\^encia e a Tecnologia, Portugal; 
+%% JINR (Armenia, Belarus, Georgia, Ukraine, Uzbekistan);
+%% the Ministry of Science and Technologies of the Russian Federation, and Russian Ministry of Atomic Energy;
+%% the Ministry of Science and Development of Serbia;
+%% the Ministerio de Ciencia e Innovacion, and Programa Consolider-Ingenio 2010, Spain; 
+%% the Swiss Funding Agencies;
+%% the National Science Council, Taipei; 
+%% the Scientific and Technical Research Council of Turkey, and Turkish Atomic Energy Authority; 
+%% the Science and Technology Facilities Council, UK; 
+%% the US Department of Energy, and National Science Foundation.
+%% %
+%% We also acknowledge the important contributions provided by the
+%% following institutes:
+%% Research Institute of Applied Physical Problems, Minsk, Belarus;
+%% University for Science and Technology of China, Hefei, Anhui, China;
+%% Digital and Computer Systems Laboratory, Tampere University of Technology, Tampere, Finland;
+%% Seoul National University of Education, Seoul, Korea;
+%% Benemerita Universidad Autonoma de Puebla, Puebla, Mexico;
+%% Myasishchev Design Bureau, Zhukovsky, Russia;
+%% Russian Federal Nuclear Centre, Scientific Research Institute for Technical Physics, Snezhinsk, Russia;
+%% Kharkov State University, Kharkov, Ukraine;
+%% University of Strathclyde, Glasgow, United Kingdom;
+%% Virginia Polytechnic Institute and State University, Blacksburg, Virginia, USA.

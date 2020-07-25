@@ -1,0 +1,71 @@
+\section{Benchmark Models for Signals of New Physics}
+
+\subsection{SUSY with Extra-$\mathcal{U}(1)_{\mbox{\scriptsize dark}}$}
+\label{sec:susy_with_extra_u1}
+
+The scenario we explore is described in~\cite{BaiHan} and is an extension of the ordinary MSSM content with the new particles, most notably a new dark matter particle $\tilde{\chi}_{\mbox{\scriptsize dark}}$, a light mediator $a_{\mbox{\scriptsize dark}}$, and a dark Higgs $h_{\mbox{\scriptsize dark}}$ to give the mediator its mass. The ordinary MSSM LSP is not stable and decays to $\tilde{\chi}_{\mbox{\scriptsize dark}}$ in combination with $h_{\mbox{\scriptsize dark}}$ or $a_{\mbox{\scriptsize dark}}$, or even both (small contribution, $B(\tilde{\chi}^0_1 \to h_d \gamma_d \tilde{\chi}_d)\sim$2\%). 
+
+More specifically, the visible sector in this model is the ordinary MSSM with a Bino-like neutralino LSP, $\tilde{\chi}_0$. The dark sector contains 
+a $\mathcal{U}(1)_{\mbox{\scriptsize dark}}$ gauge group, and two Higgs superfields with opposite charges under $\mathcal{U}(1)_{\mbox{\scriptsize dark}}$. 
+The dark sector interacts with the ordinary MSSM sector through a small kinetic mixing between the $\mathcal{U}(1)_{\mbox{\scriptsize dark}}$ gauge 
+superfield and the $\mathcal{U}(1)_Y$ gauge superfield. The dark sector LSP is the dark Higgsino, $\tilde{\chi}_{\mbox{\scriptsize dark}}$ and is the 
+DM candidate. Correspondingly,
+the dark gauge boson, which is identified as the mediator $a_{\mbox{\scriptsize dark}}$, provides an attractive force between
+two $\tilde{\chi}_{\mbox{\scriptsize dark}}$ particles. $\mathcal{U}(1)_{\mbox{\scriptsize dark}}$ is broken by the vacuum expectation values 
+of the dark Higgs fields (the lightest physical Higgs is denoted as $h_{\mbox{\scriptsize dark}}$), which provide $a_{\mbox{\scriptsize dark}}$ a 
+mass of O(1~GeV/$c^2$). Due to kinetic mixing, $a_{\mbox{\scriptsize dark}}$ can decay to two SM leptons. 
+
+If $m(h_{\mbox{\scriptsize dark}}) > 2 m(a_{\mbox{\scriptsize dark}})$, $h_{\mbox{\scriptsize dark}}$ mainly decays to two on-shell 
+$a_{\mbox{\scriptsize dark}}$ particles, which subsequently
+decay to four Standard Model fermions. For $m(\tilde{\chi}_{\mbox{\scriptsize dark}}) < m(\tilde{\chi}_0^1)$, the MSSM LSP decays 
+via $\tilde{\chi}_0^1 \to \tilde{\chi}_{\mbox{\scriptsize dark}} h_{\mbox{\scriptsize dark}}$, 
+$\tilde{\chi}_0^1 \to \tilde{\chi}_{\mbox{\scriptsize dark}} a_{\mbox{\scriptsize dark}}$, or 
+3-body $\tilde{\chi}_0^1 \to \tilde{\chi}_{\mbox{\scriptsize dark}} h_{\mbox{\scriptsize dark}} a_{\mbox{\scriptsize dark}}$. The 
+ratio of the three-body and the two-body decay widths
+can be hypothetically measured and used to determine the coupling $g$.
+
+The exact parameters chosen are: $m(\tilde{\chi}_{\mbox{\scriptsize dark}}) =300$ GeV/c$^2$, 
+$m(a_{\mbox{\scriptsize dark}}) = 1$ GeV/$c^2$, and $m(h_{\mbox{\scriptsize dark}}) = 3$ GeV/$c^2$, the coupling constant $g = 0.40$ 
+(provides the correct DM relic density). In
+the MSSM sector, the LSP mass was set to $m(\tilde{\chi}_0^1)=400$ GeV/c$^2$ and we scanned over the gluino mass from 500 to 1200 GeV/c$^2$
+while the squark masses for first two generations were set to $m(\tilde{q})=m(\tilde{g})/1.2$ (the third one was assumed to be heavier). In this scenario, the 
+gluino directly decays to quark plus squark and the squark only directly decays to quark plus $\tilde{\chi}_0$.
+
+Samples were generated using MadGraph~\cite{Madgraph} for $2 \to 2$ squark/gluino production. The 2-body and 3-body decays for $\tilde{\chi}_0$ are 
+performed with CalcHEP~\cite{Calchep} and all other particles, including 
+$a_{\mbox{\scriptsize dark}}$, $h_{\mbox{\scriptsize dark}}$ and the other super particles, are decayed with BRIDGE~\cite{Bridge}. In simulating the samples, we set branching for $a_{\mbox{\scriptsize dark}}$ decays to two muons as 100\%, and we will comment on the case with $a_{\mbox{\scriptsize dark}}$ decaying to electrons later. The parton-level events (in the LHE format) are further processed with PYTHIA for showering/hadronization, and a CMS GEANT simulation for detector responce. All of the above have typical pile-up for the 2010 data (estimated for $\mathcal{L} = 6.9\times 10^{31}$ with 156 bunch-crossings, an average of 3 $pp$ collisions per crossing). 
+
+The total cross section for this model is essentially the MSSM cross-section (calculated using MadGraph) for squark/gluino production and depends on gluino and squark masses. Numeric values were obtained using MadGraph. The final states are determined by the decay channels of the lightest MSSM neutralino 
+decaying to one of the three combinations: $\tilde{\chi}_{\mbox{\scriptsize dark}}h_{\mbox{\scriptsize dark}}$, 
+$\tilde{\chi}_{\mbox{\scriptsize dark}}a_{\mbox{\scriptsize dark}}$ with branching fractions of48.7\% each, and 
+$\tilde{\chi}_{\mbox{\scriptsize dark}}h_{\mbox{\scriptsize dark}} a_{\mbox{\scriptsize dark}}$ with a branching 
+fraction of 2.6\%. 
+
+Because the assumption of $B(a \to \mu \mu)=100\%$ may not be true if decay channels $a \to e^+e^-$, $a \to \rho \to \pi \pi$ are allowed, we produced additional samples using the original LHE files by flagging some of the $a_{\mbox{\scriptsize dark}}$ and dropping muons from their decay from consideration, to simulate cases with $B(a_{\mbox{\scriptsize dark}}) \to \mu \mu=$50\% and 33\%.   
+
+\subsection{SUSY with Dark Fermion Cascades}
+\label{sec:susy_with_dark_fermion_cascades}
+Another possible scenario is SUSY with stronger coupling to MSSM and a more complex dark sector consisting of an hierarchy 
+of the new dark bosons and fermions. Here, we follow the model described in~\cite{Ruderman}. The dark photons are produced in cascade decays of dark fermions, radiating $\gamma_{\mbox{\scriptsize dark}}$ or $a_{\mbox{\scriptsize dark}}$, e.g. $\tilde{n}_2 \to \tilde{n}_1 \gamma_{\mbox{\scriptsize dark}}$ or 
+$\tilde{n}_2 \to \tilde{n}_1 a_{\mbox{\scriptsize dark}} (\to \gamma_{\mbox{\scriptsize dark}} \gamma_{\mbox{\scriptsize dark}})$ followed by $\gamma_{\mbox{\scriptsize dark}} \to \mu \mu$ or $\gamma_{\mbox{\scriptsize dark}} \to e^+e^-$. Such dark fermions can be produced at the LHC in strong production of squarks $pp \to \tilde{q}\tilde{\bar{q}}/\tilde{q}\tilde{g}$ with each squark 
+decaying via $\tilde{q} \to q \tilde{n}_2$. Depending on the mass hierarchy of $\tilde{n}_2$, $\tilde{n}_1$, and 
+$\gamma_{\mbox{\scriptsize dark}}$, one could expect either resonant or non-resonant decays of $\gamma_{\mbox{\scriptsize dark}}$ 
+to pairs of muons. In this scenario, $\tilde{n}_1$ is assumed to be stable on the typical collider detector lifetimes. We treat 
+the two scenarios with the squark cascading into either one or two dark photons separately, which assumes that one of the decay topologies may be dominant. If this assumption is not correct, the experimental results can be reinterpreted allowing both types of decays in the same event. The MC samples were produced for the range of squark masses from $m(\tilde{q})=200$--$700$~GeV/c$^2$ in steps of 50~GeV/c$^2$. Gluino mass was set $m(\tilde{g})=1.2 m(\tilde{q})$.
+As a benchmark example scenario for the acceptance calculation shown in the next section, masses of new particles were set to $m(n_2)=2$, $m(n_1)=0.5$, $m(\gamma_{\mbox{\scriptsize dark}})=0.5$, $m(h_{\mbox{\scriptsize dark}})=1.2$ GeV/c$^2$. Two subsets of models were considered with $\mathcal{B}(n_2 \to n_1 h_{\mbox{\scriptsize dark}}=100\%$ or 
+$\mathcal{B}(n_2 \to n_1 h_{\mbox{\scriptsize dark}} \to n_1 a_{\mbox{\scriptsize dark}} a_{\mbox{\scriptsize dark}})=100\%$.  We emulated the scenarios for $\mathcal{B}(a_{\mbox{\scriptsize dark}} \to \mu \mu)$ taking values of 100, 50, and 33\%. Note that the cross-sections used in comparisons of experimental limits and theoretical predictions is calculated in the assumption of squark mass universality (for all three generations) at the electroweak scale. If these masses are not universal, the cross-section can be substantially lower.
+
+\subsection{NMSSM: Modified SM-like Higgs Decay Dynamics}
+\label{sec:nmssm}
+
+As mentioned earlier, the NMSSM extends the standard MSSM by additional singlet superfield leading to broader phenomenology of Higgs production and decay dynamics. In particular, the new allowed decay modes of the SM-like Higgs reduce the braching fractions for Higgs decays into conventional channels weakening LEP limits on allowed Higgs mass range. We follow the phenomenological study published in~\cite{Belyaev:nmssm} and explore the scenario where the CP-even Higgs $h_1$ (the SM-like Higgs) decays via $h_1 \to a_1 a_1$, where $a_1$ is a new light CP-odd Higgs $a_1$ (which typically carries a large fraction of the NMSSM singlet field). If $a_1$ is lighter than $2 m_{\tau}$, it has a high branching fraction for decays into muon pairs, $h_1 \to a_1 a_1 \to 2\mu \, 2\mu$. Both the production rate for the SM-like Higgs $h_1$ (via gluon fusion predominantly) as well as the branching fraction for $h_1 \to a_1 a_1$ can vary significantly depending on the singlet fraction of $h_1$ and $a_1$. Typical production cross-sections $\sigma(pp \to h_1)$ can vary from 0.05 to $\sim10$ pb while $\mathcal{B}(h_1 \to a_1 a_1)$ can be as high as 100\%. Simulated events for a benchmark NMSSM scenario are produced using Pythia~6's~\cite{Pythia} MSSM Higgs subroutines (the $gg \to h$ production with a subsequent decay of $h \to AA$). Higgs masses are set by hand to $m_h = 100$ and $m_a = 2$~GeV/$c^2$. The cross-section times branching fraction for this topology, with these masses, can be anything from 0.05 to 10~pb, depending on the free parameters of the model, especially $\lambda$, the trilinear coupling in the NMSSM superpotential. The NMSSM Higgs production cross-sections are calculated using the SM Higgs production cross-sections $gg \to H_{SM}$~\cite{Spira:1995rr} and $b\bar{b} \to H_{SM}$ with QCD-improved (running) Yukawa couplings~\cite{Balazs:1998sb} corrected for differences in coupling between NMSSM and SM using the NMSSMTools~\cite{nmssmtools}:
+\begin{eqnarray}
+\sigma(gg\to h_1)=\sigma(gg\to H_{SM})\frac{\Gamma(h_1\to gg)}{\Gamma(H_{SM}\to gg)}
+ =\sigma(gg\to H_{SM})\frac{Br(h_1\to gg)\Gamma^{tot}(h_1)}{\Gamma(H_{SM}\to gg)}  \label{eq:ggcross_section} \\
+\sigma(b\bar{b}\to h_1)=\sigma(b\bar{b}\to H_{SM})
+\left(\frac{Y_{bbh_1}}{Y_{bbH_{SM}}}\right)^2 \label{eq:bbcross_section} \\
+\end{eqnarray}
+where $\sigma(gg\to H_{SM})$ and $\Gamma(H_{SM}\to gg)$ are calculated using
+HIGLU~\cite{higlu}, while $Br(h_1\to gg)$, $\Gamma^{tot}(h_1)$, and the ratio of Yukawa couplings 
+$Y_{bbh_1}/Y_{bbH_{SM}}$ are obtained using NMSSMTools.
+

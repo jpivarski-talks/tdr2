@@ -1,0 +1,28 @@
+\section{Development of new algorithms \label{sec:dvelopments}}
+
+\subsection{Improved jet-track association}
+
+\subsection{Combined secondary vertex algorithm}
+
+The discrimination power of all secondary vertex $b$-taggers described
+in \cite{btaggingPAS2009} can be further improved by combining them in
+a multivariate analysis (MVA) \cite{Weiser:2006md}.  A new
+implementation of this technique is in development, using a general
+MVA framework in CMSSW.
+
+A simple classifier was chosen as a first step, to make sure that the
+workflow is well-understood.  Input variables are combined using a Naive
+Bayes likelihood ratio (which assumes that they are uncorrelated), and
+are normalized and rotated to remove linear correlations.
+
+The discriminator is separately optimized in three broad classes: RecoVertex (a
+secondary vertex is fully reconstructed), PseudoVertex (no secondary
+vertex is reconstructed, but at least two tracks are inconsistent with
+the primary vertex with a transverse impact parameter significance
+greater than 2.0), and NoVertex (neither of the above).  These classes
+determine the set of input variables available for optimization.
+
+The work on this project is ongoing.  The MVA framework is modular
+enough to replace classification engines with minimal impact on the
+workflow; thus, the project has a natural upgrade path to more
+sophisticated MVA techniques.

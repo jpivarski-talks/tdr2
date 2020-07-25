@@ -1,0 +1,47 @@
+The Millepede-based algorithm implemented for global alignment is a
+particular case of the most general Millepede algorithm already
+referred to in section~\ref{sec:localdt}.  In this case, the ability
+to fit tracks and alignment parameters together is parameterized, such
+that the algorithm can either let them both float freely (full
+Millepede), or align chambers to a fixed set of tracks (alignment to
+reference).
+
+To align chambers in CRAFT, the algorithm was tuned to use a fixed set
+of tracks from the tracker.  These tracks were propagated into the
+muon system, and unbiased residuals distributions were minimized by
+aligning chambers.  In the language of section~\ref{sec:localdt}, the
+matrices $B_j \to 0$ and $\delta \vec{p}_j$ are no longer parameters
+in the fit.  This also decorrelates alignment parameters in different
+chambers, greatly simplifying the alignment.
+
+As described
+in section~\ref{sec:hipalgo}, the scattering processes that take place in the iron yoke between chambers
+deflect muons in a correlated pattern for all the hits in a same chamber. To account
+for this correlation, single layer hits and the track intersections associated to them
+are combined in a linear fit producing four observables for each chamber: the position
+residuals $\Delta x$, $\Delta y$ and the direction
+residuals $\Delta \frac{dx}{dz}$ and $\Delta \frac{dy}{dz}$.
+Just as in the HIP case, these residuals are related to the 6 alignment parameters $\delta_x$,
+$\delta_y$, $\delta_z$, $\phi_x$, $\phi_y$ and $\phi_z$, by Equation~\ref{eqn:dtmatrix}.
+
+The form of the $\chi^2$ associated with the general Millepede algorithm was shown in Equation~\ref{eqn:chi2millepede}.
+In this implementation of the algorithm, $\chi^2$ has the form     
+\begin{equation}
+{\chi^2}^{\mbox{\scriptsize \, track-based}} = \sum_j \left(\Delta \vec{x} - A \cdot \vec{\delta} \right)^T \, \left({\sigma_{\mbox{\scriptsize resid}_{\mbox{\scriptsize $i$}}}}^2\right)^{-1} \, \left(\Delta \vec{x} - A \cdot \vec{\delta} \right)
+\label{eqn:globalmpchi2}
+\end{equation}
+where the $\Delta \vec{x}$ is a 4-component vector, and
+$A$ is the matrix which relates the residuals with the alignment parameters. The 
+$\left({\sigma_{\mbox{\scriptsize resid}_{\mbox{\scriptsize $i$}}}}^2\right)^{-1}$ matrix
+is the inverse of the covariance calculated from the linear fit estimation of the segments. It
+includes correlations between positions and directions in both projections.
+
+To avoid the influence of the tails of the residuals distributions, a
+filtering operation is performed.  This is especially important
+because the tails of the distributions may not be perfectly symmetric.
+To set cut boundaries for the residuals on each chamber, the peak is
+fitted to a Lorentz function and residuals are required to be within
+the full width at half maximum (between $x_0 - \Gamma/2$ and $x_0
++ \Gamma/2$ where $x_0$ and $\Gamma$ are the peak and full-width at
+half maximum, respectively).  In a one-dimensional application, this
+alignment fit would correspond to a truncated mean.

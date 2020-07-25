@@ -1,0 +1,84 @@
+\clearpage
+\section{Data and Monte Carlo samples, reconstruction and selection \label{sec:samples}}
+Monte Carlo Samples have been generated with PYTHIA6, tune Z2, in several bins of $\hat{p}_T$. Table \ref{tab:MCsamples} shows the names of the MC samples, and the number of processed events. The pileup conditions in data change rapidly so the Monte Carlo cannot be expected to match the data exactly. The Monte Carlo samples have therefore been gererated with a flat pileup distribution including a poissonian tail. This scenario covers roughtly the conditions of the 2011 run. The residual differences in pileup conditions are taken into account with a reweighting procedure as explained later in this section. The samples in Table \ref{tab:MCsamples} have been used for the main commissioning and validation studies in Sections \ref{sec:impactparameter} to \ref{sec:discriminators}. Another set of samples requiring the presence of a muon at generator level has been produced for the studies of muon jets  in Section~\ref{sec:muonjets}. The details of the muon enriched samples are given in Table~\ref{tab:MCsampleMuEnriched}.
+
+\begin{table}[h!]
+\caption{QCD Monte Carlo samples. All sample names have to be extended with the suffix /Spring11-PU\_S1\_START311\_V1G1-v1/AODSIM.}
+\centering
+\begin{tabular}{| l | l |}
+\hline
+sample &  \# events \\
+\verb|/QCD_Pt_5to15_TuneZ2_7TeV_pythia6|     & 3296192 \\
+\verb|/QCD_Pt_15to30_TuneZ2_7TeV_pythia6|    & 8213600 \\
+\verb|/QCD_Pt_30to50_TuneZ2_7TeV_pythia6|    & 6529320 \\
+\verb|/QCD_Pt_50to80_TuneZ2_7TeV_pythia6|    & 4301392 \\
+\verb|/QCD_Pt_80to120_TuneZ2_7TeV_pythia6|   & 6407732 \\
+\verb|/QCD_Pt_120to170_TuneZ2_7TeV_pythia6|  & 6090400 \\
+\verb|/QCD_Pt_170to300_TuneZ2_7TeV_pythia6|  & 5684160 \\
+\verb|/QCD_Pt_300to470_TuneZ2_7TeV_pythia6|  & 6336960 \\
+\hline
+\end{tabular}
+\label{tab:MCsamples}
+\end{table}
+
+\begin{table}[h!]
+\caption{Muon Enriched Monte Carlo samples. All sample names have the suffix /Spring11-PU\_S1\_START311\_V1G1-v1/AODSIM.}
+\centering
+\begin{tabular}{| l | l |}
+\hline
+sample &  \# events \\
+\verb|/QCD_Pt-15to20_MuPt5Enriched_TuneZ2_7TeV-pythia6|   & 2884915  \\
+\verb|/QCD_Pt-20to30_MuPt5Enriched_TuneZ2_7TeV-pythia6|   & 11352301 \\
+\verb|/QCD_Pt-30to50_MuPt5Enriched_TuneZ2_7TeV-pythia6|   & 10909951 \\
+\verb|/QCD_Pt-50to80_MuPt5Enriched_TuneZ2_7TeV-pythia6|   & 10686315 \\
+\verb|/QCD_Pt-80to120_MuPt5Enriched_TuneZ2_7TeV-pythia6|  & 3183540  \\
+\verb|/QCD_Pt-120to150_MuPt5Enriched_TuneZ2_7TeV-pythia6| & 991024   \\
+\verb|/QCD_Pt-150_MuPt5Enriched_TuneZ2_7TeV-pythia6|      & 1015900  \\
+\hline
+\end{tabular}
+\label{tab:MCsampleMuEnriched}
+\end{table}
+
+
+
+
+We use "Particle Flow Jets" (PFjets) \cite{bib:particleFlow} using the anti-$k_T$ jet clustering method \cite{AntiKT} with cone radius parameter $\Delta R = \sqrt{\Delta \eta^2 + \Delta \phi^2} = 0.5$. In addition, ``L2L3'' Jet energy corrections and the following   jet ID cuts are applied:
+\begin{verbatim}
+pt > 10.0 && abs(eta) < 2.5 && neutralHadronEnergyFraction < 1.0 && 
+neutralEmEnergyFraction < 1.0  && nConstituents > 1 && 
+chargedHadronEnergyFraction > 0.0 && chargedMultiplicity > 0.0 && 
+chargedEmEnergyFraction < 1.0
+\end{verbatim}
+The jet ID cuts are introduced after the L2L3 energy corrections.
+
+
+Tracks are reconstructed using the standard CMS iterative tracking procedure. The Combinatorial
+Kalman Filter algorithm \cite{CMS_PTDR_1, CMSTRK10001, CMS_PAS_TRK-10-005}  is applied in an iterative way with increasingly relaxed impact parameter constraint and different seeding layers. 
+
+The primary vertex (PV) is reconstructed from all  tracks in the event which are compatible with the beam spot. The new ``Deterministic Annealing Filter'' (DA) algorithm is used for PV reconstruction ({\bf FIXME: reference plus more details})
+
+The CMSSW software version 4.1.6 is used to analyze the Monte Carlo samples. This version has been patched with a backport of the DA primary vertex reconstructor and a fixed version of the secondary vertex producer. Data samples are analyzed with CMSSW 4.2.3 without any additional patches.
+
+The commissioning studies in Sections \ref{sec:impactparameter} to \ref{sec:discriminators} are using a single jet trigger \verb|HLT_Jet60| for data, while the trigger \verb|HLTJet30U| is applied in Monte Carlo samples.  A jet $p_t$ threshold of 60~GeV is applied both in data and Monte Carlo. It has been verified that the resulting jet $p_t$ spectra are in reasonable agreement between data and Monte Carlo.
+
+The studies requiring muons in jets have been made applying the jet+muon di-jet trigger \verb|HLT_BTagMu_DiJet40_Mu5| in data. Both in data and Monte Carlo, the requirement of two jets with $p_t > 60$ and one jet with $p_t > 65$ GeV is applied. Muons are required to have transverse momentum $p_t >$ 7 GeV.
+
+In addition, another set of validation plots are produced with lower trigger threshold (\verb|HLT_Jet30| in data and \verb|HLTJet15U| in Monte Carlo)  and lower jet momentum cut of $p_t >$ 30 GeV in case of the single jet triggers. For the b-jet triggers another set of plots has been produced with \verb|HLT_BTagMu_DiJet20_Mu5|, requiring two jets with $p_t >$ 40 GeV, one of them with $p_t >$ 45 GeV. Details are given in Appendix \ref{sec:AppendixA}.
+
+An overview of the used data samples, triggers and effective integrated luminosity (including trigger prescales) is given in Table \ref{tab:dataSamples}.
+
+\begin{tabular}{| l | l | l |}
+\hline
+sample &  trigger & effective lumi \\
+\verb|/Jet/Run2011A-PromptReco-v1(v2)|      & \verb|HLT_Jet30|              & $3.06 \cdot 10^{-3}$ pb$^{-1}$ \\
+\verb|/Jet/Run2011A-PromptReco-v1(v2)|      & \verb|HLT_Jet60|              & 0.056 pb$^{-1}$ \\
+\verb|/METBTag/Run2011A-PromptReco-v1(v2)|  & \verb|HLT_BTagMu_DiJet20_Mu5| & 1.62 pb$^{-1}$ \\
+\verb|/METBTag/Run2011A-PromptReco-v1(v2)|  & \verb|HLT_BTagMu_DiJet40_Mu5| & 3.12 pb$^{-1}$ \\
+\hline
+\end{tabular}
+\label{tab:dataSamples}
+\end{table}
+
+The number of reconstructed primary vertices is shown in Section \ref{sec:pileup}. It is visible that Monte Carlo does not describe the pileup multiplicity correctly. We therefore apply a vertex reweighting procedure in which all distributions obtained from Monte Carlo are reweighted so that the vertex multiplicity agrees between data and Monte Carlo. This reweighting procedure has been applied for all distributions in Sections \ref{sec:impactparameter} to \ref{sec:muonjets}.
+
+

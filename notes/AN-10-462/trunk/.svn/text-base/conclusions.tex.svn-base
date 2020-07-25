@@ -1,0 +1,27 @@
+\section{Conclusions}
+
+In a model-independent search for groups of collimated muons from $m_1
+\to \mu\mu$, we found zero events consistent with two or more $m_1$
+decays in the same event, and no excess over backgrounds for single,
+high-$p_T$ $m_1$ decays.  Relaxing the assumption that $m_1$ must be
+on-shell in $m_2 \to m_1 m_1 \to 4\mu$ cascades and searching for any
+collimated group of four or more muons, we found one event, but this
+event is fully consistent with expected backgrounds from fake muons.
+All CMS Run 2010A and 2010B events with four or more muons and two
+high-$p_T$ muons with $m_{\mbox{\scriptsize inv}} < 5$~GeV/$c^2$ are
+presented with background PDFs in Fig.~\ref{fig:signalregion_events}.
+
+With these observations, three limits on any new physics producing
+low-mass multi-muons are presented in
+Fig.~\ref{fig:signalregion_limits}.  New physics producing four or
+more muons is excluded above a $\sigma \times \mathcal{B} \times
+\alpha_{\mbox{\scriptsize gen}}$ of 0.1~pb at 95\% confidence level,
+corresponding to a limit of three events, as no background was
+observed.  The limit for high-$p_T$ low-mass dimuons is more complex,
+as it was extracted from a channel with Standard Model backgrounds.
+
+To illustrate the use of these model-independent results, we applied
+it to three benchmark models with acceptances presented in
+Table~\ref{tab:acceptance_benchmarks} and
+Appendix~\ref{sec:appendix_reco_eff}.  These limits are shown in
+Figs.~\ref{fig:ulimit} and \ref{fig:ulimit2}.

@@ -1,0 +1,36 @@
+Page 7, first paragraph of section 3.2: "mis-match" should be
+"mismatch".  In our typeset version, the word is split at the page
+boundary ("mis-" at the end of one line and "match" at the beginning
+of the next), but in the JINST proof, the word appears in the middle
+of a line.
+
+Title of section 5.1.2: we have been capitalizing "Ansatz" everywhere
+that it is used, so it should not be lower-cased here.
+
+Page 17, first paragraph: "the reduction is primarily due to the pT
+selection and the requirement that cosmic-ray trajectories to pass
+through the tracker)" is bad English; can be corrected by replacing
+"to pass" with "pass".  (Our error, which escaped previous
+proofreadings.)
+
+I liked having figure 7, and tables 1 and 2 all on the same page
+because the reader needs to make comparisons between these three.  At
+least it would be better if tables 1 and 2 were next to each other.
+If we can't control this aspect of the typesetting, then that's okay.
+
+Same thing for figures 8 and 9 and table 3.  Again for figure 10 and
+table 4.
+
+Page 20, last full paragraph, last sentence.  There are two
+parenthetical phrases, "(proportional to Delta x)" and "(approximately
+proportional to Delta dx/dz)".  "Proportional" is the wrong word: it
+should be "equivalent" in both cases.  Again, this was overlooked in
+our copy.
+
+Page 22, last full paragraph (last paragraph of section 5.5), last few
+words: "has been repaired by alignment procedure" should be "has been
+repaired by the alignment procedure".  (Also in our copy.)
+
+Equation 5.4: both summations are over index "i".  The second one (sum
+over tracks) should have index "j".
+

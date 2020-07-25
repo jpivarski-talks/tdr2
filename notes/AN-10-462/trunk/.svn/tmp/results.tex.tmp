@@ -1,0 +1,123 @@
+\newpage
+\section{Results}
+Unblinding the signal regions did not reveal dramatic evidence for high muon-multiplicity events in the 2010 CMS dataset.  Exact numbers of events in each signal region are given in Table~\ref{tab:results}.
+The only region with a large number of events is (a-1), the
+high-momentum dimuon region (which was expected from
+Fig.~\ref{fig:support_bbbarcut_limits}(a)).  An incisive test of this
+signal region is given in the fit results, below.  The (a-2) region
+includes one event (see event display in Appendix~\ref{sec:appendix_event_displays}), but the two dimuons in
+this event are not consistent with a single mass.  Similarly, the
+(b-1) region includes 11 events (see sample event display in
+Appendix~\ref{sec:appendix_event_displays}), but none of these are
+consistent with a single mass.  
+
+\begin{table}[tbh]
+\caption{Number of observed events in each signal category.  For regions
+  with $N \ge 2$ dimuons, the number of events is shown both for the entire category 
+  as well as for the 5-$\sigma(m)$ signal region near the $N$-dimensional diagonal($\sigma(m) = 0.011 + 0.0065\, m$~GeV/$c^2$). \label{tab:results}}
+\vspace{0.1 cm}
+\begin{tabular}{c l | c c}
+\hline\hline Signal region & Description & Number of events & on diagonal \\\hline
+(a-1) & $N_{\mu-jet} = 1$, $N_{\mu\mu} = 1$, $p_T > 80$~GeV/$c$ & 137 & --- \\
+(a-2) & $N_{\mu-jet} = 1$, $N_{\mu\mu} = 2$ & 1 & 0 \\
+(a-3) & $N_{\mu-jet} = 1$, $N_{\mu\mu} > 2$ & 0 & 0 \\
+(b-1) & $N_{\mu-jet} = 2$, $N_{\mu\mu} = (1, 1)$ & 11 & 0 \\
+(b-2) & $N_{\mu-jet} = 2$, $N_{\mu\mu} = (1, 2)$ or $(2, 1)$ & 0 & 0 \\
+(b-3) & $N_{\mu-jet} = 2$, $N_{\mu\mu} = (2, 2)$ & 0 & 0 \\
+(b-4) & $N_{\mu-jet} = 2$, $N_{\mu\mu} > 2$ & 0 & 0 \\
+(c-1) & $N_{\mu-jet} = 3$ & 0 & 0 \\\hline\hline
+\end{tabular}
+\vspace{0.1 cm}
+\end{table}
+
+No high muon-multiplicity events
+were observed in any of other signal region. Figure~\ref{fig:signalregion_events} shows
+the distributions for regions (b-1), (a-1) and (a-2) with the background-only fit overlaid 
+with the data.  We also show the invariant mass of the four muons for the single event in the (a-2) category 
+found in the off-diagonal part of the region sets the upper limit on the possible production of 
+$h_D \to \gamma_D \gamma_D$ in the special scenario where $m(h_D)<2 m(\gmma_D)$ leading to 
+the off-shell production of $\gamma_D$. 
+
+\begin{figure}[tbh]
+\centering
+\begin{tabular}{cc}
+\includegraphics[width=0.4\linewidth]{PLOTS/b1_2dpdf.pdf} &
+\includegraphics[width=0.4\linewidth]{PLOTS/a2_2dpdf.pdf} \\
+\includegraphics[width=0.4\linewidth]{PLOTS/signal_a1_data-bkgpdf.pdf} & 
+\includegraphics[width=0.4\linewidth]{PLOTS/model_data_a2_m_inv_w2.pdf}\\
+\end{tabular}
+\caption{2D and 1D distributions of events in data and expected backgrounds in signal categories: (a): ``double di-muon'' region (b-1), (b): the ``quad-muon'' region category (a-2), (c): ``single di-muon'' region (a-1), (d): (b): the invariant mass of the four muons for the single event in the``quadmuon+X'' category found in the off-diagonal part of the region sets the upper limit on the possible production of $h_D \to \gamma_D \gamma_D$ in the special scenario where $m(h_D)<2 m(\gmma_D)$ leading to the off-shell production of $\gamma_D$. None of the events in the signal categories have invariant masses of the dimuons consistent with one another, which would indicate presence of signal. The dashed lines indicate signal regions for 2D categories (those are five standard deviations from the diagonal in detector resolution). No events were observed in any of the high mu-jet multiplicity signal regions (a-3), (b-2), (b-3) or (c-1). \label{fig:signalregion_events}}
+\end{figure}
+
+\begin{figure}[tbh]
+\centering
+\begin{tabular}{c}
+\includegraphics[width=0.65\linewidth]{PLOTS/ul__model_indep_sys.pdf} \\
+\end{tabular}
+\caption{95\% C.L. limits on production cross-section for three topologies: ``single di-muon,''  ``two di-muons,'' and ``quadmuon+X.'' In the absence of signal events for the two latter topologies, the limits for regions correspond to three signal events corrected for the experimental efficiency of reconstructing this particular topology in the data given that the event was reconstructed in that topology at the generator level. \label{fig:signalregion_limits}}
+\end{figure}
+
+Given no observed excess of data consistent with the properties of the signal of new physics, we set 95\% C.L. upper limits on the production rate of the new physics events. To simplify future interpretation of our results, we choose to present these limits as $\sigma(pp \to X)*B(X \to N a_{dark}+M h_{dark}) \alpha_{gen}$, where $\alpha_{gen}$ is the generator level acceptance for the events of the topology in question. Because no events were observed in any of the high dimuon multiplicity regions, we combine them into a single region. Therefore, the remaining topologies are: a ``single dimuon'' containing region (a-1), ``two separated dimuons'' containing events from region (b-1, and ``quad-muon+X'' containing events from all other regions. To be conservative, in cases when experimental acceptances for lower multiplicity dimuon regions in complex cascade models get an additional enhancement due to higher multiplicity signatures with some of the dimuons not reconstructed in the fiducial volume, the experimental acceptance is taken to be generator level acceptance multiplied by corresponding efficiencies of reconstruction and triggering (and so can never be greater than generator level acceptance). In some models with large number of final state dimuons, these enhancements can be fairly substantial, so this approach can be very conservative for such models. However, for the results to remain being applicable to a wide range of models, this seems like the only reasonable solution. In this case $\epsilon_\alpha$ in Eq.\~(\ref{likelihood_final}) is the experimental efficiency of reconstructing a particular topology in the data given that the event was reconstructed in that same topology at the generator level. For systematics, the parameters used in the fit are listed in Table\~\ref{syst_params} along with the description of the priors used in the fit.
+
+\subsection{Limits on Benchmark Models}
+\fixme{more quantitative stuff to be added}
+
+For model dependent results, we use reconstruction level acceptances calculated using the simulation for each of the three regions, ``single dimuon'', ``two dimuons'', ``quadmuon+X''. The likelihood function is calculated for each of the regions and the sensitivity of the various channels was combined at the level of likelihoods prior to integrating over the nuissance parameters to ensure that the correlated systematics effects are correctly accounted for.
+
+<<<<<<< .mine
+In the case of NMSSM, the relevant signal region is again (b-1) and the acceptance ranges from 25\% to 45\%, which leads to a limit on the lightest CP-even NMSSM Higgs production rate $\sigma(pp \to h) B(h \to aa) B^2{a \to \mu \mu}\sim 0.2$--$0.4$~pb. Taking $B(a \to \mu \mu) \sim 20\%$ for $m(a)$ below $2 \m_tau$, this leads to an upper limit $\sigma(pp \to h) B(h \to aa) \sim 5$--$10$~pb (see Fig.~\ref{fig:limits_on_models_7tev}).
+=======
+\begin{table}[tbh]
+\caption{List of systematic uncertainties used for setting model-independent limits. (*) $\alpha$ and $n$ in Crystal Ball are strongly correlated, the correlation coefficient used was $-0.9$ based on MC studies of $J/\psi$ and $\psi^\prime$, and cross-checked with data. \label{tab:syst_params}}
+\vspace{0.1 cm}
+\begin{tabular}{| l | c| c|c|}
+\hline\hline 
+Quantity & Value & Uncertainty  & Prior \\\hline
+Luminosity & 35 pb$^{-1}$ & 11\% & Log-normal \\
+$\epsilon_\alpha=\alpha_{gen}/\alpha_{rec}$ & varies & 2\% & Log-normal \\
+\hline
+\multicolumn{4}{|l|}{Signal Shape (Crystal Ball parameters):} \\
+$\sigma_0^B$ & 0.00675 & 0.00325 & Log-normal \\
+$\sigma_0^E$ & 0.0075 & 0.0040 & Log-normal \\
+slope$^B_{\sigma}$  & 0.0070 & -- & --\\
+slope$^E_{\sigma}$  & 0.0140& -- & --\\
+$\alpha$ & 1.8 & 0.16 & bi-variate gaussian$^*$ \\
+$n$ & 2.0 & 0.6 & bi-variate gaussian$^*$ \\
+\hline
+$\alpha_{EB}/\alpha_{BB}$ & 0.55 & 0.05 & Log-normal \\
+\hline
+\multicolumn{4}{|l|}{Background Shapes:} \\
+$\vec{p}_{BG} & - & - & Actual multi-dim posteriors from the fits \\
+\hline\hline 
+\end{tabular}
+\vspace{0.1 cm}
+\end{table}
+>>>>>>> .r35310
+
+As one example, we calculate the limit on the production cross section times branching ratio for dark SUSY models with dark fermion production. Acceptances for the two model variations, $B(\tilde{q} \to q (n_2 \to n_1 \gamma_D))=100$\% and $\tilde{q} \to q n_2 (\to n_1 h_{D} (\to 2 \gamma_{D}))=100$\%, with  sqark-squark and squark-gluino production the acceptance is shown in Table~\ref{tab:acceptance_benchmarks} for three choices of $B(\gamma_D \to \mu \mu)=$100, 50, and 33\%. Depending on the branching fractions and the model, the limit is dominated by either the ``quad-muon+X'' or the ``two di-muon'' regions with the results shown in Fig.~\ref\label{fig:ulimit}. Note the weak dependence of the limit on squark mass, emphasizing the weak model-dependence of the results of this analysis. It is important as the branching fractions for squark decays to the dark sector fermions are not 100\%, e.g. due to a weaker coupling of the dark and visible sectors.
+
+In the case of NMSSM, the sensitivity is dominated by the ``two di-muons'' category with the acceptance is of the order of 25\%, which leads to a limit on the lightest CP-even NMSSM Higgs production rate $\sigma(pp \to h) B(h \to aa) B^2(a \to \mu \mu)\sim 0.4$ pb. Taking $B(a \to \mu \mu) \sim 20\%$ for $m(a)$ below $2 \m_\tau$, this leads to an upper limit $\sigma(pp \to h) B(h \to aa) \sim 10$ pb. To set the limits and make a comparison with the Tevatron sensitivity, we follow the method used in [NMSSM PRD] and plot the density of model points consistent with LEP and the WMAP measurements in the plane of $B(h_1 \to a_1 a_1 \to 4 \mu)$ versus $\sigma (pp \to h_1)$ for $\sqrt{s}=7$ TeV. The experimental limits on such models from Tevatron and LHC exclude the upper right corner of this parameter space. Because exact limit for a particular model point depends on the acceptance for this specific point (via dependence on $m_h$ and $m_a$), experimental limits do not appear as strict lines in this plot. We therefore added the bands to show the range of limits that correspond to the range of acceptances for allowed models. The plot shows that with $L\sim 75--100$ pb$^{-1}$ the LHC sensitivity will surpass that of the Tevatron experiments and will significantly restrict the allowed parameter space with $L=1$ fb$^{-1}$.
+
+\begin{figure}
+\includegraphics[width=0.48\linewidth]{PLOTS/ulimit_model0.pdf} \hfill
+\includegraphics[width=0.48\linewidth]{PLOTS/ulimit_model1.pdf}
+\caption{Limits on the Dark Fermion Cascades model of Sec.~\ref{sec:susy_with_dark_fermion_cascades}, derived from the model-independent limits (Fig.~\ref{fig:signalregion_limits}) and model acceptance.  The $\gamma_{\mbox{\scriptsize dark}} \to \mu\mu$ branching fraction has a profound effect on the model acceptance and hence the final result. \label{fig:ulimit}}
+\end{figure}
+<<<<<<< .mine
+
+\begin{figure}
+\begin{center}
+\includegraphics[width=0.5\linewidth]{PLOTS/limits_on_models_7tev.pdf}
+\end{center}
+
+\caption{Distribution of production cross-section and $h \to aa \to 4\mu$ branching fraction for NMSSM models surviving LEP, BaBar, and WMAP constraints, overlaid with limits from this analysis (35~pb$^{-1}$), the Tevatron [reference], and a 1~fb$^{-1}$ analysis at the same collision energy.  The two limits in each band indicates the range of acceptance for each experiment (which depend on $m_h$ and $m_a$).  \label{fig:limits_on_models_7tev}}
+\end{figure}
+
+=======
+
+\begin{figure}
+\includegraphics[width=0.48\linewidth]{PLOTS/limits_on_models_7tev.png}
+\caption{Limits on the allowed NMSSM models consistent with LEP exclusions and the relic density measurements in the plane of $B(h_1 \to a_1 a_1 \to 4 \mu)$ versus $\sigma (pp \to h_1)$ for $\sqrt{s}=7$ TeV. The allowed models are shown as points and the experimental limits from Tevatron and LHC exclude the upper right corner of the parameter space. Because exact limits depend on the acceptance for each model point and therefore do not appear as strict lines, the bands show the range of limits that correspond to the range of acceptances for allowed models. The plot shows that with $L=100$ pb$^{-1}$ the LHC sensitivity will surpass that of the Tevatron experiments. \label{fig:ulimit}}
+\end{figure}
+
+>>>>>>> .r35310

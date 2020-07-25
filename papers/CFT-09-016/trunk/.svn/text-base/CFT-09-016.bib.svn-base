@@ -1,0 +1,159 @@
+@Article{:2008zzk,
+     author    = "{CMS Collaboration}",
+ collaboration = "",
+     title     = "{The CMS experiment at the CERN LHC}",
+     journal   = "JINST",
+     volume    = "3",
+     year      = "2008",
+     pages     = "S08004",
+     doi       = "10.1088/1748-0221/3/08/S08004",
+     SLACcitation  = "%%CITATION = JINST,0803,S08004;%%"
+}
+@Article{Evans:2008zzb,
+     author    = "Evans, Lyndon and Bryant, (eds.), Philip",
+     title     = "{LHC Machine}",
+     journal   = "JINST",
+     volume    = "3",
+     year      = "2008",
+     pages     = "S08001",
+     doi       = "10.1088/1748-0221/3/08/S08001",
+     SLACcitation  = "%%CITATION = JINST,3,S08001;%%"
+}
+@Article{ref:hardware_alignment,
+     author    = "{CMS Collaboration}",
+ collaboration = "",
+     title     = "Aligning the CMS Muon Chambers with the Muon Alignment System during the Cosmic Run of 2008",
+     journal   = "submitted to JINST",
+     year      = "2009"}
+@Article{ref:workflow,
+     author    = "{CMS Collaboration}",
+ collaboration = "",
+     title     = "From Detector to Analysis: CMS Data Processing Workflows During an Extended Cosmic Ray Run",
+     journal   = "submitted to JINST",
+     year      = "2009"}
+@Article{Collaboration:2009sr,
+     author    = "{CMS Collaboration}",
+     title     = "{Alignment of the CMS Silicon Tracker during Commissioning with Cosmic Rays}",
+     journal   = "submitted to JINST",
+     year      = "2009",
+     eprint    = "0910.2505",
+     archivePrefix = "arXiv",
+     primaryClass  =  "physics.ins-det",
+     SLACcitation  = "%%CITATION = 0910.2505;%%"
+}
+@Article{ref:magnetic_field,
+     author    = "{CMS Collaboration}",
+ collaboration = "",
+     title     = "Precise Mapping of the Magnetic Field in the CMS Barrel Yoke using Cosmic Rays",
+     journal   = "submitted to JINST",
+     year      = "2009"}
+@Article{Blobel:2006yh,
+     author    = "Blobel, V.",
+     title     = "{Software alignment for tracking detectors}",
+     journal   = "Nucl. Instrum. Meth.",
+     volume    = "A566",
+     year      = "2006",
+     pages     = "5-13",
+     doi       = "10.1016/j.nima.2006.05.157",
+     SLACcitation  = "%%CITATION = NUIMA,A566,5;%%"
+}
+@Article{James:1975dr,
+     author    = "James, F. and Roos, M.",
+     title     = "{Minuit: A System for Function Minimization and Analysis of
+                  the Parameter Errors and Correlations}",
+     journal   = "Comput. Phys. Commun.",
+     volume    = "10",
+     year      = "1975",
+     pages     = "343-367",
+     doi       = "10.1016/0010-4655(75)90039-9",
+     SLACcitation  = "%%CITATION = CPHCB,10,343;%%"
+}
+@Article{Karimaki:2003bd,
+     author    = "{V.~Karimaki, A.~Heikkinen, T.~Lampen, and T.~Linden}",
+     title     = "{Sensor alignment by tracks}",
+     journal   = "{In the Proceedings of 2003 Conference for Computing in High-Energy and Nuclear Physics (CHEP~03), La~Jolla, California, 24-28~Mar~2003, pp~TULT008}",
+     year      = "2003",
+     eprint    = "physics/0306034",
+     archivePrefix = "arXiv",
+     SLACcitation  = "%%CITATION = PHYSICS/0306034;%%"
+}
+@Article{ref:dtlocalreco,
+     author    = "{CMS Collaboration}",
+ collaboration = "",
+     title     = "Performance of Local Muon Reconstruction in Drift Tube Chambers from the Analysis of Cosmic Run Data",
+     journal   = "submitted to JINST",
+     year      = "2009"}
+@Article{ref:CRAFTGeneral,
+     author    = "{CMS Collaboration}",
+ collaboration = "",
+    title     = "Commissioning of the CMS Experiment and the Cosmic Run at Four Tesla",
+    journal   = "submitted to JINST",
+    volume    = "",
+    year      = "2009"
+}
+@misc{ref:endcapPG,
+     author    = "R. Goudard and J. F. Fuchs and J. D. Maillefaud",
+     title     = "Photogrammetry of the YE$-$2 Face Z$-$ ME$-$3 Layer CERN SX5",
+  howpublished = "\url{https://edms.cern.ch/document/866869/1}"}
+@Article{ref:csc_resolution,
+     author    = "{CMS Collaboration}",
+ collaboration = "",
+     title     = "Performance of the CMS Cathode Strip Chambers with Cosmic Rays",
+     journal   = "submitted to JINST",
+     year      = "2009"}
+@Article{Ball:2007zza,
+     author    = "{CMS Collaboration}",
+ collaboration = "",
+     title     = "{CMS technical design report, volume II: Physics
+                  performance}",
+     journal   = "J.~Phys.",
+     volume    = "G34",
+     year      = "2007",
+     pages     = "995-1579",
+     doi       = "10.1088/0954-3899/34/6/S01",
+     SLACcitation  = "%%CITATION = JPHGB,G34,995;%%"
+}
+@Article{Flucke:2008zz,
+     author    = "{G.~Flucke, P.~Schleper, G.~Steinbruck, and M.~Stoye}",
+     title     = "{CMS silicon tracker alignment strategy with the Millepede II algorithm}",
+     journal   = "JINST",
+     volume    = "3",
+     year      = "2008",
+     pages     = "P09002",
+     doi       = "10.1088/1748-0221/3/09/P09002",
+     SLACcitation  = "%%CITATION = JINST,3,P09002;%%"
+}
+@phdthesis{Stoye:1047047,
+      author       = "{M.~Stoye and P.~Schleper (dir.)}",
+      title        = "Calibration and Alignment of the CMS Silicon Tracking Detector",
+      school       = "Univ. Hamburg",
+      address      = "Hamburg",
+      year         = "2007",
+      note         = "\url{http://cdsweb.cern.ch/record/1047047}"
+}
+@Article{Biallass:2009ev,
+     author    = "Biallass, Philipp and Hebbeker, Thomas",
+     title     = "{Parametrization of the Cosmic Muon Flux for the Generator CMSCGEN}",
+     year      = "2009",
+     eprint    = "0907.5514",
+     archivePrefix = "arXiv",
+     primaryClass  =  "astro-ph.IM",
+     SLACcitation  = "%%CITATION = 0907.5514;%%"
+}
+@techreport{Azhgirey:691920,
+      author       = "Azhgirey, L S and Baishev, I S and Potter, K M and Talanov, V",
+      title        = "Cascade simulations for the machine induced background study in the IR1 of the LHC",
+      institution  = "CERN",
+      address      = "Geneva",
+      number       = "LHC-PROJECT-NOTE-324",
+      month        = "Sep",
+      year         = "2003",
+}
+@ARTICLE{CMS_NOTE_2005-012,
+     AUTHOR       = "Drollinger, V.",
+     TITLE        = "Simulation of Beam Halo and Cosmic Muons",
+     JOURNAL      = "CMS Note",
+     VOLUME       = "\href{http://cms-secr.web.cern.ch/cms-secr/documents/05/note05_012.pdf}{2005/012}",
+     note         = "\href{http://cms-secr.web.cern.ch/cms-secr/documents/05/note05\_012.pdf}{\tt http://cms-secr.web.cern.ch/cms-secr/documents/05/note05\_012.pdf}",
+     YEAR         = "2005"
+}

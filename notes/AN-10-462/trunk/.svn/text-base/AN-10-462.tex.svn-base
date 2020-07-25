@@ -1,0 +1,71 @@
+% svn info. These are modified by svn at checkout time.
+% The last version of these macros found before the maketitle will be the one on the front page,
+% so only the main file is tracked.
+% Do not edit by hand!
+\RCS$Revision$
+\RCS$HeadURL$
+\RCS$Id$
+%%%%%%%%%%%%% ptdr definitions %%%%%%%%%%%%%%%%%%%%%
+\input{ptdr-definitions}
+%%%%%%%%%%%%%%%  Title page %%%%%%%%%%%%%%%%%%%%%%%%
+\cmsNoteHeader{AN-10-462} % This is over-written in the CMS environment: useful as preprint no. for export versions
+\title{Search for Collimated Groups of Muons}% Force line breaks with \\
+
+%Author is always "The CMS Collaboration" for PAS and papers, so author, etc, below will be ignored in those cases
+%\address[neu]{Northeastern University}
+%\address[fnal]{Fermilab}
+%\address[cern]{CERN}
+\address[tamu]{Texas A\&M University}
+%\author[cern]{The CMS Collaboration}
+\author[tamu]{Jim Pivarski}
+\author[tamu]{Aysen Tatarinov}
+\author[tamu]{Alexei Safonov}
+
+% please supply the date in yyyy/mm/dd format. Today has been
+% redefined to do so, but it should be fixed as of the final release date.
+% For papers and PAS, \today is taken as the date the head file (this one) was last modified according to svn: see the RCS Id string above.
+\date{\today}
+
+% Abstract processing:
+% 1. **DO NOT use \include or \input** to include the abstract: our abstract extractor will not search through other files than this one.
+% 2. **DO NOT use %** to comment out sections of the abstract: the extractor will still grab those lines (and they won't be comments any longer!).
+% 3. **DO NOT use tex macros** in the abstract: External TeX parsers used on the abstract don't understand them.
+\abstract{We present an inclusive, signature-based search for groups
+  of collimated muons, arising from spectroscopic cascades in a hidden
+  sector accessible only through high-energy collisions, using the CMS
+  detector.  In several signatures defined by number of muons per
+  collimated group and number of groups per event, we searched for the
+  lightest on-shell state in the hidden spectrum with a mass-peak fit and set
+  limits on $\sigma\mathcal{B}\alpha$, where $\alpha$ is the model
+  acceptance of the signature. With no excess of data events compared to 
+  the expectation, production rate for the new resonances within the 
+  experimental acceptance is ruled out at the level of  $0.1$--$0.5$~pb 
+  at 95\% C.L. depending of the signature and the mass of the new lightest 
+  state wthin $0.25 < m < 5$ GeV/c$^2$.  We also set $\sigma\mathcal{B}$ limits 
+  on two representative benchmark scenarios for SUSY with a hidden dark  
+  sector and the NMSSM Higgs production in the channel $h_1 \to a_1 a_1 \to 4 \mu$.}
+
+% Do not comment out the following hypersetup lines (metadata). They will disappear in NODRAFT mode and are needed by CDS.
+% Also: make sure that the values of the metadata items are sensible. For APS submissions, they are automatically converted to APS keywords.
+\hypersetup{%
+pdfauthor={Jim Pivarski, Alexei Safonov, Aysen Tatarinov},%
+pdftitle={Search for Collimated Groups of Muons},%
+pdfsubject={CMS},%
+pdfkeywords={CMS, physics, software, computing}}
+
+\maketitle %maketitle comes after all the front information has been supplied
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%  Begin text %%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\tracinginput{intro.tex}
+\tracinginput{benchmark_models.tex}
+\tracinginput{selections.tex}
+%\tracinginput{signal_shape.tex}
+\tracinginput{backgrounds.tex}
+\tracinginput{fits.tex}
+\tracinginput{results.tex}
+\tracinginput{conclusions.tex}
+\tracinginput{appendix.tex}
+
+\bibliography{auto_generated}
+

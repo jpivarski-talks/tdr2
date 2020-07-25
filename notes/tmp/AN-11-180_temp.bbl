@@ -1,0 +1,89 @@
+\providecommand{\href}[2]{#2}\begingroup\raggedright\begin{thebibliography}{10}
+
+\bibitem{btaggingPAS2009}
+{CMS Collaboration}, ``Algorithms for b Jet identification in CMS'', {\em CMS
+  PAS} {\bf BTV-09-001} (2009).
+
+\bibitem{btaggingPAS2010}
+{CMS Collaboration}, ``Commissioning of b-jet identification with pp collisions
+  at $\sqrt{s}$ = 7 TeV'', {\em CMS PAS} {\bf BTV-10-001} (2010).
+
+\bibitem{bib:particleFlow}
+{CMS Collaboration}, ``Particle Flow Event Reconstruction in CMS and
+  Performance for Jets, Taus, and MET'', {\em CMS PAS} {\bf PFT-09-001} (2009).
+
+\bibitem{AntiKT}
+G.~S. Matteo~Cacciari, Gavin P.~Salam, ``The anti-$k_t$ jet clustering
+  algorithm'', {\em JHEP} {\bf 0804} (2008)
+063.
+arXiv:0802.1189 [hep-ph].
+
+\bibitem{CMS_PTDR_1}
+{CMS Collaboration}, ``{CMS Physics Technical Design Report, Volume I: Detector
+  performance and software}'', {\em CMS PTDR} {\bf 1} (2008).
+
+\bibitem{CMSTRK10001}
+{CMS Collaboration}, ``Tracking and Vertexing Results from First Collisions'',
+  {\em
+  \href{http://cms-physics.web.cern.ch/cms-physics/public/TRK-10-001-pas.pdf}{%
+CMS PAS}} {\bf TRK-10-001} (2010).
+
+\bibitem{CMS_PAS_TRK-10-005}
+{CMS Collaboration}, ``Tracking and Primary Vertex Results in First 7 TeV
+  Collisions'', {\em
+  \href{http://cms-physics.web.cern.ch/cms-physics/public/TRK-10-005-pas.pdf}{%
+CMS PAS}} {\bf TRK-10-005} (2010).
+
+\bibitem{bib:AVF}
+W.~Waltenberger, ``Adaptive Vertex Reconstruction'', {\em CMS Note} {\bf
+  2008/33} (2008).
+
+\bibitem{JINST}
+{\bf CMS} Collaboration, ``{The CMS experiment at the CERN LHC}'', {\em JINST}
+  {\bf 0803} (2008)
+S08004.
+%%CITATION = JINST,0803,S08004;%%.
+  \href{http://dx.doi.org/10.1088/1748-0221/3/08/S08004}{{\tt
+  doi:10.1088/1748-0221/3/08/S08004}}.
+
+\bibitem{CMS_PAS_MUO-10-002}
+{\bf CMS} Collaboration, ``Performance of muon identification in pp collisions
+  at $\sqrt{s} = 7$ TeV'', {\em
+  \href{http://cms-physics.web.cern.ch/cms-physics/public/MUO-10-002-pas.pdf}{%
+CMS PAS}} {\bf MUO-10-002} (2010).
+
+\bibitem{TkAl_VBlobel}
+V.~Blobel, ``{Software alignment for tracking detectors}'', {\em Nucl. Instrum.
+  Meth.} {\bf A566} (2006)
+5--13.
+%%CITATION = NUIMA,A566,5;%%.
+  \href{http://dx.doi.org/10.1016/j.nima.2006.05.157}{{\tt
+  doi:10.1016/j.nima.2006.05.157}}.
+
+\bibitem{TkAl_Millepede}
+G.~Flucke, P.~Schleper, G.~Steinbruck{ et~al.}, ``{CMS silicon tracker
+  alignment strategy with the Millepede II algorithm}'', {\em JINST} {\bf 3}
+  (2008)
+P09002.
+%%CITATION = JINST,3,P09002;%%.
+  \href{http://dx.doi.org/10.1088/1748-0221/3/09/P09002}{{\tt
+  doi:10.1088/1748-0221/3/09/P09002}}.
+
+\bibitem{TkAl_CRAFT08}
+{\bf CMS} Collaboration, {CMS Collaboration}, ``{Alignment of the CMS Silicon
+  Tracker during Commissioning with Cosmic Rays}'', {\em JINST} {\bf 5} (2010)
+T03009.
+%%CITATION = 0910.2505;%%.
+  \href{http://dx.doi.org/10.1088/1748-0221/5/03/T03009}{{\tt
+  doi:10.1088/1748-0221/5/03/T03009}}.
+
+\bibitem{CMS_NOTE_2008-29}
+T.~Lamp\'en, N.~De~Filippis, F.~Schilling{ et~al.}, ``Comprehensive Set of
+  Misalignment Scenarios for the CMS Tracker'', {\em CMS Note} {\bf 2008/29}
+  (2008).
+
+\bibitem{Weiser:2006md}
+C.~Weiser, ``{A combined secondary vertex based B-tagging algorithm in CMS}'',.
+  CERN-CMS-NOTE-2006-014.
+
+\end{thebibliography}\endgroup

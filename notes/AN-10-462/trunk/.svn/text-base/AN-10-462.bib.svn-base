@@ -1,0 +1,362 @@
+@ARTICLE{Pamela-positron,
+     AUTHOR       = "Adriani, O. and others",
+     TITLE        = "Observation of an anomalous positron abundance in the cosmic radiation",
+     JOURNAL      = "Nature",
+     VOLUME       = "458",
+     PAGES     = "607-609",
+     YEAR         = "2009"}
+
+@ARTICLE{Arkani-Hamed,
+     AUTHOR       = "Arkani-Hamed, O. and others",
+     TITLE        = "A Theory of Dark Matter",
+     JOURNAL      = "Phys. Rev.",
+     VOLUME       = "D 79",
+     PAGES     = "015014",
+     YEAR         = "2009"}
+
+@ARTICLE{Sommerfeld1,
+     AUTHOR       = "Hisano, J. and Matsumoto, S. and Nojiri, M. M.",
+     TITLE        = "Explosive Dark Matter Annihilation",
+     JOURNAL      = "Phys. Rev. Lett.",
+     VOLUME       = "92",
+     PAGES     = "031303",
+     YEAR         = "2004"}
+
+@ARTICLE{Sommerfeld2,
+     AUTHOR       = "Cirelli, N. and Kadastik, M. and Raidal, M. Strumia, A.",
+     TITLE        = "Model-independent implications of the e+, e-, anti-proton cosmic ray spectra on properties of Dark Matter",
+     JOURNAL      = "Nucl. Phys.",
+     VOLUME       = "B 813",
+     PAGES     = "1-21",
+     YEAR         = "2009"}
+
+@ARTICLE{Pamela-proton,
+     AUTHOR       = "Adriani, O. and others",
+     TITLE        = "A new measurement of the antiproton-to-proton flux ratio up to 100 GeV in the cosmic radiation",
+     JOURNAL      = "Phys. Rev. Lett.",
+     VOLUME       = "102",
+     PAGES     = "051101",
+     YEAR         = "2009"}
+
+@ARTICLE{mediator-lepton-coupling1,
+     AUTHOR       = "Bai, Y. and Han, Z.",
+     TITLE        = "A Unified Dark Matter Model in sUED",
+     JOURNAL      = "Phys. Rev.",
+     VOLUME       = "D 79",
+     PAGES     = "095023",
+     YEAR         = "2009"}
+
+@ARTICLE{mediator-lepton-coupling2,
+     AUTHOR       = "Fox, P. J. and Poppitz, E.",
+     TITLE        = "Leptophilic Dark Matter",
+     JOURNAL      = "Phys. Rev.",
+     VOLUME       = "D 79",
+     PAGES     = "095023",
+     YEAR         = "2009"}
+
+@ARTICLE{pulsars,
+     AUTHOR       = "Hooper, D. and Blasi, P. and Serpico, P. D.",
+     TITLE        = "Pulsars as the Sources of High Energy Cosmic Ray Positrons",
+     JOURNAL      = "JCAP",
+     VOLUME       = "0901",
+     PAGES     = "025",
+     YEAR         = "2009"}
+
+@ARTICLE{Dama,
+     AUTHOR       = "Bernabei, R. and others",
+     TITLE        = "New results from DAMA/LIBRA",
+     JOURNAL      = "Eur. Phys. J.",
+     VOLUME       = "C 67",
+     PAGES     = "39-49",
+     YEAR         = "2010"}
+
+@ARTICLE{BaiHan,
+     AUTHOR       = "Bai, Y. and Han, Z.",
+     TITLE        = "Measuring the Dark Force at the LHC",
+     JOURNAL      = "Phys. Rev. Lett.",
+     VOLUME       = "103",
+     PAGES     = "051801",
+     YEAR         = "2009"}
+
+@ARTICLE{Ruderman,
+     AUTHOR       = "Ruderman, J. T. and Maumgart, W. M. and Cheung, C. and Yavin, I.",
+     TITLE        = "Non-abelian dark sectors and their collider signatures",
+     JOURNAL      = "JHEP",
+     VOLUME       = "04",
+     PAGES     = "014",
+     YEAR         = "2009"}
+
+@ARTICLE{D01,
+     AUTHOR       = "Abazov, V. and others (D$\O$ Collaboration)",
+     TITLE        = "Search for Dark Photons from Superseymmtric Hidden Valleys",
+     JOURNAL      = "Phys. Rev. Lett.",
+     VOLUME       = "103",
+     PAGES     = "081802",
+     YEAR         = "2009"}
+
+@ARTICLE{D02,
+     AUTHOR       = "Abazov, V. and others (D$\O$ Collaboration)",
+     TITLE        = "Search for Events with Leptonic Jets and Missing Transverse Energy in $p\bar{p}$ collisions at $\sqrt=1.96$ TeV",
+     JOURNAL      = "Phys. Rev. Lett.",
+     VOLUME       = "105",
+     PAGES     = "211802",
+     YEAR         = "2010"}
+
+@ARTICLE{Nilles:1982dy,
+     AUTHOR       = "Nilles, H. P. and Srednicki, M. and Wyler, D.",
+     TITLE        = "Weak Interaction Breakdown Induced By Supergravity",
+     JOURNAL      = "Phys. Lett.",
+     VOLUME       = "B 120",
+     PAGES     = "346",
+     YEAR         = "1983"}
+
+@ARTICLE{Frere:1983ag,
+     AUTHOR       = "Frere, J. M. and Jones, D. R. T. and Raby, S.",
+     TITLE        = "Fermion Masses And Induction Of The Weak Scale By Supergravity",
+     JOURNAL      = "Nucl. Phys.",
+     VOLUME       = "B 222",
+     PAGES     = "11",
+     YEAR         = "1983"}
+
+@ARTICLE{Ellis:1988er,
+     AUTHOR       = "Ellis, J. R. and Gunion, J. F. and Haber, H. E. and Roszkowski, L. and Zwirner, F.",
+     TITLE        = "Higgs Bosons in a Nonminimal Supersymmetric Model",
+     JOURNAL      = "Phys. Rev.",
+     VOLUME       = "D 39",
+     PAGES     = "844",
+     YEAR         = "1989"}
+
+@ARTICLE{Drees:1988fc,
+     AUTHOR       = "Drees, M.",
+     TITLE        = "Supersymmetric Models with Extended Higgs Sector",
+     JOURNAL      = "Int. J. Mod. Phys.",
+     VOLUME       = "4",
+     PAGES     = "3635",
+     YEAR         = "1989"}
+
+@ARTICLE{Ellwanger:1993xa,
+     AUTHOR       = "Ellwanger, U. and  Rausch de Traubenberg, M. and Savoy, C. A.",
+     TITLE        = "Particle spectrum in supersymmetric models with a gauge singlet",
+     JOURNAL      = "Phys. Lett.",
+     VOLUME       = "B 315",
+     PAGES     = "331",
+     YEAR         = "1993"}
+
+@ARTICLE{Ellwanger:1995ru,
+     AUTHOR       = "Ellwanger, U. and Rausch de Traubenberg, M. and Savoy, C. A.",
+     TITLE        = "Higgs phenomenology of the supersymmetric model with a gauge singlet",
+     JOURNAL      = "Z. Phys.",
+     VOLUME       = "C 67",
+     PAGES     = "665",
+     YEAR         = "1995"}
+
+@ARTICLE{Miller:2003ay,
+     AUTHOR       = "Miller, D. J. and Nevzorov, R. and Zerwas, P. M.",
+     TITLE        = "The Higgs sector of the next-to-minimal supersymmetric standard model",
+     JOURNAL      = "Nucl. Phys.",
+     VOLUME       = "B 681",
+     PAGES     = "3",
+     YEAR         = "2004"}
+
+@ARTICLE{mu-problem,
+     AUTHOR       = "Kim, J. E. and Nilles, H. P.",
+     TITLE        = "The Mu Problem And The Strong CP Problem",
+     JOURNAL      = "Phys. Lett.",
+     VOLUME       = "B 138",
+     PAGES     = "150",
+     YEAR         = "1984"}
+
+@ARTICLE{Dermisek:2005ar,
+     AUTHOR       = "Dermisek, R. and Gunion, J. F.",
+     TITLE        = "Escaping the large fine tuning and little hierarchy problems in the next to minimal supersymmetric model and h --> a a decays",
+     JOURNAL      = "Phys. Rev. Lett.",
+     VOLUME       = "95",
+     PAGES     = "041801",
+     YEAR         = "2005"}
+
+@ARTICLE{Belyaev:nmssm,
+     AUTHOR       = "Belyaev, A. and Pivarski, J. and Safonov, A. and Senkin, S. and Tatarinov, A",
+     TITLE        = "LHC discovery potential of the lightest NMSSM Higgs in the h1 -> a1 a1 -> 4 muons channel",
+     JOURNAL      = "Phys. Rev.",
+     VOLUME       = "D 81",
+     PAGES     = "075021",
+     YEAR         = "2010"}
+
+@ARTICLE{Abazov:2009yi,
+     AUTHOR       = "Abazov, V. and others (D$\O$ Collaboration)",
+     TITLE        = "Search for NMSSM Higgs bosons in the h->aa->mumu mumu, mumu tautau channels
+ using ppbar collisions at $\sqrt{s}=1.96$ TeV",
+     JOURNAL      = "Phys. Rev. Lett.",
+     VOLUME       = "103",
+     PAGES     = "061801",
+     YEAR         = "2009"}
+
+@ARTICLE{lep2exclusion,
+     AUTHOR       = "Abiendi, G.and others (OPAL Collaboration)",
+     JOURNAL      = "EPJC",
+     VOLUME       = "27",
+     PAGES     = "483-495",
+     YEAR         = "2003"}
+
+@ARTICLE{cleo-low-ma,
+     AUTHOR       = "Love, W. and others  (CLEO Collaboration)",
+     TITLE        = "Search for Very Light CP-Odd Higgs Boson in Radiative Decays of Upsilon(S-1)",
+     JOURNAL      = "Phys. Rev. Lett.",
+     VOLUME       = "101",
+     PAGES     = "151802",
+     YEAR         = "2008"}
+
+@ARTICLE{babar-low-ma,
+     AUTHOR       = "Aubert, B. and others  (BABAR Collaboration)",
+     TITLE        = "Search for Dimuon Decays of a Light Scalar Boson in Radiative Transitions Upsilon -> gamma A0",
+     JOURNAL      = "Phys. Rev. Lett.",
+     VOLUME       = "103",
+     PAGES     = "081803",
+     YEAR         = "2009"}
+
+@ARTICLE{Madgraph,
+     AUTHOR       = "Alwall, J. and others",
+     TITLE        = "MadGraph/MadEvent v4: The New Web Generation",
+     JOURNAL      = "JHEP",
+     VOLUME       = "0709",
+     PAGES     = "028",
+     YEAR         = "2007"}
+
+@ARTICLE{Calchep,
+     AUTHOR       = "Pukhov, A.",
+     TITLE        = "CalcHEP 2.3: MSSM, structure functions, event generation, batchs, and generation of matrix elements for other packages",
+     JOURNAL      = "arXiv:hep-ph/0412191v2",
+     YEAR         = "2004"}
+
+@ARTICLE{Bridge,
+     AUTHOR       = "Meade, P. and Reece, M.",
+     TITLE        = "BRIDGE: Branching Ratio Inquiry / Decay Generated Events",
+     JOURNAL      = "arXiv:hep-ph/0703031v2",
+     YEAR         = "2007"}
+
+@ARTICLE{Pythia,
+     AUTHOR       = "Sjostrand, T. and Mrenna, S. and Skands, P.",
+     TITLE        = "PYTHIA 6.4 Physics and Manual",
+     JOURNAL      = "JHEP",
+     VOLUME       = "0605",
+     PAGES     = "026",
+     YEAR         = "2006"}
+
+@ARTICLE{nmssmtools,
+     AUTHOR       = "Ellwanger, U. and Gunion, J. F. and Hugoine, C.",
+     JOURNAL      = "JHEP",
+     VOLUME       = "0502",
+     PAGES     = "066",
+     YEAR         = "2005"}
+
+@ARTICLE{Spira:1995rr,
+     AUTHOR       = "Spira, M. and Djouadi, A. and Graudenz, D. and Zerwas, P. M.",
+     TITLE        = "Higgs boson production at the LHC",
+     JOURNAL      = "Nucl. Phys.",
+     VOLUME       = "B 453",
+     PAGES     = "17",
+     YEAR         = "1995"}
+
+@ARTICLE{Balazs:1998sb,
+     AUTHOR       = "Balazs, C. and He, H. J. and Yuan, C. P.",
+     TITLE        = "QCD corrections to scalar production via heavy quark fusion at hadron colliders",
+     JOURNAL      = "Phys. Rev.",
+     VOLUME       = "D 60",
+     PAGES     = "114001",
+     YEAR         = "1999"}
+
+@ARTICLE{higlu,
+     AUTHOR       = "Spira, M.",
+     JOURNAL      = "Nucl. Instrum. Meth.",
+     VOLUME       = "A 389",
+     PAGES     = "357",
+     YEAR         = "1997"}
+
+
+
+@ARTICLE{CMS_NOTE_2006-106,
+     AUTHOR       = "Aldaya, M. and Arce, P. and Caballero, J. and de la Cruz, B. and Garcia-Abia, P. and Hernandez, J.M. and Josa, M.I. and Ruiz, E.",
+     TITLE        = "Discovery potential and search strategy for the Standard Model {H}iggs boson in the $H\to ZZ^\star\to 4\mu$ decay channel using a mass-independent analysis",
+     JOURNAL      = "CMS Note",
+     VOLUME       = "\href{http://cms.cern.ch/iCMS/jsp/openfile.jsp?type=NOTE&year=2006&files=NOTE2006_106.pdf}{2006/106}",
+     YEAR         = "2006"}
+@Article{Brandt:1997gi,
+     author    = "Brandt, A. and others",
+ collaboration = "UA8",
+     title     = "Measurements of single diffraction at $\sqrt{s} =$ 630 {GeV}:
+                  Evidence for  a non-linear $\alpha(t)$ of the pomeron",
+     journal   = "Nucl. Phys.",
+     volume    = "B514",
+     year      = "1998",
+     pages     = "3-44",
+     SLACcitation  = "%%CITATION = HEP-EX 9710004;%%",
+     doi       = "10.1016/S0550-3213(97)00813-4"
+}
+@ARTICLE{Buchmuller:1986zs,
+     AUTHOR       = "Buchm{\"u}ller, W. and Wyler, D.",
+     TITLE        = "Constraints on SU(5)-type leptoquarks",
+     JOURNAL      = "Phys. Lett.",
+     VOLUME       = "B 177",
+     YEAR         = "1986",
+     pages        = "p.377",
+     SLACcitation  = "%%CITATION = PHLTA,B191,442;%%",
+     doi          = "10.1016/0370-2693(86)90771-9"}
+@Article{PTDR2,
+     author    = "{CMS Collaboration}",
+     title     = "{CMS technical design report, volume II: Physics
+                  performance}",
+     journal   = "J. Phys.",
+     volume    = "G34",
+     year      = "2007",
+     pages     = "995-1579",
+     doi       = "10.1088/0954-3899/34/6/S01",
+     SLACcitation  = "%%CITATION = JPHGB,G34,995;%%"
+}
+
+@Article{:2009dv,
+     author    = "Chatrchyan, Serguei and others",
+ collaboration = "CMS",
+     title     = "{Commissioning and Performance of the CMS Pixel Tracker
+                  with Cosmic Ray Muons}",
+     journal   = "JINST",
+     volume    = "5",
+     year      = "2010",
+     pages     = "T03007",
+     eprint    = "0911.5434",
+     archivePrefix = "arXiv",
+     primaryClass  =  "physics.ins-det",
+     doi       = "10.1088/1748-0221/5/03/T03007",
+     SLACcitation  = "%%CITATION = 0911.5434;%%"
+}
+
+@Article{:2009vs,
+     author    = "Chatrchyan, Serguei and others",
+ collaboration = "CMS",
+     title     = "{Commissioning and Performance of the CMS Silicon Strip
+                  Tracker with Cosmic Ray Muons}",
+     journal   = "JINST",
+     volume    = "5",
+     year      = "2010",
+     pages     = "T03008",
+     eprint    = "0911.4996",
+     archivePrefix = "arXiv",
+     primaryClass  =  "physics.ins-det",
+     doi       = "10.1088/1748-0221/5/03/T03008",
+     SLACcitation  = "%%CITATION = 0911.4996;%%"
+}
+
+@Article{Khachatryan:2010pw,
+     author    = "Khachatryan, Vardan and others",
+ collaboration = "CMS",
+     title     = "{CMS Tracking Performance Results from early LHC
+                  Operation}",
+     journal   = "Eur. Phys. J.",
+     volume    = "C70",
+     year      = "2010",
+     pages     = "1165-1192",
+     eprint    = "1007.1988",
+     archivePrefix = "arXiv",
+     primaryClass  =  "physics.ins-det",
+     doi       = "10.1140/epjc/s10052-010-1491-3",
+     SLACcitation  = "%%CITATION = 1007.1988;%%"
+}

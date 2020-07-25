@@ -1,0 +1,421 @@
+> While reading the paper, it is not clear to the reader is the
+> emphasis of the paper is to demonstrate the achievement of the CMS
+> muon system (even incomplete) as stated in the abstract or if it is
+> to present alignment methods.  Methods tested on Monte-Carlo
+> simulations that certainly deserve publication but may be not in the
+> context of that paper (see comments below).
+
+The focus of the paper is on the results obtained, but for each
+result, the method and its sensitivity must be described.  The paper
+follows this organizational pattern: method, sensitivity,
+results/cross-checks.  In all instances where external references
+could be cited to describe parts of a procedure, it was.
+
+> Introduction
+> wheel appears for the first time in the caption of Figure 2 and is
+> not defined in the text of the body.
+
+Just before the first reference to Figure 2, "wheel" and "disk" are
+now introduced:
+
+"Three technologies are employed: Drift Tube (DT) chambers on the five
+modular wheels of the barrel section, Cathode Strip Chambers (CSC) on
+the six endcap disks (illustrated in Figs. 1 and 2) and Resistive
+Plate Chambers (RPC) throughout."
+
+> Fifth paragraph : the three procedures are not complementary, for
+> example (a) do not complete (b).
+
+Removed (now "three alignment procedures").
+
+> Section 2
+> Section 2, page 3 : "local rphi" to be replaced with "local r"
+> (2 times)
+
+No, "local rphi" is intended.
+
+> Figure 3 (a) and (b) are unreadable when printed
+
+They have been redrawn in a simpler style that should be more
+correctly printed.
+
+> Typical measurement precision of chambers should be given
+
+They are given in the introduction, paragraph 4 (100-300 microns).
+
+> Section 3.1
+> First sentence should be re-written.  It is the track parameters
+> that are affected by energy loss.  A track remains a track, it does
+> not lose precision
+
+Rewritten as
+
+"Measured trajectories within a single chamber do not suffer
+from uncertainties due to scattering in the steel between
+chambers. Segments, determined from linear fits to hits in one chamber
+only, are therefore used to determine the alignment of layers inside
+the chamber."
+
+> fourth paragraph : replace "a vector" with "is a vector"
+
+Done
+
+> fourth paragraph : replace "a 1x6 matrix" with "is a 1x6 matrix"
+
+Done
+
+> Track-segments and residuals are not defined
+
+Definitions in section 2 are now more explicit:
+
+"Residuals are differences between the predicted particle trajectories
+and the muon chamber data."
+
+"Within this common frame, the positions of hits from different layers
+can be related to each other and combined by a linear fit into segments
+with position (x, y) and direction (dx/dz, dy/dz)."
+
+> use "Track-segment" or "Track segment" through the whole text but
+> not both
+
+> idem for "Track-segment" and "Segment"
+
+Hyphens are only used when the noun "track" is being used as an
+adverb, for example "track-segment parameters".  To simplify this,
+though, we followed your second suggestion and replaced all
+instances of "track-segment" with "segment" except in the
+introduction, before "segment" (by itself) is defined.
+
+> lat paragraph : replace "matrix inversion" by "matrix inversion
+> method"
+
+Done
+
+> Given the angular distribution of cosmic-ray tracks, not all
+> chambers are expected to be aligned with the same precision.  Is it
+> the case?
+
+The precision varies with 1/sqrt(N) where N is the number of muons
+used in the layer alignment, but the geometric acceptance is not as
+steep a function of incidence angle in the layer alignment case, since
+they are not required to intersect the tracker.
+
+> "Typical (RMS) corrections" : they are RMS of the corrections
+> distributions and are not "typical"
+
+"(RMS)" was intended to define "typical", but it has been rewritten as
+"The RMS of the corrections is..."
+
+> Corrections themselves should also be presented as they provide an
+> indication of the initial geometry after detector installation
+
+It is the corrections themselves whose RMS is given.  This expresses
+the scale of installation accuracy (100 microns, tens of microrad).
+
+> Results should be discussed.  They are presented in one single
+> sentence after a page describing the method.
+
+Section 3.2 is in part a study of the alignment obtained in section
+3.1.  Added "... and will be studied in more detail in the next
+section."
+
+> Section 3.2
+> Line 4 : "The deviations" from what?
+
+Rewritten as
+
+"The four hits in each superlayer define a superlayer segment with a
+one-dimensional position and slope, and segments from different
+superlayers must match at a common plane. Segment residuals, Delta
+x_S, are the mismatch of these superlayer segments, and are sensitive
+to relative positions of the superlayers as well as their internal
+layer alignment parameters."
+
+> "Segment residual" is not defined.
+
+The definition has been made more explicit in the above.
+
+> Figure 4 (a) : 'after' and 'before' are too short as labels
+> (alignemnt of something similar should be added).  Mean and sigma of
+> the distribution after alignment should be given.
+
+"After" and "before" in all plots have been made more explicit and
+standardized across all plots.  Mean and sigma after alignment has
+been added to this figure.
+
+> Line 17-18 : The sentence : "After layer alignment, segment
+> positions and angles are more correctly reconstructed, leading to
+> better agreement between the superlayers" is not clear and
+> confusing.  The segments positions and angles are not necessarily
+> correctly reconstructed at least it is not shown.  By definition
+> after layer alignment from Section 3.1, segments from multilayer 1
+> and 3 provide more consistent information.  The end of the sentence
+> : "agreement between superlayers" should be corrected, the
+> "agreement" is not on the superlayers but on the measurements from
+> the superlayers for example ...
+
+Rewritten as
+
+"After layer alignment, segment positions and angles are more
+consistent between superlayers 1 and 3, leading to better matching at
+the common plane."
+
+> Last paragraph : is it the difference in "photogrammetry"
+> measurement between superlay 1 and 3 which is used?  if so this
+> should be clarified.  From the first sentence of the paragraph one
+> deduces that there is one photogrammetry measurement per chamber but
+> in section 3.1 it is said that there is one "photogrammetry"
+> measurement per superlayer.
+
+Rewritten to be more explicit:
+
+"photogrammetry measurements P_x, P_z, and P_phiy of the relative
+superlayer positions."
+
+For each chamber, there is one photogrammetry measurement of the
+displacement between superlayers 1 and 3.
+
+> The last sentence : it is "track-segments" and not "tracks" that
+> were used to in the section.  They are used to correct which
+> geometry? (the "internal geometry" of chambers?)
+
+Rewrote "track-based measurements" -> "segment measurements"
+
+> Section 4
+> Second paragraph : CSC chamber alignment using overlap tracks is a
+> local alignment and does not "duplicate" (as written) chamber
+> alignment with tracks from the tracker.  This paragraph is not
+> clear, for example what is described as "an independent alignment
+> method" is in fact the alignment method to relate the CSC ring to
+> the AIF (unless CSC rings are related to AIF by other means not
+> described in the paper).
+
+Rewritten as
+
+"Although CSC chamber alignment using overlap tracks and alignment
+with tracks from the tracker (described in the next section) both
+determine the relative positions of CSC chambers, the overlap method
+has two advantages: (1) it achieves high precision with a small number
+of tracks, and (2) it is less prone to potential systematic errors in
+tracking. Since the two methods use different datasets in different
+ways, comparison between them can be used to diagnose systematic
+errors in tracks from the tracker or in their propagation to the muon
+endcaps."
+
+> Section 4.1
+> First paragraph:
+>     - replace "is to fit" by "is to match"
+
+These are segment fits, so "fit" is appropriate.  Removed "pairs of"
+so that it now says, "to fit segments from the same muon in each of
+the overlapping chambers independently"
+
+>     - replace "the same muon" by "the same muon track"
+
+The important aspect is that both segments were made by the same
+physical muon, and therefore we should expect them to be collinear.
+
+>     - the whole first sentence has to be re-written.  As it it
+>       written, one reads that track segments from overlapping
+>       regions have to match in all chambers of the ring
+>       simultaneously.
+
+This is true: we fit segments independently and require all chambers
+in the ring to be mutually consistent with their neighbors.
+
+> Why twists of the CSC rings are avoided?  The whole CSC rings cannot
+> be twisted?
+
+The Lagrange multipliers remove unmeasurable degrees of freedom, flat
+directions in chi^2 space.  Just as an overall translation or rotation
+of the ring cannot be determined from relative positions of chambers,
+a distortion in which all chambers rotate by the same amount in phi_y
+cannot be determined by comparing segment slopes.  Such a distortion
+would rotate the apparent momentum vector of all muons in a way that
+is consistent between neighboring pairs of chambers.
+
+It is necessary to fix these degrees of freedom for two reasons: we
+wouldn't want unconstrained degrees of freedom to grow unchecked, and
+leaving them unconstrained would make the matrix in the formalism
+singular, anyway.
+
+> Section 4.2
+> By how much was the miss-aligned the simulation?
+
+Added that information to the text:
+
+"From an initially misaligned detector, the procedure aligned
+\delta_{phiy} with 1.04 mrad accuracy (initially 2 mrad),
+\delta_{rphi} with 230 micron (initially 1000 micron), and
+\delta_{phiz} with 0.25 mrad (initially 1 mrad), determined from the
+RMS of differences between the aligned positions and the true
+positions of the chambers."
+
+> The procedure does not "re-aligned \delta_phi".
+
+Addressed in the re-write above.
+
+> Section 4.3
+> Third paragraph : replace "which transforms to a 210 micron, 0.23
+> mrad \delta_{rphi}, \delta_{phiz} resolution" by "which translates
+> into rotations of 210 microns and 0.23 mrad on \delta_{rphi} and
+> \delta_{phiz} respectively"
+
+Done
+
+> Fourth paragraph : The chambers are aligned not the "aligned
+> distributions"
+
+Rewrote "The RMS of the aligned distributions" -> "The RMS of these
+distributions after alignment"
+
+> in \delta_{phiz} "respectively"
+
+Added
+
+> Fourth paragraph : Are the photogrammetry errors Gaussian
+> distributed?  if not they cannot be "subtracted in quadrature"
+
+The photogrammetry errors only need to be approximately Gaussian for
+an estimate of the uncertainty.  Added "approximately" to the
+conclusion:
+
+"Subtracting the photogrammetry errors in quadrature, one can conclude
+that the track-based measurement has approximately 270~$\mu$m and
+0.35~mrad uncertainties, in rough agreement with the prediction from
+simulation."
+
+> Figure 5 : add "alignment" at the end of labels before and after
+
+Done
+
+> Section 5
+> First paragraph :
+>     - quantify "significant scattering material"
+
+"20-60 cm of steel" in fourth paragraph of introduction
+
+> replace "the peaks" by "the peak positions"
+
+Done
+
+> Section 5.1.1
+> First paragraph : the following "effects"
+
+Done
+
+> Section 5.1.2
+> Fourth paragraph : what does "appropriate starting values" mean?
+
+Added "seeded by the truncated mean and RMS of each distribution"
+
+> Last but one paragraph : why do "unscattered muons" bias the fit
+> results?
+
+Clarified:
+
+"To avoid domination of the fit by a few of the most linear segments,
+which are not necessarily from the best-determined tracks (unscattered
+muons), segments with the largest 1% of weights have been excluded."
+
+> Section 5.1.3
+> rephrase : "failed to converge in MINUIT" : the fit fails to
+> converge for those chambers, the chambers do not fail to converge
+> "in" the MINUIT fit.
+
+Done:
+
+"In addition, the fits for four nearly horizontal chambers (in wheel,
+station, sector (-1, 2, 8), (+1, 3, 8), (-1, 1, 12), and (+1, 2, 2))
+failed to converge, all for reasons related to the scarcity of
+horizontal cosmic ray muons."
+
+> replace "in the MINUIT fit" by "in the minimization with MINUIT
+> package"
+
+Replaced with "in the minimization".
+
+> Section 5.2
+> First paragraph : remove extra , after phi_y
+
+Serial comma is required
+
+> First paragraph : "component" extents beyond the right margin
+
+This is a typesetting issue which will change when the document is
+reformatted.
+
+> Section 5.4
+> Second paragraph : why cosmic rays are "concentrated" in the barrel
+> region?
+
+It was a statement about the distribution of cosmic rays.  Rephrased:
+
+"However, most cosmic rays fall on the barrel, in which chambers do
+not overlap one another (with the exception of several chambers in
+station 4)."
+
+> Figure 10 : The mean values of the 'aligned' distributions do not
+> seem to be compatible with 0.  Can this fact (if true) be commented?
+
+They're consistent with zero: the significance, | mean |/( RMS/sqrt(N) )
+= 0.32 (\delta_x), 0.86 (\delta_y), 1.66 (\delta_z), 1.95
+(\delta_{phix}), 0.29 (\delta_{\phiy}), 1.03 (\delta_{phiz}).
+
+> Section 5.5
+> Table 5 : Why is the Gaussian width of the aligned combined fit
+> smaller than the Tracker-only one?
+
+The combined fits use more hits than the tracker-only fits, so in
+principle the combined fits should be more precise than the
+tracker-only fits.  That said, the differences between the two are not
+significant, and in fact the Gaussian width of the combined fit is
+smaller while the RMS is larger.  The number of (pT > 200 GeV) muons
+is small, and the RMS is more susceptible to events in the tail than
+the Gaussian width.  The validation sample is independent of the
+alignment sample, so the RMS may have fluctuated upward.
+
+> Section 5.6
+> In that section, MC based only results are presented.  In
+> contradiction with title of the article, it is suggested to drop the
+> section.
+
+This section presents new information relevant to the alignment of the
+CMS muon system: sensitivity to the tails (Table 6).
+
+> Summary and Discussion
+> First paragraph, last sentence should be re-phrased.  IT is not from
+> "independent" data that the 80 micron rphi resolution in DT chambers
+> has been determined (section 3).  One single dataset has been used.
+
+The 80 microns number came from a comparison of track segments and
+photogrammetry, which are independent.
+
+> First paragraph, last sentence : the chamber positions do not have a
+> "resolution".  It is their positions which are known with a
+> precision of X mm.
+
+Reworded to
+
+"the DT chamber positions along the tracks are known with an accuracy
+between 200 and 700 microns (stations 1–3, wheels −1, 0, +1)."
+
+> Second paragraph, first sentence : may come before the last sentence
+> of paragraph one where results of the paper are summarized.
+
+All three paragraphs summarize the results of the paper, but the "new
+techniques" of paragraph 2 is a different topic from the alignment
+point resolutions of paragraph 1.
+
+> Second paragraph, last sentence : what is meant by that sentence?
+> why "suggests"?
+
+Reworded to
+
+"Non-Gaussianity in the physics of track propagation through the steel
+yoke implies a non-linear extension to the general alignment method."
+
+> References
+> URL of reference 8 should be explicitly given
+
+Done

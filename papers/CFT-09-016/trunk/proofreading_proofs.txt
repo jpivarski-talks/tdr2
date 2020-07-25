@@ -1,0 +1,22 @@
+Page 7, first paragraph of section 3.2: "mis-match" should be
+"mismatch".  In our version, the word is split at the page boundary
+("mis-" at the end of one line and "match" at the beginning of the
+next), but in the JINST proof, the word appears in the middle of a
+line.
+
+Title of section 5.1.2 (table of contents and page 15): the word
+"Ansatz" should be capitalized, to be consistent with other uses
+(three on page 14).  (Other words in section titles can be lower-case,
+according to JINST style).
+
+Equation 5.4: both summations are over index "i".  The second one (sum
+over tracks) should have index "j".  All other subscripts in this
+equation are correct.
+
+References to other CMS paper titles:
+
+Ref [3] title should become "Aligning the CMS Muon Chambers with the
+Muon Alignment System during an Extended Cosmic Ray Run".
+
+Ref [5] title should become "CMS Data Processing Workflows During an
+Extended Cosmic Ray Run".

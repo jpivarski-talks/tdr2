@@ -1,0 +1,55 @@
+
+% svn info. These are modified by svn at checkout time.
+% The last version of these macros found before the maketitle will be the one on the front page,
+% so only the main file is tracked.
+% Do not edit by hand!
+\RCS$Revision: 37835 $
+\RCS$HeadURL: svn+ssh://svn.cern.ch/reps/tdr2/notes/EXO-11-013/trunk/EXO-11-013.tex $
+\RCS$Id: EXO-11-013.tex 37835 2011-02-08 16:20:38Z safonov $
+%%%%%%%%%%%%% ptdr definitions %%%%%%%%%%%%%%%%%%%%%
+\input{ptdr-definitions}
+%%%%%%%%%%%%%%%  Title page %%%%%%%%%%%%%%%%%%%%%%%%
+\cmsNoteHeader{EXO-11-013} % This is over-written in the CMS environment: useful as preprint no. for export versions
+\title{Search For Resonant Production of Lepton Jets}% Force line breaks with \\
+
+%Author is always "The CMS Collaboration" for PAS and papers, so author, etc, below will be ignored in those cases
+\address[tamu]{Texas A\&M University}
+\author[tamu]{J. Pivaski, A. Safonov, A. Tatarinov}
+\author[cern]{The CMS Collaboration}
+
+% please supply the date in yyyy/mm/dd format. Today has been
+% redefined to do so, but it should be fixed as of the final release date.
+% For papers and PAS, \today is taken as the date the head file (this one) was last modified according to svn: see the RCS Id string above.
+\date{\today}
+
+% Abstract processing:
+% 1. **DO NOT use \include or \input** to include the abstract: our abstract extractor will not search through other files than this one.
+% 2. **DO NOT use %** to comment out sections of the abstract: the extractor will still grab those lines (and they won't be comments any longer!).
+% 3. **DO NOT use tex macros** in the abstract: External TeX parsers used on the abstract don't understand them.
+\abstract{
+A signature-based search for groups of collimated muons (muon jets) is performed using 35 pb$^{-1}$ of
+data collected by the CMS experiment at the LHC, at a center-of-mass energy of 7 TeV.  The analysis aims to search for production of new low-mass states decaying into pairs of muons, and is designed to achieve high sensitivity to a broad range of models predicting muon jet signatures. With no excess observed in the data over the background expectation, 
+upper limits on the production cross section times branching ratio times acceptance are derived for several event topologies and range from 0.1-0.5~pb. in addition, the results are interpreted for several benchmark models in the context of SUSY with a new light dark sector yielding limits on new physics production exceeding the Tevatron reach.
+}
+
+% Do not comment out the following hypersetup lines (metadata). They will disappear in NODRAFT mode and are needed by CDS.
+% Also: make sure that the values of the metadata items are sensible. For APS submissions, they are automatically converted to APS keywords.
+\hypersetup{%
+pdfauthor={George Alverson, Lucas Taylor, A. Cern Person},%
+pdftitle={Search For Resonant Production of Lepton-Jets},%
+pdfsubject={CMS},%
+pdfkeywords={CMS, physics, software, computing}}
+
+\maketitle %maketitle comes after all the front information has been supplied
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%  Begin text %%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% **DO NOT REMOVE THE BIBLIOGRAPHY** which is located before the appendix
+
+\tracinginput{intro.tex}
+\tracinginput{selections.tex}
+\tracinginput{mass_analysis.tex}
+\tracinginput{conclusions.tex}
+
+
+%% **DO NOT REMOVE BIBLIOGRAPHY**
+\bibliography{auto_generated}   % will be created by the tdr script.

@@ -1,0 +1,19 @@
+\BOOKMARK [1][-]{section.1}{1 Introduction}{}
+\BOOKMARK [1][-]{section.2}{2 High Level Trigger}{}
+\BOOKMARK [2][-]{subsection.2.1}{2.1 BTagMu HLT implementation and use cases}{section.2}
+\BOOKMARK [2][-]{subsection.2.2}{2.2 BTagIP HLT implementation and use cases}{section.2}
+\BOOKMARK [2][-]{subsection.2.3}{2.3 3D Primary Vertex}{section.2}
+\BOOKMARK [1][-]{section.3}{3 Data and Monte Carlo samples, reconstruction and selection }{}
+\BOOKMARK [1][-]{section.4}{4 Track selection }{}
+\BOOKMARK [1][-]{section.5}{5 Impact parameter }{}
+\BOOKMARK [1][-]{section.6}{6 Secondary vertices }{}
+\BOOKMARK [1][-]{section.7}{7 Discriminators and tagging rates }{}
+\BOOKMARK [1][-]{section.8}{8 Muons in jets }{}
+\BOOKMARK [1][-]{section.9}{9 Alignment }{}
+\BOOKMARK [2][-]{subsection.9.1}{9.1 Alignment of the Inner Silicon Tracker}{section.9}
+\BOOKMARK [2][-]{subsection.9.2}{9.2 Simulation-based study of the impact of misalignment on b-tagging performances}{section.9}
+\BOOKMARK [1][-]{section.10}{10 Pileup }{}
+\BOOKMARK [1][-]{section.11}{11 Development of new algorithms }{}
+\BOOKMARK [2][-]{subsection.11.1}{11.1 Improved jet-track association}{section.11}
+\BOOKMARK [2][-]{subsection.11.2}{11.2 Combined secondary vertex algorithm}{section.11}
+\BOOKMARK [1][-]{appendix.A}{A Appendix }{}

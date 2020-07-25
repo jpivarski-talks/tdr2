@@ -1,0 +1,111 @@
+\providecommand{\href}[2]{#2}\begingroup\raggedright\begin{thebibliography}{10}
+
+\bibitem{:2008zzk}
+{CMS Collaboration}, ``{The CMS experiment at the CERN LHC}'', {\em JINST} {\bf
+  3} (2008)
+S08004.
+%%CITATION = JINST,0803,S08004;%%.
+  \href{http://dx.doi.org/10.1088/1748-0221/3/08/S08004}{{\tt
+  doi:10.1088/1748-0221/3/08/S08004}}.
+
+\bibitem{Evans:2008zzb}
+L.~Evans and P.~Bryant, (eds.), ``{LHC Machine}'', {\em JINST} {\bf 3} (2008)
+S08001.
+%%CITATION = JINST,3,S08001;%%.
+  \href{http://dx.doi.org/10.1088/1748-0221/3/08/S08001}{{\tt
+  doi:10.1088/1748-0221/3/08/S08001}}.
+
+\bibitem{ref:hardware_alignment}
+{CMS Collaboration}, ``Aligning the CMS Muon Chambers with the Muon Alignment
+  System during the Cosmic Run of 2008'', {\em submitted to JINST} (2009).
+
+\bibitem{ref:CRAFTGeneral}
+{CMS Collaboration}, ``Commissioning of the CMS Experiment and the Cosmic Run
+  at Four Tesla'', {\em submitted to JINST} (2009).
+
+\bibitem{ref:workflow}
+{CMS Collaboration}, ``From Detector to Analysis: CMS Data Processing Workflows
+  During an Extended Cosmic Ray Run'', {\em submitted to JINST} (2009).
+
+\bibitem{ref:csc_resolution}
+{CMS Collaboration}, ``Performance of the CMS Cathode Strip Chambers with
+  Cosmic Rays'', {\em submitted to JINST} (2009).
+
+\bibitem{Blobel:2006yh}
+V.~Blobel, ``{Software alignment for tracking detectors}'', {\em Nucl. Instrum.
+  Meth.} {\bf A566} (2006)
+5--13.
+%%CITATION = NUIMA,A566,5;%%.
+  \href{http://dx.doi.org/10.1016/j.nima.2006.05.157}{{\tt
+  doi:10.1016/j.nima.2006.05.157}}.
+
+\bibitem{CMS_NOTE_2005-012}
+V.~Drollinger, ``Simulation of Beam Halo and Cosmic Muons'', {\em CMS Note}
+  {\bf
+  \href{http://cms-secr.web.cern.ch/cms-secr/documents/05/note05_012.pdf}{2005%
+/012}} (2005).
+  \href{http://cms-secr.web.cern.ch/cms-secr/documents/05/note05\_012.pdf}{\tt
+  http://cms-secr.web.cern.ch/cms-secr/documents/05/note05\_012.pdf}.
+
+\bibitem{ref:endcapPG}
+R.~Goudard, J.~F. Fuchs, and J.~D. Maillefaud, ``Photogrammetry of the YE$-$2
+  Face Z$-$ ME$-$3 Layer CERN SX5''.
+  \url{https://edms.cern.ch/document/866869/1}.
+
+\bibitem{Karimaki:2003bd}
+{V.~Karimaki, A.~Heikkinen, T.~Lampen, and T.~Linden}, ``{Sensor alignment by
+  tracks}'', {\em {In the Proceedings of 2003 Conference for Computing in
+  High-Energy and Nuclear Physics (CHEP~03), La~Jolla, California,
+  24-28~Mar~2003, pp~TULT008}} (2003)
+\href{http://www.arXiv.org/abs/physics/0306034}{{\tt arXiv:physics/0306034}}.
+%%CITATION = PHYSICS/0306034;%%.
+
+\bibitem{Collaboration:2009sr}
+{CMS Collaboration}, ``{Alignment of the CMS Silicon Tracker during
+  Commissioning with Cosmic Rays}'', {\em submitted to JINST} (2009)
+\href{http://www.arXiv.org/abs/0910.2505}{{\tt arXiv:0910.2505}}.
+%%CITATION = 0910.2505;%%.
+
+\bibitem{James:1975dr}
+F.~James and M.~Roos, ``{Minuit: A System for Function Minimization and
+  Analysis of the Parameter Errors and Correlations}'', {\em Comput. Phys.
+  Commun.} {\bf 10} (1975)
+343--367.
+%%CITATION = CPHCB,10,343;%%.
+  \href{http://dx.doi.org/10.1016/0010-4655(75)90039-9}{{\tt
+  doi:10.1016/0010-4655(75)90039-9}}.
+
+\bibitem{ref:magnetic_field}
+{CMS Collaboration}, ``Precise Mapping of the Magnetic Field in the CMS Barrel
+  Yoke using Cosmic Rays'', {\em submitted to JINST} (2009).
+
+\bibitem{Flucke:2008zz}
+{G.~Flucke, P.~Schleper, G.~Steinbruck, and M.~Stoye}, ``{CMS silicon tracker
+  alignment strategy with the Millepede II algorithm}'', {\em JINST} {\bf 3}
+  (2008)
+P09002.
+%%CITATION = JINST,3,P09002;%%.
+  \href{http://dx.doi.org/10.1088/1748-0221/3/09/P09002}{{\tt
+  doi:10.1088/1748-0221/3/09/P09002}}.
+
+\bibitem{Stoye:1047047}
+{M.~Stoye and P.~Schleper (dir.)}, ``Calibration and Alignment of the CMS
+  Silicon Tracking Detector''.
+\newblock PhD thesis, Univ. Hamburg, Hamburg, 2007.
+\newblock \url{http://cdsweb.cern.ch/record/1047047}.
+
+\bibitem{Biallass:2009ev}
+P.~Biallass and T.~Hebbeker, ``{Parametrization of the Cosmic Muon Flux for the
+  Generator CMSCGEN}'',
+\href{http://www.arXiv.org/abs/0907.5514}{{\tt arXiv:0907.5514}}.
+%%CITATION = 0907.5514;%%.
+
+\bibitem{Ball:2007zza}
+{CMS Collaboration}, ``{CMS technical design report, volume II: Physics
+  performance}'', {\em J.~Phys.} {\bf G34} (2007)
+995--1579.
+%%CITATION = JPHGB,G34,995;%%.
+  \href{http://dx.doi.org/10.1088/0954-3899/34/6/S01}{{\tt
+  doi:10.1088/0954-3899/34/6/S01}}.
+
+\end{thebibliography}\endgroup

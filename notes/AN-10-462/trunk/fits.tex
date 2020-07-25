@@ -1,0 +1,68 @@
+\section{Statistical Interpretation of the Results}
+
+Statistical interpretation of the results was performed for each of the topologies separately with a binned likelihood fit of the data to the sum of parameterized functional forms for signal and background templates:
+\begin{eqnarray}
+{\cal L} = \prod_{i=1}^{N_{bins}}{\frac{\nu_i^{n_i} e^{\nu_i}}{n_i!}},
+\end{eqnarray}
+where $i$ runs over all bins in the signal dominated region of space of invariant masses of the dimuon candidates in the event, $\vec{m}$, $n_i$ is the number of observed events in the data (or pseudodata in analyzing expected sensitivity when possible), and $\nu_i$ is the expected rate of events (for signal plus background) in bin $i$ derived from the rate function $\nu(\vec{m})$ which has the following functional form: 
+\begin{eqnarray}
+\nu(\vec{m}) =  \sigma B L  \alpha_{\mbox{\scriptsize rec}} \times \frac{S_{m_0}(\vec{m},\vec{p}_S)}{\int_{sig}{S_{m_0}(\vec{m},\vec{p}_S) d\vec{m}}} + N_{BG} \times \frac{BG(\vec{m},\vec{p}_{BG})}{\int_{sig}{BG(\vec{m},\vec{p}_{BG})d\vec{m}}}
+\end{eqnarray}
+where $\vec{m}$ is a vector in the space of invariant masses of the dimuon candidates, $\vec{p}_S$ and $\vec{p}_{BG}$ are parameters used in the signal and background shape templates, $S_{m_0}(\vec{m},\vec{p}_S)$ is the signal shape
+template for a new boson with true mass $m_0$, $BG(\vec{m},\vec{p}_{BG})$ is the predicted background shape, 
+$\sigma$ is the cross-section for the new boson production, $B$ is the branching fraction for the dimuon decay, $L$ is luminosity, $\alpha$ is the acceptance, and $N_{BG}$ is the background rate normalization. Integration is performed over the signal dominated region (near the diagonal) in each category, except the case of 1D distributions where the entire range is considered the signal region. The expected rate of events in any given bin $i$ is 
+an integral of $\nu({\vec{m}})$ \footnote{Note that $\nu(\vec{m})$ also depends on many parameters including the new physics signal cross section, generally unknown background normalization etc} over the phase space of the bin:
+\begin{eqnarray}
+\nu_i = \int_{bin# i} \nu(\vec{m}) d\vec{m}
+\end{eqnarray}
+
+Additionally, we substitute the experimental acceptance $\alpha_{\mbox{\scriptsize rec}}$ with:
+\begin{eqnarray}
+\alpha_{\mbox{\scriptsize rec}} = \alpha_{\mbox{\scriptsize gen}} \epsilon_{\alpha}
+\end{eqnarray}
+to absorb all experimental inefficiencies and (for model dependent results only) effects of migration of events between the categories due to reconstruction and trigger inefficiencies into a new parameter $\epsilon_{\alpha}$.
+
+The imprecise knowledge about the parameters entering the equation, the posterior PDF for $\sigma B \alpha_{\mbox{\scriptsize gen}}$ is obtained by
+integrating over all other parameters that are considered nuisance and using appropriate priors:
+\begin{eqnarray}
+\nonumber {\cal L}^\prime(\sigma B \alpha_{\mbox{\scriptsize gen}}, m_0) = \int{{\cal L} \times \mbox{PDF}(\vec{p}_S) \mbox{PDF} (\vec{p}_{BG}) \mbox{PDF}(L) \mbox{PDF}(N_{BG}) \mbox{PDF}(\epsilon_\alpha) \times} \\
+d\vec{p}_S \, d\vec{p}_{BG} \, dL \, d N_{BG} d \epsilon_\alpha. \label{likelihood_final}
+\end{eqnarray}
+
+Prior distributions are normalized and are obtained, for $\vec{p}_S$
+and $\vec{p}_{BG}$, from the fits that construct templates from
+background-enriched regions (including correlations), for $\epsilon_\alpha$ and
+$L$ from log-normal priors, and $\sigma B$ from flat
+priors. Note that $\mbox{PDF}(\vec{p_{BG}})$ is a full multi-dimensional
+probability density function for the parameters obtained from the
+fits to the data in background-enriched samples when constructing
+templates. Care was taken to ensure that those PDFs are always
+positively defined. For the case of 1D distributions (region (a-1)), $N_{BG}$
+was taken to have a flat prior, while for the multi-dimensional regions, the $\mbox{PDF}(N_{BG})$
+was obtained as a posterior of the likelihood fit in the sidebands (the off-diagonal regions) 
+for $N_{BG}$ where intial $\mbox{PDF}(N_{BG})$ was taken to have a flat prior:
+\begin{eqnarray}
+\nonumber  \mbox{PDF}(N_{BG}) =  \int_{off-diag}{{\cal L}|_{\sigma=0} \times \mbox{PDF} (\vec{p}_{BG})  d\vec{p}_{BG}. \label{nbg_pdf}}
+\end{eqnarray}
+
+Various efficiency uncertainties are convoluted
+into the acceptance uncertainty. In the case of no observed signal,
+a limit is set for each value of $m_0$ in the allowed range and the
+95\% C.L. upper limit on $\sigma B \alpha$ is derived from:
+\begin{eqnarray}
+0.95 = \int_{0}^{\sigma_{95\%}(m_0)}{\cal L}^{\prime}(\sigma B \alpha, m_0) d (\sigma B \alpha).
+\end{eqnarray}
+The integral calculation is performed using the modified Bayesian Monte
+Carlo algorithm available in the RooFit package (modifications were mainly aimed to optimize the convergence 
+speed). 
+
+The expected limits are evaluated by normalizing the background template to
+the expected number of background events, generating pseudoexperiments,
+and determining the average limit as well as 68\% C.L. and 95\%
+C.L. ranges for the expected limit.
+
+In the case of discovery, we also need to evaluate the probability of observing a fluctuation as significant as the one observed in the data. We adopt the following algorithm. We construct the following quantity:
+\begin{eqnarray}
+{\cal RL}= {\cal L}(S+B)/{\cal L}(B) = \frac{\mbox{max}(\sigma B, \ m_0) {\cal L}^\prime (\sigma B, \ m_0)}{{\cal L}^\prime (\sigma B=0, \ m_0)},
+\end{eqnarray}
+which is defined for either the data distribution being analyzed or for the pseudodata. ${\cal L}^\prime$ is defined in Eq.(\ref{likelihood_final}). For data, this ratio is calculated by taking the ratio of the likelihood at the posiion of the maximum as obtained in the fit. For pseudoexperiments, the maximum fluctuation is searched by scanning the distribution in small steps in $m_0$ to find the point where the likelihood ratio reaches the maximum (in each step in $m_0$, $\sigma B$ in the numerator is the one that maximize the likelihood ${\cal L}^\prime$). Pseudoexperiments are  generated following the null hypothesis (no signal) with the number of generated events following Poisson distribution using the normalization for the backgrounds as obtained from the fit (in the sideband regions for multi-dimensional space), removing integration over $N_{BG}$ in Eq.(\ref{likelihood_final}) and treating $N_{BG}$ as a measured parameter. To evaluate the $p$-value of observing a fluctuation more significant than the one observed in data, we count the fraction of pseudoexperimens in which ${\cal RL}>{\cal RL}(Data)$.
